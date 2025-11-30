@@ -1,0 +1,245 @@
+.presentation__img_profile {
+    grid-area: presentation__img_profile;
+}
+
+.presentation__name {
+    grid-area: presentation__name;
+}
+
+.presentation__about_me {
+    grid-area: presentation__about_me;
+}
+
+.presentation__degree {
+    grid-area: presentation__degree;
+}
+
+.presentation__status {
+    grid-area: presentation__status;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E11;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+
+.navegation__top {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-evenly;
+    align-items: center;
+
+    /* width: 100dvw; */
+    width: 100%;
+    gap: 0.5rem;
+    /* padding: 1rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* border-radius: 0.5rem; */
+    background: #e37600;
+    backdrop-filter: blur(7px);
+    color: white;
+}
+
+.presentation {
+    max-width: 600px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: space-evenly;
+    align-items: center; */
+
+    justify-content: center;
+    justify-items: start;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+        "presentation__img_profile  presentation__name"
+        "presentation__img_profile  presentation__degree"
+        "presentation__about_me     presentation__about_me"
+        "presentation__status       presentation__status";
+    grid-gap: 0.5rem;
+    height: auto;
+
+    margin-top: 2rem;
+    text-wrap: balance;
+    padding: 1.75rem;
+    border-radius: 0.5rem;
+    /* background-color: black; */
+    color: white;
+}
+
+.presentation__img_profile {
+    image-rendering: optimizeQuality;
+    min-width: 50px;
+    aspect-ratio: 1 / 1;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    /* background-color: white; */
+    object-fit: cover;
+    clip-path: circle(50%);
+    /* margin-right: 1rem; */
+}
+
+.presentation__name {
+    margin: 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-style: normal;
+    /* font-size: 1rem; */
+    text-align: start;
+
+    font-family: "Poppins", sans-serif;
+    /* background-color: #18181B; */
+}
+
+.name__greeting_text {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+
+    color: #e0e0e0;
+}
+
+.name__text {
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    /* color: #ff9f00; */
+    color: #ffbf58;
+}
+
+.presentation__about_me {
+
+    /* @TODO: mejorar la presentacion */
+
+    margin-top: 1rem;
+    /* font-weight: bold; */
+
+    padding: 0.5rem;
+    /* font-style: normal; */
+    font-size: 1.2rem;
+    /* font-weight: normal; */
+    color: #e0e0e0;
+    font-family: "Poppins", sans-serif;
+
+    line-height: 1.3;
+
+}
+
+.presentation__about_me .about_me__recien_egresado {
+    /* color: #6ffd59; */
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-radius: 0.2rem;
+
+    color: #6ffd59;
+}
+
+.presentation__degree {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: start;
+    align-items: start;
+    gap: 0.1rem;
+    width: auto;
+    /* font-weight: bold; */
+    font-style: normal;
+    font-size: 1rem;
+    /* text-align: center; */
+
+    background-color: #18181B;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.degree__title,
+.degree__institution {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.degree__title {
+    font-size: 1rem;
+    /* font-weight: bolder; */
+    margin-bottom: 0.2rem;
+
+    color: white;
+}
+
+.degree__institution {
+    font-size: 1rem;
+    font-weight: normal;
+    /* margin-bottom: 0.5rem; */
+
+    color: #6ffd59;
+}
+
+.presentation__status {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    gap: 1rem;
+    /* background-color: red; */
+}
+
+.status_text,
+.status_cv button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+    font-size: 1rem;
+    font-weight: bolder;
+    /* background-color: #0f8506; */
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.status_text {
+    background-color: #0f8506;
+}
+
+.status_cv button {
+    background-color: #e37600;
+}

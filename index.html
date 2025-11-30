@@ -13,12 +13,13 @@
 
     <header class="navegation__top">
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <!-- @TODO: social links? -->
-            </ul>
+            <button><a href="#">Home</a></button>
+            |
+            <button><a href="#">About</a></button>
+            |
+            <a href="#">Contact</a>
+            <!-- @TODO: social links? -->
+
         </nav>
     </header>
 
@@ -26,48 +27,116 @@
 
         <section class="presentation__img_profile">
             <!-- # img profile -->
+            <img src="resources/img/img_profile.webp" alt="Image_Profile [Ernesto De La Cruz Campos]">
         </section>
 
         <article class="presentation__name">
-            <span>Ernesto De La Cruz Campos</span>
+            <div class="name__greeting_text">Saludos, soy</div>
+            <div class="name__text">Ernesto De La Cruz Campos</div>
         </article>
 
         <article class="presentation__about_me">
             <!-- # About Me -->
-            <!-- @TODO: mejorar la descripción -->
-            <!-- @TODO: destacar "Recién egresado" -->
-            <span>Recién egresado de Ingeniería en Sistemas Computacionales
-                sin experiencia laboral en el área.</span>
-            <span>Apasionado por la logica, el analisis
-                y la resolución de problemas</span>
+            <span>Soy un <b class="about_me__recien_egresado">recién egresado</b> de la carrera en busca
+                de oportunidad laboral en el área.</span>
+            <span>Mis habilidades se basan en la resolución de
+                problemas mediante análisis de forma coherente y lógica,
+                además de explorar diferentes tecnologías
+                y sus límites técnicos.</span>
         </article>
 
         <article class="presentation__degree">
             <!-- # Titulo de ingeniería e institución -->
-            <span>Ingeniero en Sistemas Computacionales</span>
-            <span>Instituto Tecnológico Superior de Villa La Venta</span>
+            <div class="degree__title">
+                <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-file-certificate">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                        <path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5" />
+                        <path d="M6 14m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                        <path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5" />
+                    </svg></div>
+                <div>Ingeniero en Sistemas Computacionales</div>
+            </div>
+            <div class="degree__institution">
+                <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-building">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 21l18 0" />
+                        <path d="M9 8l1 0" />
+                        <path d="M9 12l1 0" />
+                        <path d="M9 16l1 0" />
+                        <path d="M14 8l1 0" />
+                        <path d="M14 12l1 0" />
+                        <path d="M14 16l1 0" />
+                        <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
+                    </svg></div>
+                Instituto Tecnológico Superior de Villa La Venta
+            </div>
         </article>
 
         <article class="presentation__status">
-            <!-- En busca o no de trabajo -->
+            <!-- # Disponible para oferta laboral -->
+            <!-- @TODO: agregar animacion al boton CV -->
+            <!-- @TODO: agregar tooltip a Disponible -->
+            <div class="status_text">
+                <div>Abierto a oferta laboral</div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"
+                        class="icon icon-tabler icons-tabler-filled icon-tabler-circle-check">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="status_cv">
+                <button>
+                    <div>Descargar CV</div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"
+                            class="icon icon-tabler icons-tabler-filled icon-tabler-file-download">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm0 8a1 1 0 0 0 -1 1v3.585l-.793 -.792a1 1 0 0 0 -1.32 -.083l-.094 .083a1 1 0 0 0 0 1.414l2.5 2.5l.044 .042l.068 .055l.11 .071l.114 .054l.105 .035l.15 .03l.116 .006l.117 -.007l.117 -.02l.108 -.033l.081 -.034l.098 -.052l.092 -.064l.094 -.083l2.5 -2.5a1 1 0 0 0 0 -1.414l-.094 -.083a1 1 0 0 0 -1.32 .083l-.793 .791v-3.584a1 1 0 0 0 -.883 -.993zm2.999 -7.001l4.001 4.001h-4z" />
+                        </svg>
+                    </div>
+
+                </button>
+            </div>
+
         </article>
 
     </section>
 
     <section class="laboral__xp">
-
         <!-- job__1 -->
         <!-- job__2 -->
+        XP__SECTION
     </section>
 
     <section class="projects__">
-
-        <!-- project__1 -->
-        <!-- project__2 -->
+        <!-- 
+        * TutorTracking
+        * GPSPrototipe
+        * Punto de venta de videojuegos
+        * Levantamiento y configuración de servidor
+        * Configuración de cisco
+        * Configuración de redes 
+        -->
+        PROJECTS_SECTION
     </section>
 
     <section class="tecnologias">
         <!-- @TODO: destacar JAVA y PHP -->
+        <!-- java, php, javascript, mysql, json, git -->
+        TECNOLOGIAS_SECTION
+        Tecnologías en las que he aplicado mis conocimientos
+        y experiencias.
     </section>
 
     <footer class="plus__ignore">
