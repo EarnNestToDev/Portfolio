@@ -725,7 +725,15 @@ a:hover {
         .status_text {
             width: 100%;
         }
+
+        .status_cv {
+            .status_cv_text {
+                content: "Descargar CV";
+            }
+        }
     }
+
+
 }
 
 .img_popup {

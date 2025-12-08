@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="js/glob.js"></script>
     <script src="js/component/build_img_class.js"></script> <!-- # para cargar img -->
+    <script src="js/component/resources/svg.js"></script>
 </head>
 
 <body>
@@ -129,7 +130,7 @@
 
             <div class="status_cv">
                 <a href="resources/pdf/CV-Ernesto_De_La_Cruz_Campos.pdf" target="_blank" download>
-                    <div>Visualizar CV</div>
+                    <div class="status_cv_text">Visualizar CV</div>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"
                             class="icon icon-tabler icons-tabler-filled icon-tabler-file-download">
@@ -209,21 +210,18 @@
                     <!-- <div><img src="resources/img/language_programing/html.webp" alt="HTML"></div>
                     <div><img src="resources/img/language_programing/css.webp" alt="CSS"></div> -->
                 </div>
-                <!-- <div class="article_link">
-                    <a href="#">
-                        <button>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
-                                fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M9 15l6 -6" />
-                                <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
-                                <path
-                                    d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
-                            </svg>
-                        </button>
+                <div class="article_link">
+                    <a onclick="open_popup(), show_img_popup('resources/img/projects/6', 9)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                            <path
+                                d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+                        </svg>
                     </a>
-                </div> -->
+                </div>
             </article>
 
             <article class="projects__article">
@@ -256,6 +254,15 @@
                 </div>
                 <div class="article_link">
                     <a href="https://github.com/EarnNestToDev/gpsvprototipe.github.io.git" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white"
+                            class="icon icon-tabler icons-tabler-filled icon-tabler-brand-github">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M5.315 2.1c.791 -.113 1.9 .145 3.333 .966l.272 .161l.16 .1l.397 -.083a13.3 13.3 0 0 1 4.59 -.08l.456 .08l.396 .083l.161 -.1c1.385 -.84 2.487 -1.17 3.322 -1.148l.164 .008l.147 .017l.076 .014l.05 .011l.144 .047a1 1 0 0 1 .53 .514a5.2 5.2 0 0 1 .397 2.91l-.047 .267l-.046 .196l.123 .163c.574 .795 .93 1.728 1.03 2.707l.023 .295l.007 .272c0 3.855 -1.659 5.883 -4.644 6.68l-.245 .061l-.132 .029l.014 .161l.008 .157l.004 .365l-.002 .213l-.003 3.834a1 1 0 0 1 -.883 .993l-.117 .007h-6a1 1 0 0 1 -.993 -.883l-.007 -.117v-.734c-1.818 .26 -3.03 -.424 -4.11 -1.878l-.535 -.766c-.28 -.396 -.455 -.579 -.589 -.644l-.048 -.019a1 1 0 0 1 .564 -1.918c.642 .188 1.074 .568 1.57 1.239l.538 .769c.76 1.079 1.36 1.459 2.609 1.191l.001 -.678l-.018 -.168a5.03 5.03 0 0 1 -.021 -.824l.017 -.185l.019 -.12l-.108 -.024c-2.976 -.71 -4.703 -2.573 -4.875 -6.139l-.01 -.31l-.004 -.292a5.6 5.6 0 0 1 .908 -3.051l.152 -.222l.122 -.163l-.045 -.196a5.2 5.2 0 0 1 .145 -2.642l.1 -.282l.106 -.253a1 1 0 0 1 .529 -.514l.144 -.047l.154 -.03z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://earnnesttodev.github.io/gpsvprototipe.github.io/" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
                             stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -267,7 +274,7 @@
                         </svg>
                     </a>
 
-                    <a href="https://earnnesttodev.github.io/gpsvprototipe.github.io/" target="_blank">
+                    <a onclick="open_popup(), show_img_popup('resources/img/projects/5', 0)">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
                             stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
@@ -300,7 +307,7 @@
                     <div><img src="resources/img/language_programing/java.webp" alt="JAVA"></div>
                     <div><img src="resources/img/language_programing/python.webp" alt="Python"></div>
                 </div>
-                <div class="article_link">
+                <!-- <div class="article_link">
                     <a href="#" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
                             stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -312,7 +319,7 @@
                                 d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
                         </svg>
                     </a>
-                </div>
+                </div> -->
             </article>
 
             <article class="projects__article">
@@ -341,7 +348,7 @@
                 <div class="article_technologies">
                     <div><img src="resources/img/language_programing/java.webp" alt="JAVA"></div>
                 </div>
-                <div class="article_link">
+                <!-- <div class="article_link">
                     <a href="#" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
                             stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -353,7 +360,7 @@
                                 d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
                         </svg>
                     </a>
-                </div>
+                </div> -->
             </article>
 
             <article class="projects__article">
@@ -386,7 +393,7 @@
                     <div><img src="resources/img/language_programing/java.webp" alt="JAVA"></div>
                     <div><img src="resources/img/language_programing/mysql.webp" alt="MySQL"></div>
                 </div>
-                <div class="article_link">
+                <!-- <div class="article_link">
                     <a href="#" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
                             stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -398,7 +405,7 @@
                                 d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
                         </svg>
                     </a>
-                </div>
+                </div> -->
             </article>
 
             <article class="projects__article">
