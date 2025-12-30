@@ -182,6 +182,10 @@ a:hover {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
         /* background-color: white; */
         /* margin-right: 1rem; */
+
+        mask-image: linear-gradient(to bottom,
+                white 30%,
+                transparent 95%);
     }
 }
 
