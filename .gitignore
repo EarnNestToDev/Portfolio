@@ -1,1 +1,5 @@
 node_modules
+.next/dev/cache
+.next/dev/logs
+.next/dev/server
+.next/dev/static
