@@ -1,3 +1,9 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+
+const router = useRouter();
+
 const ButtonNavbar = (
     {
         name,
@@ -23,7 +29,8 @@ const ButtonNavbar = (
             <button
                 type="button"
                 className={className}
-                onClick={() => window.location.href = href}>
+                onClick={() => router.push(href)}
+            >
                 {name}
             </button>
         );

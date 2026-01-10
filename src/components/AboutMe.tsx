@@ -18,7 +18,7 @@ const AboutMe = () => {
     }
 
     return (
-        <section className="w-full flex items-center justify-center">
+        <section className="w-full flex items-center justify-center" id="aboutMe">
 
             <article className="borderOFF border-orange-300/50OFF max-w-[90vw] md:max-w-[600px] flex flex-col items-center justify-center gap-2 text-gray-700 dark:text-gray-200 rounded-lg p-2">
                 <div
