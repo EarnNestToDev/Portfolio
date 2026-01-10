@@ -1791,11 +1791,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LiteYTE
 ;
 function Carousel(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(12);
-    if ($[0] !== "fdf683800d09aafbefcca2510b44bbcafe3e526224a59dc61c4753e691271cd7") {
+    if ($[0] !== "29ec282ed948310d8487a6e6fe9ffe3706592d67681c32794603dba3c38dfa93") {
         for(let $i = 0; $i < 12; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "fdf683800d09aafbefcca2510b44bbcafe3e526224a59dc61c4753e691271cd7";
+        $[0] = "29ec282ed948310d8487a6e6fe9ffe3706592d67681c32794603dba3c38dfa93";
     }
     const { path_img, n_elements, url_video, killContentPopUp } = t0;
     let t1;
@@ -1886,6 +1886,7 @@ function setContent(path, limit, video) {
     return content;
 }
 function contentVideo(video) {
+    if (!video) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "rounded-lg object-cover snap-center min-w-full h-auto overflow-hidden",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LiteYTEmbed$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1894,12 +1895,12 @@ function contentVideo(video) {
             aspectWidth: 16
         }, void 0, false, {
             fileName: "[project]/src/components/main/projects/CarouselPopup.tsx",
-            lineNumber: 70,
+            lineNumber: 71,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/main/projects/CarouselPopup.tsx",
-        lineNumber: 69,
+        lineNumber: 70,
         columnNumber: 10
     }, this);
 }

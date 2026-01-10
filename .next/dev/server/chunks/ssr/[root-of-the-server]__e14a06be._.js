@@ -1159,6 +1159,7 @@ function setContent(path, limit, video) {
     return content;
 }
 function contentVideo(video) {
+    if (!video) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
         className: "rounded-lg object-cover snap-center min-w-full h-auto overflow-hidden",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LiteYTEmbed$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1167,12 +1168,12 @@ function contentVideo(video) {
             aspectWidth: 16
         }, void 0, false, {
             fileName: "[project]/src/components/main/projects/CarouselPopup.tsx",
-            lineNumber: 57,
+            lineNumber: 58,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/main/projects/CarouselPopup.tsx",
-        lineNumber: 56,
+        lineNumber: 57,
         columnNumber: 9
     }, this);
 }
