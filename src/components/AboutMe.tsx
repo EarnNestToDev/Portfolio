@@ -8,7 +8,7 @@ import CircleDashedCheck from "@/components/icons/circledashedcheck";
 
 const AboutMe = () => {
 
-    const CV_URL = "/docs/CV-Ernesto_De_La_Cruz_Campos.pdf";
+    const CV_URL = "./docs/CV-Ernesto_De_La_Cruz_Campos.pdf";
 
     const imgElements = {
         imageAltName: "Ernesto_De_La_Cruz_Campos",

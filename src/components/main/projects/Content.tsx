@@ -58,7 +58,7 @@ const descInfo = (description: string) => {
 
 const link = new Links();
 
-const url_default_img = (carpet: number) => "/image/projects/" + carpet + "/";
+const url_default_img = (carpet: number) => "./image/projects/" + carpet + "/";
 
 const projects = [
     {

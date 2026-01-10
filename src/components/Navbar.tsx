@@ -11,9 +11,9 @@ const Header = () => {
                 </div>
 
                 <div className="flex items-center justify-center gap-4">
-                    <ButtonNavbar name="Home" href="/#" />
+                    <ButtonNavbar name="Home" href="./#" />
                     <ButtonNavbar name="Sobre mí" href="" />
-                    <ButtonNavbar name="Proyectos" href="/#projects" />
+                    <ButtonNavbar name="Proyectos" href="./#projects" />
                 </div>
 
                 <div className="pr-2">
