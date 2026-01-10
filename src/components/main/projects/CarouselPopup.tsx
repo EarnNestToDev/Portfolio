@@ -52,6 +52,7 @@ function setContent(path: string, limit: number, video?: string) {
 }
 
 function contentVideo(video?: string) {
+    if (!video) return null;
     return (
         <div className="rounded-lg object-cover snap-center min-w-full h-auto overflow-hidden">
             <LYTEmbed
