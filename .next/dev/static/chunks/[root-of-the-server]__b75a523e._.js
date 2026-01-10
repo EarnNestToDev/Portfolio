@@ -5895,11 +5895,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$main$2f
 ;
 function MainLayout() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(4);
-    if ($[0] !== "3245e3c4a2d6bc66d8211e09ab318844f017588a2f4a686aaca25028de01fccc") {
+    if ($[0] !== "d8d9523e3c30d8a1f2751d15423b5d29fa191e615f380c73d1e0d9d6b30cdc58") {
         for(let $i = 0; $i < 4; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "3245e3c4a2d6bc66d8211e09ab318844f017588a2f4a686aaca25028de01fccc";
+        $[0] = "d8d9523e3c30d8a1f2751d15423b5d29fa191e615f380c73d1e0d9d6b30cdc58";
     }
     let t0;
     let t1;
@@ -5927,27 +5927,27 @@ function MainLayout() {
                 t0,
                 t1,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-                    className: "max-w-[100vw] flex flex-col items-center justify-start mt-24 gap-40 ",
+                    className: "max-w-[100vw] flex flex-col items-center justify-start mt-24 gap-40",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutMe$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/src/layouts/Main.tsx",
                             lineNumber: 32,
-                            columnNumber: 107
+                            columnNumber: 106
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$main$2f$skills$2f$Skills$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/src/layouts/Main.tsx",
                             lineNumber: 32,
-                            columnNumber: 118
+                            columnNumber: 117
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$main$2f$projects$2f$Projects$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/src/layouts/Main.tsx",
                             lineNumber: 32,
-                            columnNumber: 128
+                            columnNumber: 127
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$main$2f$tecnologies$2f$Tecnologies$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/src/layouts/Main.tsx",
                             lineNumber: 32,
-                            columnNumber: 140
+                            columnNumber: 139
                         }, this)
                     ]
                 }, void 0, true, {
@@ -5958,7 +5958,7 @@ function MainLayout() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/layouts/Main.tsx",
                     lineNumber: 32,
-                    columnNumber: 162
+                    columnNumber: 161
                 }, this)
             ]
         }, void 0, true);
