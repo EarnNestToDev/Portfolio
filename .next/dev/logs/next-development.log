@@ -1,0 +1,81 @@
+[00:00:04.122] Server  ERROR   ⨯ API Routes cannot be used with "output: export". See more info here: https://nextjs.org/docs/advanced-features/static-html-export
+[00:00:05.334] Server  LOG     ✓ Ready in 4.3s
+[00:00:08.639] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Card`. See https://react.dev/link/warning-keys for more information.
+[00:00:08.645] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Card`. See https://react.dev/link/warning-keys for more information.
+[00:00:08.654] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Card`. See https://react.dev/link/warning-keys for more information.
+[00:00:08.701] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Card`. See https://react.dev/link/warning-keys for more information.
+[00:00:08.752] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Card`. See https://react.dev/link/warning-keys for more information.
+[00:00:08.766] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Card`. See https://react.dev/link/warning-keys for more information.
+[00:00:08.789] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Card`. See https://react.dev/link/warning-keys for more information.
+[00:00:08.792] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Card`. See https://react.dev/link/warning-keys for more information.
+[00:00:08.801] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Card`. See https://react.dev/link/warning-keys for more information.
+[00:00:17.008] Browser LOG     TSS: Scams protection is disabled, skipping TSS setup.
+[00:10:59.802] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Card`. 
+[00:10:59.802] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Card`. 
+[00:10:59.802] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <App pageProps={{}} Component={function Home} err={undefined} router={{sdc:{},sbc:{}, ...}}>
+      <Home>
+        <MainLayout>
+          <Head>
+          <Header>
+          <main className="max-w-[100...">
+            <AboutMe>
+              <section className="w-full fle...">
+                <article className="borderOFF ...">
+                  <div className="flex flex-...">
+                    <div>
+                    <div>
+                    <div className="col-span-3...">
+                      <div>
+                      <div className="flex flex-...">
+                        <article title="Auxilio, n..." className="bg-lime-60...">
+                          <div
++                           className={"\r\n                                        font-bold\r\n                    ..."}
+-                           className={"   font-bold   before:content-['Abierto_a_oferta_laboral']   hover:before:con..."}
+                          >
+                          ...
+                        <a href="/docs/CV-E..." target="_blank" rel="noopener n..." className="bg-orange-...">
+                          <div
++                           className={"\r\n                                    font-bold \r\n                       ..."}
+-                           className={"   font-bold    before:content-['Descargar_CV']    md:before:content-['Vizual..."}
+                          >
+                          ...
+            ...
+          ...
+    ...
+
+[00:28:09.640] Server  LOG     ✓ Compiled in 2.9s
