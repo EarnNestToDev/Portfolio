@@ -4,11 +4,10 @@ const ButtonNavbar = (
     {
         name,
         href
-    }:
-        {
-            name: string,
-            href?: string
-        }
+    }: {
+        name: string,
+        href?: string
+    }
 ) => {
 
     const className = "bg-stone-900/20 hover:bg-stone-800 transition-colors p-2 rounded-md cursor-pointer text-xs font-bold";

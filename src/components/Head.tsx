@@ -7,7 +7,7 @@ const Head = () => {
             <meta name="keywords" content="Portafolio, Ernesto De La Cruz Campos, Desarrollador, Developer, Dev, Developer Jr, Dev Jr" />
             <meta name="author" content="Ernesto De La Cruz Campos" />
             <title>Portafolio - EDLCC</title>
-            <link rel="icon" type="image/ico" href="/favicon.ico" />
+            <link rel="icon" type="image/ico" href="./favicon.ico" />
         </head>
     );
 };
