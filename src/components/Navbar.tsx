@@ -12,7 +12,7 @@ const Header = () => {
 
                 <div className="flex items-center justify-center gap-4">
                     <ButtonNavbar name="Home" href="aboutMe" />
-                    <ButtonNavbar name="Sobre mí" href="" />
+                    <ButtonNavbar name="Sobre mí" />
                     <ButtonNavbar name="Proyectos" href="projects" />
                 </div>
 
