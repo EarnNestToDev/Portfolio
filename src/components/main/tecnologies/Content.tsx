@@ -42,88 +42,95 @@ const SVG = {
     github: <SVGGithub size={size.mid} color="white" />
 };
 
-const rank = {
+const customDecorate = {
     learning: "bg-lime-500",
     destacado: "bg-orange-500",
     regular: "bg-sky-800",
     irrelevante: "bg-sky-200",
-    scale: " hover:scale-110 transition-all"
+    scale: " hover:scale-110 transition-all hover:bg-zinc-900/30"
 }
 
-const tecnologies = [
-    {
-        customDecorate: rank.destacado + rank.scale,
-        title: "Java",
-        icon: SVG.java,
-        description: "Cómo olvidar el primer amor ♥..."
-    },
-    {
-        customDecorate: rank.destacado + rank.scale,
-        title: "NetBeans",
-        icon: SVG.netbeans,
-        description: "Mi primer IDE de toda la vida"
-    },
-    {
-        customDecorate: rank.regular + rank.scale,
-        title: "PHP",
-        icon: SVG.php,
-        description: "Me gusta más en backend"
-    },
-    {
-        customDecorate: rank.regular + rank.scale,
-        title: "MySQL",
-        icon: SVG.mysql,
-        description: "'8000 rows affected' 💀"
-    },
-    {
-        customDecorate: rank.regular + rank.scale,
-        title: "VSCode",
-        icon: SVG.vscode,
-        description: "Rápido, eficaz y efervecente xd"
-    },
-    {
-        customDecorate: rank.regular + rank.scale,
-        title: "Git Hub",
-        icon: SVG.github,
-        description: "'git -push -force' 🗿"
-    },
-    {
-        customDecorate: rank.regular + rank.scale,
-        title: "Android Studio",
-        icon: SVG.androidStudio,
-        description: "Me quitaba toda la Ram :("
-    },
-    {
-        customDecorate: rank.regular + rank.scale,
-        title: "JavaScript",
-        icon: SVG.javascript,
-        description: "Extrañaba escribir lógica en Web"
-    },
-    {
-        customDecorate: rank.learning + rank.scale,
-        title: "NodeJS",
-        icon: SVG.nodejs,
-        description: "Explorando..."
-    },
-    {
-        customDecorate: rank.learning + rank.scale,
-        title: "NextJS",
-        icon: SVG.nextjs,
-        description: "Creo que ya amo los frameworks, qué cómodo los componentes"
-    },
-    {
-        customDecorate: rank.learning + rank.scale,
-        title: "TailwindCSS",
-        icon: SVG.tailwind,
-        description: "El CSS que CSS debió ser 🗣️"
-    },
-    {
-        customDecorate: rank.learning + rank.scale,
-        title: "TypeScript",
-        icon: SVG.typescript,
-        description: "Un poco más ordenado que JS... Seguiré explorando"
-    }
-];
+const tecnologies =
+{
+    destacado: [
+        {
+            customDecorate: customDecorate.scale,
+            title: "Java",
+            icon: SVG.java,
+            description: "Cómo olvidar el primer amor ♥..."
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "NetBeans",
+            icon: SVG.netbeans,
+            description: "El primer IDE de mi vida"
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "VSCode",
+            icon: SVG.vscode,
+            description: "Rápido, eficaz y efervecente xd"
+        }
+    ],
+    regular: [
+        {
+            customDecorate: customDecorate.scale,
+            title: "PHP",
+            icon: SVG.php,
+            description: "Me gusta más en backend"
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "MySQL",
+            icon: SVG.mysql,
+            description: "'8000 rows affected' 💀"
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "Git Hub",
+            icon: SVG.github,
+            description: "'git -push -force' 🗿"
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "Android Studio",
+            icon: SVG.androidStudio,
+            description: "Me quitaba toda la Ram :("
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "JavaScript",
+            icon: SVG.javascript,
+            description: "Extrañaba escribir lógica en Web"
+        }
+    ],
+    learning: [
+        {
+            customDecorate: customDecorate.scale,
+            title: "NodeJS",
+            icon: SVG.nodejs,
+            description: "Explorando..."
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "NextJS",
+            icon: SVG.nextjs,
+            description: "El primer framework y ya me encanta"
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "TailwindCSS",
+            icon: SVG.tailwind,
+            description: "El CSS que CSS debió ser 🗣️"
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "TypeScript",
+            icon: SVG.typescript,
+            description: "Me gusta más que JS"
+        }
+    ]
+};
 
 
 export default tecnologies;

@@ -1,103 +1,117 @@
 const rank = {
     learning: "bg-lime-500",
-    destacado: "bg-orange-500",
+    tecnica: "bg-orange-500",
     irrelevante: "bg-zinc-200",
-    blanda: "bg-sky-800"
+    blanda: "bg-sky-600"
 }
 
 const skills = [
     {
-        id: 0,
         customDecorate: "",
-        title: "Sencillo",
-        rank: rank.blanda
+        title: "SCRUM",
+        rank: rank.tecnica
     },
     {
-        id: 1,
+        customDecorate: "",
+        title: "CASCADE",
+        rank: rank.tecnica
+    },
+    {
+        customDecorate: "",
+        title: "POO",
+        rank: rank.tecnica
+    },
+    {
+        customDecorate: "",
+        title: "Frameworks",
+        rank: rank.tecnica
+    },
+    {
+        customDecorate: "",
+        title: "GIT",
+        rank: rank.tecnica
+    },
+    {
         customDecorate: "",
         title: "Aspirante a mejorar",
         rank: rank.blanda
     },
     {
-        id: 2,
+        customDecorate: "",
+        title: "Sencillo",
+        rank: rank.blanda
+    },
+    {
         customDecorate: "",
         title: "Lógico y analítico",
         rank: rank.blanda
     },
     {
-        id: 3,
         customDecorate: "",
         title: "Autodidacta",
         rank: rank.blanda
     },
     {
-        id: 4,
-        customDecorate: "",
-        title: "Atención a los detalles",
-        rank: rank.blanda
-    },
-    {
-        id: 5,
         customDecorate: "",
         title: "Trabajo en equipo",
         rank: rank.blanda
     },
     {
-        id: 6,
+        customDecorate: "",
+        title: "Atención a los detalles",
+        rank: rank.blanda
+    },
+    {
         customDecorate: "",
         title: "Adaptable",
         rank: rank.blanda
     },
     {
-        id: 7,
         customDecorate: "",
         title: "Selectivo",
         rank: rank.blanda
     },
     {
-        id: 8,
         customDecorate: "",
         title: "Reflexivo",
         rank: rank.blanda
     },
     {
-        id: 9,
         customDecorate: "",
         title: "Tranquilo",
         rank: rank.blanda
     },
     {
-        id: 10,
         customDecorate: "",
         title: "Apasionado",
         rank: rank.blanda
     },
     {
-        id: 11,
         customDecorate: "",
         title: "Apreciador",
         rank: rank.blanda
     },
     {
-        id: 12,
         customDecorate: "",
         title: "Nostalgico",
-        rank: rank.irrelevante
+        rank: rank.blanda
     },
     {
-        id: 13,
         customDecorate: "",
-        title: "Dibujo amateur",
+        title: "Instrospectivo",
+        rank: rank.blanda
+    },
+    {
+        customDecorate: "",
+        title: "Pséudo-artista",
         rank: rank.irrelevante
     },
     {
-        id: 14,
         customDecorate: "",
         title: "Gamer",
         rank: rank.irrelevante
     },
     {
-        id: 15,
         customDecorate: "",
         title: "Humilde xd",
         rank: rank.irrelevante

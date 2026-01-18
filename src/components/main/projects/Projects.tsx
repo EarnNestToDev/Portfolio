@@ -7,11 +7,11 @@ import Briefcase_outline from "@/components/icons/brieftcase_outline";
 export default function Projects() {
 
     return (
-        <section className="w-full flex flex-col items-center justify-center gap-2 rounded-lg p-2">
+        <section className="w-full flex flex-col items-center justify-center gap-2 rounded-lg p-2" id="projects">
 
-            <article className="w-full flex flex-col items-start justify-center gap-2 rounded-lg p-2" id="projects">
-                <div className="bg-zinc-900 text-2xl font-bold w-content rounded-lg p-2 flex flex-row items-center gap-2">
-                    <Briefcase_outline size={36} color="white" />
+            <article className="w-full flex flex-col items-start justify-center gap-2 rounded-lg p-2">
+                <div className="text-2xl font-bold w-content rounded-lg p-2 flex flex-row items-center gap-2">
+                    <Briefcase_outline size={36} color="#c88457" />
                     <span>
                         Proyectos
                     </span>

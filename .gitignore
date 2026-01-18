@@ -1,4 +1,7 @@
 node_modules
+.gitignore
+.next
+.next/dev
 .next/dev/cache
 .next/dev/logs
 .next/dev/server

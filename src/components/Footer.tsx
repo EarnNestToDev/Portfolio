@@ -29,7 +29,6 @@ const Footer = () => {
                     {SVG.nextjs}
                     {SVG.tailwind}
                     {SVG.typescript}
-                    {SVG.tablerI}
                 </div>
             </div>
 
