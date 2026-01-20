@@ -6,7 +6,7 @@ import Toast from "@/components/ToastDefault";
 const EMAIL = "earnnesttodev@gmail.com";
 const PHONE = "923_118_0488";
 
-const contactMe = () => {
+const ContactMe = () => {
     return (
         <article className="w-full rounded-lg p-2 flex flex-row items-center justify-center gap-4">
 
@@ -65,4 +65,4 @@ async function copiarAlPortapapeles(text: string) {
     }
 }
 
-export default contactMe;
+export default ContactMe;

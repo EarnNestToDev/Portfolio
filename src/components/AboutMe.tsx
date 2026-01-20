@@ -1,6 +1,6 @@
 import User from "@/components/icons/user_outline";
 
-import ContactMe from "./main/ContactMe";
+import ContactMe from "@/components/main/ContactMe";
 
 // https://drive.google.com/thumbnail?id=1l91mrhItezrFfsVT4jp6hpkPgQsvhUNa&sz=1000
 // https://drive.google.com/thumbnail?id=1WxFjAErWLAdudlFtsdZKRd7jOLD-2jSq&sz=1000
@@ -62,4 +62,4 @@ const AboutMe = () => {
     );
 }
 
-export default AboutMe
+export default AboutMe;
