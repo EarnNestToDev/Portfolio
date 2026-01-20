@@ -10,7 +10,6 @@ export default function Card({
     description?: string;
 }) {
 
-    const DEFAULT_DECORATE = "bg-zinc-900/50 rounded-lg p-2 ";
 
     return (
         <label className="relative flex items-stretch justify-center cursor-pointer">
@@ -19,11 +18,11 @@ export default function Card({
 
             <article className={"min-w-[2fr] min-h-[2fr] flex flex-col items-stretch justify-center rounded-lg p-2 gap-2 relative cursor-pointer " + customDecorate}>
 
-                <header className={DEFAULT_DECORATE + "text-xl font-bold flex flex-row items-center justify-center gap-2"}>
+                <header className={"text-xl font-bold flex flex-row items-center justify-center gap-2 bg-zinc-500/5 border-2 border-zinc-200/20 rounded-2xl p-2"}>
                     {icon}
                 </header>
 
-                <footer className={DEFAULT_DECORATE + "text-lg word-break font-bold text-zinc-300 flex items-center justify-center"}>
+                <footer className={"text-lg word-break font-bold text-zinc-300 flex items-center justify-center p-2"}>
                     {title}
                 </footer>
 

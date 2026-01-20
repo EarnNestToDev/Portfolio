@@ -1,120 +1,146 @@
 const rank = {
     learning: "bg-lime-500",
+    learningBorder: "border-lime-500",
     tecnica: "bg-orange-500",
+    tecnicaBorder: "border-orange-500",
     irrelevante: "bg-zinc-200",
-    blanda: "bg-sky-600"
+    irrelevanteBorder: "border-zinc-200",
+    blanda: "bg-sky-600",
+    blandaBorder: "border-sky-600"
 }
 
 const skills = [
     {
         customDecorate: "",
         title: "SCRUM",
-        rank: rank.tecnica
+        color: rank.tecnica,
+        border: rank.tecnicaBorder
     },
     {
         customDecorate: "",
         title: "CASCADE",
-        rank: rank.tecnica
+        color: rank.tecnica,
+        border: rank.tecnicaBorder
     },
     {
         customDecorate: "",
         title: "POO",
-        rank: rank.tecnica
+        color: rank.tecnica,
+        border: rank.tecnicaBorder
     },
     {
         customDecorate: "",
         title: "Frameworks",
-        rank: rank.tecnica
+        color: rank.tecnica,
+        border: rank.tecnicaBorder
     },
     {
         customDecorate: "",
         title: "GIT",
-        rank: rank.tecnica
+        color: rank.tecnica,
+        border: rank.tecnicaBorder
     },
     {
         customDecorate: "",
         title: "Aspirante a mejorar",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Sencillo",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Lógico y analítico",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Autodidacta",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Trabajo en equipo",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Atención a los detalles",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Adaptable",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Selectivo",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Reflexivo",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Tranquilo",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Apasionado",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Apreciador",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Nostalgico",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Instrospectivo",
-        rank: rank.blanda
+        color: rank.blanda,
+        border: rank.blandaBorder
     },
     {
         customDecorate: "",
         title: "Pséudo-artista",
-        rank: rank.irrelevante
+        color: rank.irrelevante,
+        border: rank.irrelevanteBorder
     },
     {
         customDecorate: "",
         title: "Gamer",
-        rank: rank.irrelevante
+        color: rank.irrelevante,
+        border: rank.irrelevanteBorder
     },
     {
         customDecorate: "",
         title: "Humilde xd",
-        rank: rank.irrelevante
+        color: rank.irrelevante,
+        border: rank.irrelevanteBorder
     }
 
 ];

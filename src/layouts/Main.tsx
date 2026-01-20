@@ -4,7 +4,6 @@ import Presentation from "@/components/Presentation";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/main/projects/Projects";
 import Tecnologies from "@/components/main/tecnologies/Tecnologies";
-import ContactMe from "@/components/main/contactMe";
 import Footer from "@/components/Footer";
 import Head from "@/components/Head";
 import Skills from "@/components/main/skills/Skills";
@@ -28,8 +27,6 @@ export default function MainLayout() {
                 <Tecnologies />
 
                 <AboutMe />
-
-                <ContactMe />
             </main>
 
             <Footer />

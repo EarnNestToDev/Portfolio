@@ -4,53 +4,56 @@ import Content from "@/components/main/tecnologies/Content";
 
 export default function Tecnologies() {
 
-    const DEFAULT_DECORATE = "w-full flex flex-col items-center justify-center gap-2 rounded-lg p-2 ";
+    const DEFAULT_DECORATE = "w-full flex flex-col items-center justify-center gap-2 rounded-4xl p-2 ";
 
     return (
-        <section className="bg-zinc-900 w-full flex flex-col flex-wrap items-center justify-center gap-2 p-2">
+        <section className="w-full flex flex-col flex-wrap items-center justify-center gap-2 p-2">
 
             <article className="w-full flex flex-col items-start justify-center gap-2 rounded-lg p-2">
                 <div className="text-2xl font-bold w-content rounded-lg p-2 flex flex-row items-center gap-2">
-                    <Code size={36} color="#53ffd4" />
+                    <Code size={36} color="#6aa6f0" />
                     <span>
                         Tecnologías
                     </span>
                 </div>
-                <div className="bg-zinc-950 text-base text-gray-200/80 font-bold rounded-lg pl-2 pr-2">
+                <div className="text-base text-gray-200/50 font-bold rounded-lg pl-2 pr-2">
                     <span>
                         Tecnologías y herramientas abarcadas
                     </span>
                 </div>
             </article>
 
-            <article className="md:grid md:grid-cols-[1fr_2fr] md:grid-rows-2 w-full max-h-[fit] rounded-lg p-2 flex flex-row flex-wrap items-stretch justify-center gap-2">
+            <article className="md:grid md:grid-cols-[1fr_2fr] md:grid-rows-2 w-full max-h-[fit] rounded-lg p-2 flex flex-row flex-wrap items-stretch justify-center gap-4 md:gap-2">
 
                 <div
-                    className={DEFAULT_DECORATE + "bg-orange-400/80"}>
+                    className={DEFAULT_DECORATE + "bg-orange-400/10 border border-orange-400"}>
                     {
                         contentTecnology(
                             Content.destacado,
-                            "Mis favoritos"
+                            "Mis favoritos",
+                            "text-orange-400"
                         )
                     }
                 </div>
 
                 <div
-                    className={DEFAULT_DECORATE + "bg-lime-500/80"}>
+                    className={DEFAULT_DECORATE + "bg-lime-500/10 border border-lime-400"}>
                     {
                         contentTecnology(
                             Content.learning,
-                            "Estoy aprendiendo actualmente"
+                            "Estoy aprendiendo",
+                            "text-lime-500"
                         )
                     }
                 </div>
 
                 <div
-                    className={DEFAULT_DECORATE + "col-span-2 row-start-2 bg-sky-600/80"}>
+                    className={DEFAULT_DECORATE + "col-span-2 row-start-2 border bg-sky-600/10 border-sky-400"}>
                     {
                         contentTecnology(
                             Content.regular,
-                            "Los he usado y aplicado comúnmente"
+                            "Uso común",
+                            "text-sky-600"
                         )
                     }
                 </div>
@@ -72,13 +75,15 @@ type Technology = {
 
 function contentTecnology(
     ArrayContent: Technology[],
-    Title: string
+    Title: string,
+    Color: string
 ) {
+
     return (
         <>
             <div className="flex-flex-row items-center justify-center py-4 px-2">
-                <span className="flex text-center text-sm font-bold bg-zinc-900/50 rounded-lg py-2 px-4">
-                    {Title + "..."}
+                <span className={"flex text-center text-sm font-bold rounded-lg py-2 px-4 uppercase " + Color}>
+                    {Title}
                 </span>
             </div>
 

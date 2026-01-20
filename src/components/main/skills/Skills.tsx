@@ -7,7 +7,7 @@ import Bulb from "@/components/icons/bulb_outline";
 export default function Skills() {
 
     return (
-        <section className="bg-zinc-900 w-full flex flex-col items-center justify-center gap-2 p-2">
+        <section className="w-full flex flex-col items-center justify-center gap-2 p-2">
 
             <article className="w-full flex flex-col items-start justify-center gap-2 rounded-lg p-2">
 
@@ -18,7 +18,7 @@ export default function Skills() {
                     </span>
                 </div>
 
-                <div className="bg-zinc-950 text-base text-gray-200/80 font-bold rounded-lg pl-2 pr-2">
+                <div className="text-base text-gray-200/50 font-bold rounded-lg pl-2 pr-2">
                     <span>
                         Habilidades destacables a consideración propia
                     </span>
@@ -33,7 +33,8 @@ export default function Skills() {
                         key={index}
                         customDecorate={Content.customDecorate}
                         title={Content.title}
-                        rank={Content.rank}
+                        color={Content.color}
+                        border={Content.border}
                     />
                 ))}
 

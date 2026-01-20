@@ -26,9 +26,9 @@ const SVG = {
     java: <SVGJava size={size.big} />,
     netbeans: <SVGNetBeans size={size.big} />,
     androidStudio: <SVGAndroidStudio size={size.mid} />,
-    vscode: <SVGVSCode size={size.mid} />,
-    php: <SVGPHP size={size.big} />,
-    mysql: <SVGMySQL size={size.big} />,
+    vscode: <SVGVSCode size={size.big} />,
+    php: <SVGPHP size={size.mid} />,
+    mysql: <SVGMySQL size={size.mid} />,
     json: <SVGJSON size={size.sml} color="white" />,
     javascript: <SVGJavaScript size={size.mid} />,
     xampp: <SVGXampp size={size.mid} />,
@@ -47,7 +47,7 @@ const customDecorate = {
     destacado: "bg-orange-500",
     regular: "bg-sky-800",
     irrelevante: "bg-sky-200",
-    scale: " hover:scale-110 transition-all hover:bg-zinc-900/30"
+    scale: " hover:scale-110 transition-all hover:bg-zinc-200/30"
 }
 
 const tecnologies =

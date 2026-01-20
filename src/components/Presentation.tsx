@@ -83,8 +83,7 @@ const Presentation = () => {
                                 <div className="
                                         font-bold
                                         before:content-['Abierto_a_oferta_laboral']
-                                        hover:before:content-['Ocupo_chamba_pa']
-                                        animate-pulse"
+                                        hover:before:content-['Ocupo_chamba_pa']"
                                 />
                                 <CircleDashedCheck size={24} color="currentColor" />
                             </article>

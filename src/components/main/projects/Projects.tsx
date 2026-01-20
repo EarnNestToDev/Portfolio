@@ -11,12 +11,12 @@ export default function Projects() {
 
             <article className="w-full flex flex-col items-start justify-center gap-2 rounded-lg p-2">
                 <div className="text-2xl font-bold w-content rounded-lg p-2 flex flex-row items-center gap-2">
-                    <Briefcase_outline size={36} color="#c88457" />
+                    <Briefcase_outline size={36} color="#6ffd59" />
                     <span>
                         Proyectos
                     </span>
                 </div>
-                <div className="bg-zinc-900 text-base text-gray-200/80 font-bold rounded-lg pl-2 pr-2">
+                <div className="text-base text-gray-200/50 font-bold rounded-lg pl-2 pr-2">
                     <span>
                         Conocimiento y experiencia aplicados en desarrollo de proyectos
                     </span>
