@@ -4,7 +4,7 @@ import RenderPopup from "@/components/main/projects/RenderPopup";
 
 export default class Links {
 
-    private defaultDecorate = "bg-zinc-950/60 rounded-lg p-2 hover:scale-115 transition-all cursor-pointer animate-pulse ";
+    private defaultDecorate = "border-2 border-zinc-50/20 bg-zinc-950/60 hover:bg-zinc-950 rounded-full p-2 hover:scale-115 transition-all cursor-pointer ";
 
     public github(url: string) {
 

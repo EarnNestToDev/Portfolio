@@ -70,21 +70,14 @@ const projects = [
         description:
             <>
                 <p>
-                    Si bien es cierto que es innecesario y poco prudente
-                    colocar el portafolio en esta sección,
-                    el objetivo principal es destacar el uso de tecnologías
-                    modernas y con poco o nulo uso de mi parte.
+                    Lo sé, es irónico e innecesario poner el portafolio...
                 </p>
                 <p>
-                    Por otro lado, el desarrollo y el tiempo para adaptarse
-                    a las nuevas herramientas fue más rápido de lo estimado
-                    resultando en un proyecto tal vez no de acuerdo referente
-                    a las buenas prácticas, pero funcional.
+                    Pero es un proyecto realizado con tecnologías modernas y no exploradas por mí.
+                    En opinión, ha sido una experiencia muy cómoda a diferencia del desarrollo web vanilla.
                 </p>
-                <p>
-                    Por último, me encantaría destacar lo cómodo y satisfactorio
-                    que fue el empleo de estas herramientas para el desarrollo
-                    de este proyecto.
+                <p className="font-bold italic">
+                    Vivan los frameworks y los componentes.
                 </p>
             </>,
         tecnologies: [

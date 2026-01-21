@@ -27,8 +27,8 @@ const Footer = () => {
                 <div className="flex flex-row flex-wrap items-center justify-center gap-2">
                     {SVG.nodejs}
                     {SVG.nextjs}
-                    {SVG.tailwind}
                     {SVG.typescript}
+                    {SVG.tailwind}
                 </div>
             </div>
 

@@ -12,8 +12,8 @@ export default function Carousel({
     killContentPopUp: () => void
 }) {
     return (
-        <div className={"fixed z-1000 top-0 left-0 w-[100vw] h-[100vh] flex flex-col items-center justify-center overflow-hidden w-full p-2 rounded-lg backdrop-blur-xs backdrop-grayscale transition-all"} id="popUp">
-            <div className="h-full w-full md:h-full md:w-auto md:aspect-[9/16] flex flex-row items-center rounded-lg overflow-scroll overflow-y-auto snap-x snap-mandatory gap-2">
+        <div className={"fixed z-1000 top-0 left-0 w-full h-full flex flex-col items-center justify-center overflow-hidden p-2 rounded-lg backdrop-blur-xs backdrop-grayscale transition-all"} id="popUp">
+            <div className="h-full w-full md:h-full md:w-auto md:aspect-9/16 flex flex-row items-center rounded-lg overflow-scroll overflow-y-auto snap-x snap-mandatory gap-2">
                 {setContent(path_img, n_elements, url_video)}
             </div>
 
@@ -44,6 +44,7 @@ function setContent(path: string, limit: number, video?: string) {
                 key={index}
                 src={`${path}${index}.webp`}
                 alt="img"
+                loading="lazy"
                 className="rounded-lg object-cover snap-center min-w-full"
             />
         );

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import View from "@/components/icons/polaroid";
+import View from "@/components/icons/photo";
 import Carousel from "@/components/main/projects/CarouselPopup";
 
 const RenderPopup = ({

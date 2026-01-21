@@ -15,6 +15,7 @@ const imgElements = {
 }
 
 const AboutMe = () => {
+
     return (
         <section className="w-full md:w-[600px] flex flex-col items-center justify-center gap-2 rounded-lg p-2" id="aboutMe">
 
@@ -27,30 +28,41 @@ const AboutMe = () => {
                     </span>
                 </header>
 
-                <div className="row-span-2 w-[200px] h-[200px] rounded-4xl border-2 border-orange-500 rotate-3 md:rotate-6">
+                <main className="row-span-2 w-[200px] h-[200px] rounded-4xl border-2 border-orange-500 rotate-3 md:rotate-6">
                     <img
                         title={imgElements.TITLE}
                         src={imgElements.IMG_URL}
                         alt={imgElements.ALT_NAME}
+                        loading="lazy"
                         className="w-full h-full rounded-4xl -rotate-6 md:-rotate-12 bg-white border-0" />
-                </div>
+                </main>
 
-                <footer className="flex flex-col items-start justify-start text-gray-300 text-lg">
+                <footer className="flex flex-col items-start justify-start text-gray-300 text-base">
                     <span>
-                        Lo sé, otro egresado más del montón...
-                        Un día noté que mi lógica y análisis eran bastante
-                        decentes, así que simplemente decidí aplicarlas
-                        en lenguajes de programación y pues aquí estoy, como un
-                        egresado de la carrera de Ingeniería en Sistemas
-                        Computacionales en busca de chamba.
+                        Fascinado por las computadoras desde pequeño
+                        e impulsado por la curiosidad de crear, dediqué
+                        mi lógica y análisis para la comprensión y uso
+                        de lenguajes de programación para el desarrollo
+                        de software. En el transcurso se me presentó la
+                        oportunidad de cursar la carrera de Ingeniería
+                        en Sistemas Computacionales de la cual gracias a Dios
+                        hoy soy egresado.
                     </span>
                     <span>
-                        Y sí, realmente me gusta programar, he usado
-                        computadoras desde mis 8 años, mi objetivo
-                        principal es alcanzar la profesionalidad en
-                        dicho rubro para algún día realizar un
-                        videojuego como proyecto real. Y claro,
-                        subsistir económicamente de esta oportunidad.
+                        Por supuesto que me encanta programar, fue
+                        Java quien me acogió y me crió durante mis
+                        primeros años de desarrollo, con el tiempo
+                        aprendí que no siempre el mismo lenguaje es
+                        el óptimo para cada situación, por lo que
+                        he explorado frecuentemente diversas
+                        tecnologías y herramientas en busca identificar
+                        sus límites técnicos junto con el crecimiento
+                        profesional en el rubro.
+                    </span>
+                    <span>
+                        Cabe recalcar que busco activamente
+                        la oportunidad de ejercer profesionalmente en el área
+                        para mi sustento económico.
                     </span>
                 </footer>
 

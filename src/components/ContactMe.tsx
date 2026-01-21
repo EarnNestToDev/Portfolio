@@ -8,7 +8,7 @@ const PHONE = "923_118_0488";
 
 const ContactMe = () => {
     return (
-        <article className="w-full rounded-lg p-2 flex flex-row items-center justify-center gap-4">
+        <article className="w-full rounded-lg flex flex-row items-center justify-center gap-4 p-2">
 
             <button
                 title="Copiar email"

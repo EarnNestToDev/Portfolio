@@ -46,12 +46,12 @@ const skills = [
         color: rank.blanda,
         border: rank.blandaBorder
     },
-    {
-        customDecorate: "",
-        title: "Sencillo",
-        color: rank.blanda,
-        border: rank.blandaBorder
-    },
+    // {
+    //     customDecorate: "",
+    //     title: "Sencillo",
+    //     color: rank.blanda,
+    //     border: rank.blandaBorder
+    // },
     {
         customDecorate: "",
         title: "Lógico y analítico",
@@ -88,60 +88,60 @@ const skills = [
         color: rank.blanda,
         border: rank.blandaBorder
     },
-    {
-        customDecorate: "",
-        title: "Reflexivo",
-        color: rank.blanda,
-        border: rank.blandaBorder
-    },
-    {
-        customDecorate: "",
-        title: "Tranquilo",
-        color: rank.blanda,
-        border: rank.blandaBorder
-    },
-    {
-        customDecorate: "",
-        title: "Apasionado",
-        color: rank.blanda,
-        border: rank.blandaBorder
-    },
-    {
-        customDecorate: "",
-        title: "Apreciador",
-        color: rank.blanda,
-        border: rank.blandaBorder
-    },
-    {
-        customDecorate: "",
-        title: "Nostalgico",
-        color: rank.blanda,
-        border: rank.blandaBorder
-    },
-    {
-        customDecorate: "",
-        title: "Instrospectivo",
-        color: rank.blanda,
-        border: rank.blandaBorder
-    },
+    // {
+    //     customDecorate: "",
+    //     title: "Reflexivo",
+    //     color: rank.blanda,
+    //     border: rank.blandaBorder
+    // },
+    // {
+    //     customDecorate: "",
+    //     title: "Tranquilo",
+    //     color: rank.blanda,
+    //     border: rank.blandaBorder
+    // },
+    // {
+    //     customDecorate: "",
+    //     title: "Apasionado",
+    //     color: rank.blanda,
+    //     border: rank.blandaBorder
+    // },
+    // {
+    //     customDecorate: "",
+    //     title: "Apreciador",
+    //     color: rank.blanda,
+    //     border: rank.blandaBorder
+    // },
+    // {
+    //     customDecorate: "",
+    //     title: "Nostalgico",
+    //     color: rank.blanda,
+    //     border: rank.blandaBorder
+    // },
+    // {
+    //     customDecorate: "",
+    //     title: "Instrospectivo",
+    //     color: rank.blanda,
+    //     border: rank.blandaBorder
+    // },
     {
         customDecorate: "",
         title: "Pséudo-artista",
         color: rank.irrelevante,
         border: rank.irrelevanteBorder
     },
-    {
-        customDecorate: "",
-        title: "Gamer",
-        color: rank.irrelevante,
-        border: rank.irrelevanteBorder
-    },
-    {
-        customDecorate: "",
-        title: "Humilde xd",
-        color: rank.irrelevante,
-        border: rank.irrelevanteBorder
-    }
+    // {
+    //     customDecorate: "",
+    //     title: "Gamer",
+    //     color: rank.irrelevante,
+    //     border: rank.irrelevanteBorder
+    // },
+    // {
+    //     customDecorate: "",
+    //     title: "Humilde xd",
+    //     color: rank.irrelevante,
+    //     border: rank.irrelevanteBorder
+    // }
 
 ];
 

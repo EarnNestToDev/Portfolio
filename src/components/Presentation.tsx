@@ -19,7 +19,21 @@ const Presentation = () => {
     return (
         <section className="w-full flex items-center justify-center" id="presentation">
 
-            <article className="borderOFF border-orange-300/50OFF max-w-[90vw] md:max-w-[600px] flex flex-col items-center justify-center gap-2 text-gray-700 dark:text-gray-200 rounded-lg p-2">
+            <article className="
+                borderOFF
+                border-orange-300/50OFF
+                max-w-[90vw]
+                md:max-w-[600px]
+                flex
+                flex-col
+                items-center
+                justify-center
+                gap-2
+                text-gray-700
+                dark:text-gray-200
+                rounded-lg
+                p-2"
+            >
                 <div
                     className="flex flex-col md:grid md:grid-cols-[1fr_1fr_1fr] md:grid-rows-[auto_auto_auto] gap-4 items-center justify-center"
                 >
@@ -43,17 +57,13 @@ const Presentation = () => {
                             </p>
                         </div>
 
-                        <div className="bg-zinc-900 text-base flex flex-col gap-2 rounded-lg p-2">
-                            <div className="flex items-center gap-2">
-                                <Filecertificate size={24} color="currentColor" />
-                                <span className="text-zinc-50">
+                        <div className="bg-zinc-900 text-base flex flex-row gap-2 rounded-2xl p-4 border-l-2 md:border-l-4 border-green-500">
+                            <Filecertificate size={24} color="#6ffd59" />
+                            <div className="flex flex-col items-start justify-center">
+                                <span className="text-zinc-50/90 text-base font-bold">
                                     Ingeniero en Sistemas Computacionales
                                 </span>
-                            </div>
-
-                            <div className="flex items-center gap-2">
-                                <Building size={24} color="currentColor" />
-                                <span className="text-green-400">
+                                <span className="text-zinc-50/50 text-sm">
                                     Instituto Tecnológico Superior de Villa la Venta
                                 </span>
                             </div>
@@ -62,24 +72,35 @@ const Presentation = () => {
 
                     <div className="col-span-3 row-start-3 h-content gap-4 flex flex-col mt-4">
                         <div>
-                            <span className="text-lg text-gray-200 text-balance line-height-1.3">
+                            <span className="text-lg text-zinc-50/80 text-balance line-height-1.3">
                                 Soy un
                                 <span className="font-bold text-green-500 pl-2 pr-2">
                                     recién egresado
                                 </span>
                                 de la carrera en busca
-                                de oportunidad laboral en el área.
-                                Mis principales habilidades se basan en la
-                                resolución de problemas mediante análisis lógico
-                                y la curiosidad de explorar los límites
-                                técnicos de las herramientas.
+                                de oportunidad laboral en el área,
+                                bienvenido a mi portafolio web en el cual presento
+                                los proyectos que he realizado durante mi
+                                formación académica y profesional.
+                                También puede verse como una carta de presentación.
                             </span>
                         </div>
 
-                        <div className="flex flex-col md:flex-row gap-6 md:gap-2 justify-between items-center">
+                        <div className="flex flex-col md:flex-row gap-4 md:gap-2 md:justify-between items-stretch md:items-center">
                             <article
                                 title="Auxilio, necesito chamba xd"
-                                className="bg-lime-600 text-white px-4 py-2 rounded-lg flex flex-row items-center gap-2">
+                                className="
+                                bg-lime-600
+                                text-white
+                                px-4
+                                py-2
+                                rounded-lg
+                                flex
+                                flex-row
+                                items-center
+                                justify-center
+                                gap-2"
+                            >
                                 <div className="
                                         font-bold
                                         before:content-['Abierto_a_oferta_laboral']
@@ -91,7 +112,22 @@ const Presentation = () => {
                                 href={PDF_CV_URL}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-orange-500 hover:bg-orange-600 hover:scale-110 transition-all cursor-pointer text-white px-4 py-2 rounded-lg flex flex-row items-center gap-2">
+                                className="
+                                bg-orange-500
+                                hover:bg-orange-600
+                                hover:scale-110
+                                transition-all
+                                cursor-pointer
+                                text-white
+                                px-4
+                                py-2
+                                rounded-lg
+                                flex
+                                flex-row
+                                items-center
+                                justify-center
+                                gap-2"
+                            >
                                 <div
                                     className="
                                     font-bold 
