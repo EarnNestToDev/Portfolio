@@ -89,7 +89,7 @@ const projects = [
         ],
         link: [
             link.github("https://github.com/EarnNestToDev/Portfolio"),
-            link.viewImages(url_default_img(7), 0, "QdBHLji29yY")
+            // link.viewImages(url_default_img(7), 0, "QdBHLji29yY")
         ]
     },
     {
@@ -131,7 +131,7 @@ const projects = [
             SVG.xampp
         ],
         link: [
-            link.viewImages(url_default_img(6), 10, "mnJud2eDZqA")
+            // link.viewImages(url_default_img(6), 10, "mnJud2eDZqA")
         ]
     },
     {

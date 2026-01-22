@@ -5,7 +5,6 @@ const MIN_RANDOM_NUMBER = 0;
 
 const Test = () => {
 
-
     return (
         <div className="text-2xl font-bold text-orange-400">
             {

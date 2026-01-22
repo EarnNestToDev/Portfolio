@@ -1,20 +1,18 @@
 import LYTEmbed from "@/components/LiteYTEmbed";
 
 export default function Carousel({
-    path_img,
-    n_elements,
+    json_url_img,
     url_video,
     killContentPopUp
 }: {
-    path_img: string,
-    n_elements: number,
+    json_url_img: JSON_FORMAT[],
     url_video?: string,
     killContentPopUp: () => void
 }) {
     return (
         <div className={"fixed z-1000 top-0 left-0 w-full h-full flex flex-col items-center justify-center overflow-hidden p-2 rounded-lg backdrop-blur-xs backdrop-grayscale transition-all"} id="popUp">
             <div className="h-full w-full md:h-full md:w-auto md:aspect-9/16 flex flex-row items-center rounded-lg overflow-scroll overflow-y-auto snap-x snap-mandatory gap-2">
-                {setContent(path_img, n_elements, url_video)}
+                {setContent(json_url_img, url_video)}
             </div>
 
             <button
@@ -30,7 +28,7 @@ export default function Carousel({
     );
 }
 
-function setContent(path: string, limit: number, video?: string) {
+function setContent(json: JSON_FORMAT[], video?: string) {
     let content = [];
 
     if (video) {
@@ -38,12 +36,12 @@ function setContent(path: string, limit: number, video?: string) {
             contentVideo(video)
         );
     }
-    for (let index = 0; index < limit; index++) {
+    for (let index = 0; index < json.length; index++) {
         content.push(
             <img
                 key={index}
-                src={`${path}${index}.webp`}
-                alt="img"
+                src={json[index].url}
+                alt={json[index].title}
                 loading="lazy"
                 className="rounded-lg object-cover snap-center min-w-full"
             />
@@ -64,4 +62,9 @@ function contentVideo(video?: string) {
         </div>
     );
 
+}
+
+type JSON_FORMAT = {
+    title: string;
+    url: string;
 }

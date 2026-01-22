@@ -1,7 +1,7 @@
 "use client";
 
 import Filecertificate from "@/components/icons/filecertificate";
-import Building from "@/components/icons/building";
+// import Building from "@/components/icons/building";
 import FileDownload from "@/components/icons/filedownload";
 import CircleDashedCheck from "@/components/icons/circledashedcheck";
 

@@ -4,7 +4,7 @@ import RenderPopup from "@/components/main/projects/RenderPopup";
 
 export default class Links {
 
-    private defaultDecorate = "border-2 border-zinc-50/20 bg-zinc-950/60 hover:bg-zinc-950 rounded-full p-2 hover:scale-115 transition-all cursor-pointer ";
+    private DEFAULT_DECORATE = "border-2 border-zinc-50/20 bg-zinc-950/60 hover:bg-zinc-950 rounded-full p-2 hover:scale-115 transition-all cursor-pointer ";
 
     public github(url: string) {
 
@@ -14,7 +14,7 @@ export default class Links {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={this.defaultDecorate}
+                className={this.DEFAULT_DECORATE}
             >
                 <GitHub size={36} color="white" />
             </a>
@@ -29,22 +29,31 @@ export default class Links {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={this.defaultDecorate}
+                className={this.DEFAULT_DECORATE}
             >
                 <Link size={36} color="white" />
             </a>
         );
     }
 
-    public viewImages(url: string, n_elements: number, url_video?: string) {
+    public viewImages(json_path?: JSON_PATH[], url_video?: string) {
+
+        if (!json_path) {
+            json_path = [];
+        }
 
         return (
             <RenderPopup
-                url={url}
-                n_elements={n_elements}
-                defaultDecorate={this.defaultDecorate}
+                json={json_path}
                 url_video={url_video}
+                defaultDecorate={this.DEFAULT_DECORATE}
             />
         );
     }
 }
+
+type JSON_PATH = {
+    url: string;
+    title: string;
+}
+

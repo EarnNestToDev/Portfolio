@@ -17,6 +17,14 @@ import SVGNextJS from "@/components/icons/tecnologies/nextjs";
 import SVGTailwind from "@/components/icons/tecnologies/tailwind";
 import SVGTypeScript from "@/components/icons/tecnologies/typescript";
 
+import JSON_IMG_6 from "../../../../public/image/projects/6/img_url.json";
+import JSON_IMG_5 from "../../../../public/image/projects/5/img_url.json";
+import JSON_IMG_4 from "../../../../public/image/projects/4/img_url.json";
+import JSON_IMG_3 from "../../../../public/image/projects/3/img_url.json";
+import JSON_IMG_1 from "../../../../public/image/projects/1/img_url.json";
+import JSON_IMG_0 from "../../../../public/image/projects/0/img_url.json";
+
+
 const size = {
     DEF: 32,
     BIG: 48
@@ -58,7 +66,15 @@ const descInfo = (description: string) => {
 
 const link = new Links();
 
-const url_default_img = (folder: number) => "./image/projects/" + folder + "/";
+const JSON = {
+    project6: JSON_IMG_6,
+    project5: JSON_IMG_5,
+    project4: JSON_IMG_4,
+    project3: JSON_IMG_3,
+    project1: JSON_IMG_1,
+    project0: JSON_IMG_0,
+    noImages: undefined
+}
 
 const projects = [
     {
@@ -96,7 +112,7 @@ const projects = [
         ],
         link: [
             link.github("https://github.com/EarnNestToDev/Portfolio"),
-            link.viewImages(url_default_img(7), 0, "QdBHLji29yY")
+            link.viewImages(JSON.noImages, "QdBHLji29yY")
         ]
     },
     {
@@ -104,7 +120,7 @@ const projects = [
         customDecorate: rank.destacado,
         title: "TutorTracking (ITSLV)",
         year: "2025",
-        url: url_default_img(6),
+        url: JSON.project6[0].url,
         description:
             <>
                 <p>
@@ -138,7 +154,7 @@ const projects = [
             SVG.xampp
         ],
         link: [
-            link.viewImages(url_default_img(6), 10, "mnJud2eDZqA")
+            link.viewImages(JSON.project6, "mnJud2eDZqA")
         ]
     },
     {
@@ -146,7 +162,7 @@ const projects = [
         customDecorate: rank.regular,
         title: "GPSPrototipe",
         year: "2024",
-        url: url_default_img(5),
+        url: JSON.project5[0].url,
         description:
             <>
                 <p>
@@ -179,7 +195,7 @@ const projects = [
         customDecorate: rank.regular,
         title: "Toxic Plant Identifier Prototipe",
         year: "2024",
-        url: url_default_img(4),
+        url: JSON.project4[0].url,
         description:
             <>
                 <p>
@@ -203,6 +219,7 @@ const projects = [
         customDecorate: rank.regular,
         title: "Práctica Analizador Léxico",
         year: "2024",
+        url: JSON.project3[0].url,
         description:
             <>
                 <p>
@@ -216,7 +233,8 @@ const projects = [
             SVG.netbeans
         ],
         link: [
-            link.github("https://github.com/EarnNestToDev/AnaLex.git")
+            link.github("https://github.com/EarnNestToDev/AnaLex.git"),
+            link.viewImages(JSON.project3)
         ]
     },
     {
@@ -224,7 +242,6 @@ const projects = [
         customDecorate: rank.regular,
         title: "Punto de Venta de Videojuegos",
         year: "2023",
-        url: url_default_img(2),
         description:
             <>
                 <p>
@@ -249,7 +266,7 @@ const projects = [
         customDecorate: rank.irrelevante,
         title: "Práctica Windows Server",
         year: "2023",
-        url: url_default_img(1),
+        url: JSON.project1[0].url,
         description:
             <>
                 <p>
@@ -265,7 +282,7 @@ const projects = [
         customDecorate: rank.irrelevante,
         title: "Prácticas de Cisco",
         year: "2023",
-        url: url_default_img(0),
+        url: JSON.project0[0].url,
         description:
             <>
                 <p>

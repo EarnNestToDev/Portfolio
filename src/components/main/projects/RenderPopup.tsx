@@ -4,13 +4,11 @@ import View from "@/components/icons/photo";
 import Carousel from "@/components/main/projects/CarouselPopup";
 
 const RenderPopup = ({
-  url,
-  n_elements,
+  json,
   defaultDecorate,
   url_video
 }: {
-  url: string;
-  n_elements: number;
+  json: JSON_PATH[];
   defaultDecorate: string;
   url_video?: string;
 }) => {
@@ -18,12 +16,13 @@ const RenderPopup = ({
   const [test, setTest] = useState<React.ReactNode | null>(null);
 
   const renderContentPopUp = () => {
-    setTest(<Carousel
-      path_img={url}
-      n_elements={n_elements}
-      killContentPopUp={killContentPopUp}
-      url_video={url_video}
-    />);
+    setTest(
+      <Carousel
+        json_url_img={json}
+        killContentPopUp={killContentPopUp}
+        url_video={url_video}
+      />
+    );
     return
   }
 
@@ -46,6 +45,11 @@ const RenderPopup = ({
       {test}
     </>
   );
+}
+
+type JSON_PATH = {
+  url: string;
+  title: string;
 }
 
 

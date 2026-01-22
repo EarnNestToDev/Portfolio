@@ -32,8 +32,8 @@ export default function Card({
         if (image) {
             return (
                 <main className={defaultDecorate + "row-start-2 flex flex-col items-center justify-center " + (image ? "block" : "none")}>
-                    <img src={image + "0.webp"} alt={title}
-                        className="max-w-[100px] max-h-[auto] aspect-[1/1] object-cover rounded-lg"
+                    <img src={image} alt={title}
+                        className="max-w-[100px] max-h-[auto] aspect-square object-cover rounded-lg"
                     />
                 </main>
             );
