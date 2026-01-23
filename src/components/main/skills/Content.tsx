@@ -118,12 +118,12 @@ const skills = [
     //     color: rank.blanda,
     //     border: rank.blandaBorder
     // },
-    // {
-    //     customDecorate: "",
-    //     title: "Instrospectivo",
-    //     color: rank.blanda,
-    //     border: rank.blandaBorder
-    // },
+    {
+        customDecorate: "",
+        title: "Instrospectivo",
+        color: rank.blanda,
+        border: rank.blandaBorder
+    },
     {
         customDecorate: "",
         title: "Pséudo-artista",
