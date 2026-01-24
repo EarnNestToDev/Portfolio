@@ -1,5 +1,3 @@
-"use client";
-
 import Presentation from "@/components/Presentation";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/main/projects/Projects";

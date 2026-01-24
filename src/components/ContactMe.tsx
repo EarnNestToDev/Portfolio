@@ -8,22 +8,29 @@ const PHONE = "923_118_0488";
 
 const ContactMe = () => {
     return (
-        <article className="w-full rounded-lg flex flex-row items-center justify-center gap-4 p-2">
+        <article className="w-full rounded-lg flex flex-col md:flex-row items-center justify-center gap-4 p-2">
 
             <button
+                data-phone={EMAIL}
                 title="Copiar email"
                 className="
+                w-full
+                md:w-auto
                 flex 
                 flex-row 
                 items-center justify-center 
                 gap-2 rounded-full 
-                bg-zinc-800/40 
-                hover:bg-red-500 
+                bg-red-600
+                md:bg-zinc-800/40 
+                hover:bg-red-500
                 font-bold
                 cursor-pointer
                 px-4 py-2 
-                hover:after:content-['Copiar_email'] 
-                transition-all duration-600"
+                md:after:content-['•'] 
+                after:content-[attr(data-phone)] 
+                md:hover:after:content-['Copiar_email'] 
+                transition-all duration-600
+                "
                 onClick={() => {
                     copiarAlPortapapeles(EMAIL);
                 }}
@@ -32,17 +39,23 @@ const ContactMe = () => {
             </button>
 
             <button
+                data-phone={PHONE.replaceAll("_", " ")}
                 title="Copiar número telefónico"
                 className="
+                w-full
+                md:w-auto
                 flex 
                 flex-row 
                 items-center justify-center 
                 gap-2 rounded-full 
-                bg-zinc-800/40 
+                bg-lime-600
+                md:bg-zinc-800/40 
                 hover:bg-lime-600 
                 font-bold
                 cursor-pointer
                 px-4 py-2 
+                md:after:content-['•'] 
+                after:content-[attr(data-phone)] 
                 hover:after:content-['Copiar_número'] 
                 transition-all duration-600"
                 onClick={() => {
