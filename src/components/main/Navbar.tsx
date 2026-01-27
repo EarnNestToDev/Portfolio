@@ -1,5 +1,5 @@
 import Briefcase from "@/components/icons/brieftcase";
-import SocialLinks from "@/pages/main/SocialLinks";
+import SocialLinks from "@/components/main/SocialLinks";
 import ButtonNavbar from "@/components/ButtonNavbar";
 
 const Header = () => {

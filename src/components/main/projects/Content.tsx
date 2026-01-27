@@ -1,4 +1,4 @@
-import Links from "@/pages/main/projects/Links";
+import Links from "@/components/main/projects/Links";
 
 import SVGJava from "@/components/icons/tecnologies/java";
 import SVGAndroidStudio from "@/components/icons/tecnologies/android_studio";
@@ -76,7 +76,7 @@ const JSON = {
     noImages: undefined
 }
 
-const projects = [
+const Projects = [
     {
         id: 7,
         customDecorate: rank.actual,
@@ -295,4 +295,4 @@ const projects = [
 ];
 
 
-export default projects;
+export default Projects;

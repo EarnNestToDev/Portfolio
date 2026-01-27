@@ -1,9 +1,9 @@
-import Presentation from "@/pages/main/Presentation";
-import Navbar from "@/pages/main/Navbar";
-import Projects from "@/pages/main/projects/Projects";
-import Tecnologies from "@/pages/main/tecnologies/Tecnologies";
-import Skills from "@/pages/main/skills/Skills";
-import AboutMe from "@/pages/main/AboutMe";
+import Presentation from "@/components/main/Presentation";
+import Navbar from "@/components/main/Navbar";
+import Projects from "@/components/main/projects/Projects";
+import Tecnologies from "@/components/main/tecnologies/Tecnologies";
+import Skills from "@/components/main/skills/Skills";
+import AboutMe from "@/components/main/AboutMe";
 
 import Footer from "@/components/Footer";
 

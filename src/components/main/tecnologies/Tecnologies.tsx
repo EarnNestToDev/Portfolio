@@ -1,6 +1,6 @@
 import Code from "@/components/icons/code";
-import Card from "@/pages/main/tecnologies/Card";
-import Content from "@/pages/main/tecnologies/Content";
+import Card from "@/components/main/tecnologies/Card";
+import Content from "@/components/main/tecnologies/Content";
 
 export default function Tecnologies() {
 
