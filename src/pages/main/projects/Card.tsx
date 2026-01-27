@@ -55,7 +55,7 @@ export default function Card({
 
             {showImageSection()}
 
-            <main className={defaultDecorate + "col-start-1 row-start-3 text-wrap overflow-scroll overflow-x-auto"}>
+            <main className={defaultDecorate + "col-start-1 row-start-3 text-wrap overflow-scroll overflow-x-auto scroll-default"}>
                 {description}
             </main>
 

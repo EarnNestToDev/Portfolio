@@ -1,5 +1,5 @@
-import Content from "@/components/main/projects/Content";
-import Card from "@/components/main/projects/Card";
+import Content from "@/pages/main/projects/Content";
+import Card from "@/pages/main/projects/Card";
 
 import Briefcase_outline from "@/components/icons/brieftcase_outline";
 
@@ -23,7 +23,7 @@ export default function Projects() {
                 </div>
             </article>
 
-            <article className="w-full max-h-[80vh] rounded-lg p-2 flex flex-row items-stretch justify-start gap-6 overflow-scroll overflow-y-auto snap-x snap-mandatory">
+            <article className="w-full max-h-[80vh] rounded-lg p-2 flex flex-row items-stretch justify-start gap-6 overflow-scroll overflow-y-auto snap-x snap-mandatory scroll-default">
 
                 {Content.map((Content) => (
                     <Card

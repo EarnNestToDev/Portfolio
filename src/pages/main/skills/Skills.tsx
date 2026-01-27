@@ -1,5 +1,5 @@
-import Content from "@/components/main/skills/Content";
-import Card from "@/components/main/skills/Card";
+import Content from "@/pages/main/skills/Content";
+import Card from "@/pages/main/skills/Card";
 
 import Bulb from "@/components/icons/bulb_outline";
 

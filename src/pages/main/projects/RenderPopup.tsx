@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import View from "@/components/icons/photo";
-import Carousel from "@/components/main/projects/CarouselPopup";
+import Carousel from "@/pages/main/projects/CarouselPopup";
 
 const RenderPopup = ({
   json,

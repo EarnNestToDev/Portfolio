@@ -1,18 +1,16 @@
-import Presentation from "@/components/Presentation";
-import Navbar from "@/components/Navbar";
-import Projects from "@/components/main/projects/Projects";
-import Tecnologies from "@/components/main/tecnologies/Tecnologies";
+import Presentation from "@/pages/main/Presentation";
+import Navbar from "@/pages/main/Navbar";
+import Projects from "@/pages/main/projects/Projects";
+import Tecnologies from "@/pages/main/tecnologies/Tecnologies";
+import Skills from "@/pages/main/skills/Skills";
+import AboutMe from "@/pages/main/AboutMe";
+
 import Footer from "@/components/Footer";
-import Head from "@/components/Head";
-import Skills from "@/components/main/skills/Skills";
-import AboutMe from "@/components/AboutMe";
 
 export default function MainLayout() {
 
     return (
         <>
-            <Head />
-
             <Navbar />
 
             <main className="max-w-[100vw] flex flex-col items-center justify-start mt-24 gap-40">

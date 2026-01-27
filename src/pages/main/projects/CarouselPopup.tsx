@@ -1,5 +1,7 @@
 import LYTEmbed from "@/components/LiteYTEmbed";
 
+import Close from "@/components/icons/x";
+
 export default function Carousel({
     json_url_img,
     url_video,
@@ -11,7 +13,7 @@ export default function Carousel({
 }) {
     return (
         <div className={"fixed z-1000 top-0 left-0 w-full h-full flex flex-col items-center justify-center overflow-hidden p-2 rounded-lg backdrop-blur-xs backdrop-grayscale transition-all"} id="popUp">
-            <div className="h-full w-full md:h-full md:w-auto md:aspect-9/16 flex flex-row items-center rounded-lg overflow-scroll overflow-y-auto snap-x snap-mandatory gap-2">
+            <div className="h-full w-full md:h-full md:w-auto md:aspect-9/16 flex flex-row items-center rounded-lg overflow-scroll overflow-y-auto snap-x snap-mandatory gap-2 scroll-default">
                 {setContent(json_url_img, url_video)}
             </div>
 
@@ -21,8 +23,8 @@ export default function Carousel({
                     killContentPopUp();
                 }}
 
-                className="bg-red-600 text-white p-4 rounded-lg absolute bottom-4 md:bottom-8 cursor-pointer border border-zinc-200/50">
-                ✕
+                className="bg-red-600 hover:bg-red-400 hover:scale-115 transition-all text-white p-3 rounded-full absolute bottom-4 md:bottom-8 cursor-pointer">
+                <Close size={24} color="white" />
             </button>
         </div>
     );

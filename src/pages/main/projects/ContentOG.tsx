@@ -1,4 +1,4 @@
-import Links from "@/components/main/projects/Links";
+import Links from "@/pages/main/projects/Links";
 
 import SVGJava from "@/components/icons/tecnologies/java";
 import SVGAndroidStudio from "@/components/icons/tecnologies/android_studio";
