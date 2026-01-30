@@ -29,17 +29,17 @@ const SVG = {
     vscode: <SVGVSCode width={size.big} height={size.big} />,
     php: <SVGPHP width={size.mid} height={size.mid} />,
     mysql: <SVGMySQL width={size.mid} height={size.mid} />,
-    json: <SVGJSON width={size.sml} height={size.sml} stroke="white" />,
+    json: <SVGJSON width={size.sml} height={size.sml} fill="white" />,
     javascript: <SVGJavaScript width={size.mid} height={size.mid} />,
     xampp: <SVGXampp width={size.mid} height={size.mid} />,
     firebase: <SVGFirebase width={size.sml} height={size.sml} />,
     python: <SVGPython width={size.sml} height={size.sml} />,
     chatgpt: <SVGChatGPT width={size.mid} height={size.mid} />,
     nodejs: <SVGNodeJS width={size.mid} height={size.mid} />,
-    nextjs: <SVGNextJS width={size.mid} height={size.mid} stroke="white" />,
+    nextjs: <SVGNextJS width={size.mid} height={size.mid} fill="white" />,
     tailwind: <SVGTailwind width={size.mid} height={size.mid} />,
     typescript: <SVGTypeScript width={size.mid} height={size.mid} />,
-    github: <SVGGithub width={size.mid} height={size.mid} stroke="white" />
+    github: <SVGGithub width={size.mid} height={size.mid} fill="white" />
 };
 
 const customDecorate = {
