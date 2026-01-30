@@ -57,9 +57,12 @@ const Presentation = () => {
                             </p>
                         </div>
 
-                        <div className="bg-zinc-900 text-base flex flex-row gap-2 rounded-2xl p-4 border-l-2 md:border-l-4 border-green-500">
-                            <SVGFilecertificate width={24} height={24} stroke="#6ffd59" />
-                            <div className="flex flex-col items-start justify-center">
+                        <div className="grid grid-cols-[16px_auto_auto] grid-rows-1 bg-zinc-900 text-base rounded-2xl">
+                            <div className="bg-green-500 rounded-l-2xl"></div>
+                            <div className="flex items-center justify-center p-3 md:p-0">
+                                <SVGFilecertificate width={24} height={24} stroke="#6ffd59" />
+                            </div>
+                            <div className="flex flex-col items-start justify-center py-4">
                                 <span className="text-zinc-50/90 text-base font-bold">
                                     Ingeniero en Sistemas Computacionales
                                 </span>
