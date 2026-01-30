@@ -24,7 +24,7 @@ export default function Carousel({
                 }}
 
                 className="bg-red-600 hover:bg-red-400 hover:scale-115 transition-all text-white p-3 rounded-full absolute bottom-4 md:bottom-8 cursor-pointer">
-                <Close size={24} color="white" />
+                <Close width={24} height={24} stroke="white" strokeWidth={3} />
             </button>
         </div>
     );

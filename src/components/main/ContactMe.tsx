@@ -1,7 +1,7 @@
-import Email from "@/components/icons/email";
-import WhatsApp from "@/components/icons/whatsapp";
-
 import Toast from "@/components/ToastDefault";
+
+import SVGEmail from "@/components/icons/email";
+import SVGWhatsApp from "@/components/icons/whatsapp";
 
 const EMAIL = "earnnesttodev@gmail.com";
 const PHONE = "923_118_0488";
@@ -35,7 +35,7 @@ const ContactMe = () => {
                     copiarAlPortapapeles(EMAIL);
                 }}
             >
-                <Email size={24} color="white" />
+                <SVGEmail width={24} height={24} stroke="white" />
             </button>
 
             <button
@@ -62,7 +62,7 @@ const ContactMe = () => {
                     copiarAlPortapapeles(PHONE.replaceAll("_", ""));
                 }}
             >
-                <WhatsApp size={24} color="white" />
+                <SVGWhatsApp width={24} height={24} stroke="white" />
             </button>
 
         </article>

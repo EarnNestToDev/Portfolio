@@ -1,11 +1,11 @@
-import LinkedIn from "@/components/icons/linkedin";
-import Github from "@/components/icons/github";
+import SVGLinkedIn from "@/components/icons/linkedin";
+import SVGGithub from "@/components/icons/github";
 
 const SocialLinks = () => {
 
     const SVG = {
-        linkedin: <LinkedIn size={36} color="white" />,
-        github: <Github size={36} color="white" />
+        linkedin: <SVGLinkedIn width={36} height={36} fill="white" />,
+        github: <SVGGithub width={36} height={36} fill="white" />
     };
 
     return (

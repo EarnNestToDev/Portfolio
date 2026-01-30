@@ -11,7 +11,7 @@ export default function Projects() {
 
             <article className="w-full flex flex-col items-start justify-center gap-2 rounded-lg p-2">
                 <div className="text-2xl font-bold w-content rounded-lg p-2 flex flex-row items-center gap-2">
-                    <Briefcase_outline size={36} color="#6ffd59" />
+                    <Briefcase_outline width={36} height={36} stroke="#6ffd59" />
                     <span>
                         Proyectos
                     </span>

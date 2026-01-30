@@ -23,22 +23,22 @@ const size = {
 };
 
 const SVG = {
-    java: <SVGJava size={size.DEF} />,
-    androidStudio: <SVGAndroidStudio size={size.DEF} />,
-    netbeans: <SVGNetbeans size={size.DEF} />,
-    vscode: <SVGVSCode size={size.DEF} />,
-    php: <SVGPHP size={size.DEF} />,
-    mysql: <SVGMySQL size={size.BIG} />,
-    json: <SVGJSON size={size.DEF} color="currentColor" />,
-    javascript: <SVGJavaScript size={size.DEF} />,
-    xampp: <SVGXampp size={size.DEF} />,
-    firebase: <SVGFirebase size={size.DEF} />,
-    python: <SVGPython size={size.DEF} />,
-    chatgpt: <SVGChatGPT size={size.DEF} />,
-    nodejs: <SVGNodeJS size={size.DEF} />,
-    nextjs: <SVGNextJS size={size.DEF} color="currentColor" />,
-    tailwind: <SVGTailwind size={size.DEF} />,
-    typescript: <SVGTypeScript size={size.DEF} />,
+    java: <SVGJava width={size.DEF} height={size.DEF} />,
+    androidStudio: <SVGAndroidStudio width={size.DEF} height={size.DEF} />,
+    netbeans: <SVGNetbeans width={size.DEF} height={size.DEF} />,
+    vscode: <SVGVSCode width={size.DEF} height={size.DEF} />,
+    php: <SVGPHP width={size.DEF} height={size.DEF} />,
+    mysql: <SVGMySQL width={size.BIG} height={size.BIG} />,
+    json: <SVGJSON width={size.DEF} height={size.DEF} fill="currentColor" />,
+    javascript: <SVGJavaScript width={size.DEF} height={size.DEF} />,
+    xampp: <SVGXampp width={size.DEF} height={size.DEF} />,
+    firebase: <SVGFirebase width={size.DEF} height={size.DEF} />,
+    python: <SVGPython width={size.DEF} height={size.DEF} />,
+    chatgpt: <SVGChatGPT width={size.DEF} height={size.DEF} />,
+    nodejs: <SVGNodeJS width={size.DEF} height={size.DEF} />,
+    nextjs: <SVGNextJS width={size.DEF} height={size.DEF} fill="currentColor" />,
+    tailwind: <SVGTailwind width={size.DEF} height={size.DEF} />,
+    typescript: <SVGTypeScript width={size.DEF} height={size.DEF} />,
 };
 
 const rank = {

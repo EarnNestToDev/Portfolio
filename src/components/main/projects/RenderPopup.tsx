@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import View from "@/components/icons/photo";
+
 import Carousel from "@/components/main/projects/CarouselPopup";
 
 const RenderPopup = ({
@@ -40,7 +41,7 @@ const RenderPopup = ({
           renderContentPopUp()
         }}
       >
-        <View size={36} color="white" />
+        <View width={36} height={36} fill="white" />
       </a>
       {test}
     </>

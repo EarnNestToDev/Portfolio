@@ -1,6 +1,6 @@
-import User from "@/components/icons/user_outline";
-
 import ContactMe from "@/components/main/ContactMe";
+
+import SVGUser from "@/components/icons/user_outline";
 
 // https://drive.google.com/thumbnail?id=1l91mrhItezrFfsVT4jp6hpkPgQsvhUNa&sz=1000
 // https://drive.google.com/thumbnail?id=1WxFjAErWLAdudlFtsdZKRd7jOLD-2jSq&sz=1000
@@ -22,7 +22,7 @@ const AboutMe = () => {
             <article className="md:grid md:grid-cols-[2fr_1fr] md:grid-rows-[auto_100%] w-full flex flex-col items-center justify-center gap-2 rounded-lg p-2">
 
                 <header className="text-2xl font-bold w-content rounded-lg p-2 flex flex-row items-center gap-2">
-                    <User size={36} color="#e37600" />
+                    <SVGUser width={36} height={36} stroke="#e37600" />
                     <span>
                         Sobre mí...
                     </span>

@@ -10,11 +10,12 @@ function SvgComponent(props: any) {
             strokeWidth={2}
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="icon icon-tabler icons-tabler-outline icon-tabler-bulb"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-target-arrow"
             {...props}
         >
             <path d="M0 0h24v24H0z" stroke="none" />
-            <path d="M3 12h1m8-9v1m8 8h1M5.6 5.6l.7.7m12.1-.7l-.7.7M9 16a5 5 0 116 0 3.5 3.5 0 00-1 3 2 2 0 01-4 0 3.5 3.5 0 00-1-3M9.7 17h4.6" />
+            <path d="M11 12a1 1 0 102 0 1 1 0 10-2 0M12 7a5 5 0 105 5M13 3.055A9 9 0 1020.941 11" />
+            <path d="M15 6v3h3l3-3h-3V3l-3 3M15 9l-3 3" />
         </svg>
     )
 }

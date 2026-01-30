@@ -1,9 +1,9 @@
 "use client";
 
-import Filecertificate from "@/components/icons/filecertificate";
+import SVGFilecertificate from "@/components/icons/filecertificate";
 // import Building from "@/components/icons/building";
-import FileDownload from "@/components/icons/filedownload";
-import CircleDashedCheck from "@/components/icons/circledashedcheck";
+import SVGFileDownload from "@/components/icons/filedownload";
+import SVGCircleDashedCheck from "@/components/icons/circledashedcheck";
 
 const PDF_CV_URL = "./docs/CV-Ernesto_De_La_Cruz_Campos.pdf";
 
@@ -58,7 +58,7 @@ const Presentation = () => {
                         </div>
 
                         <div className="bg-zinc-900 text-base flex flex-row gap-2 rounded-2xl p-4 border-l-2 md:border-l-4 border-green-500">
-                            <Filecertificate size={24} color="#6ffd59" />
+                            <SVGFilecertificate width={24} height={24} stroke="#6ffd59" />
                             <div className="flex flex-col items-start justify-center">
                                 <span className="text-zinc-50/90 text-base font-bold">
                                     Ingeniero en Sistemas Computacionales
@@ -106,7 +106,7 @@ const Presentation = () => {
                                         before:content-['Abierto_a_oferta_laboral']
                                         hover:before:content-['Ocupo_chamba_pa']"
                                 />
-                                <CircleDashedCheck size={24} color="currentColor" />
+                                <SVGCircleDashedCheck width={24} height={24} stroke="currentColor" />
                             </article>
                             <a
                                 href={PDF_CV_URL}
@@ -134,7 +134,7 @@ const Presentation = () => {
                                     before:content-['Descargar_CV'] 
                                     md:before:content-['Vizualizar_CV']"
                                 />
-                                <FileDownload size={24} color="currentColor" />
+                                <SVGFileDownload width={24} height={24} fill="currentColor" />
                             </a>
                         </div>
                     </div>

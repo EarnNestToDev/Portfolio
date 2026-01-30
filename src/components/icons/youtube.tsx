@@ -1,0 +1,18 @@
+function SvgComponent(props: any) {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="icon icon-tabler icons-tabler-filled icon-tabler-brand-youtube"
+            {...props}
+        >
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M18 3a5 5 0 015 5v8a5 5 0 01-5 5H6a5 5 0 01-5-5V8a5 5 0 015-5zM9 9v6a1 1 0 001.514.857l5-3a1 1 0 000-1.714l-5-3A1 1 0 009 9z" />
+        </svg>
+    )
+}
+
+export default SvgComponent;

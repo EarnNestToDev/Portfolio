@@ -1,5 +1,6 @@
 import GitHub from "@/components/icons/github";
 import Link from "@/components/icons/link";
+
 import RenderPopup from "@/components/main/projects/RenderPopup";
 
 export default class Links {
@@ -16,7 +17,7 @@ export default class Links {
                 rel="noopener noreferrer"
                 className={this.DEFAULT_DECORATE}
             >
-                <GitHub size={36} color="white" />
+                <GitHub width={36} height={36} fill="white" />
             </a>
         );
     }
@@ -31,7 +32,7 @@ export default class Links {
                 rel="noopener noreferrer"
                 className={this.DEFAULT_DECORATE}
             >
-                <Link size={36} color="white" />
+                <Link width={36} height={36} stroke="white" />
             </a>
         );
     }

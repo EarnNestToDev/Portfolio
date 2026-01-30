@@ -1,7 +1,22 @@
-const circleDashedCheck = ({ size, color }: { size: number, color: string }) => {
+function SvgComponent(props: any) {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-circle-dashed-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M8.56 3.69a9 9 0 0 0 -2.92 1.95" /><path d="M3.69 8.56a9 9 0 0 0 -.69 3.44" /><path d="M3.69 15.44a9 9 0 0 0 1.95 2.92" /><path d="M8.56 20.31a9 9 0 0 0 3.44 .69" /><path d="M15.44 20.31a9 9 0 0 0 2.92 -1.95" /><path d="M20.31 15.44a9 9 0 0 0 .69 -3.44" /><path d="M20.31 8.56a9 9 0 0 0 -1.95 -2.92" /><path d="M15.44 3.69a9 9 0 0 0 -3.44 -.69" /><path d="M9 12l2 2l4 -4" /></svg>
-    );
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-circle-dashed-check"
+            {...props}
+        >
+            <path d="M0 0h24v24H0z" stroke="none" />
+            <path d="M8.56 3.69a9 9 0 00-2.92 1.95M3.69 8.56A9 9 0 003 12M3.69 15.44a9 9 0 001.95 2.92M8.56 20.31A9 9 0 0012 21M15.44 20.31a9 9 0 002.92-1.95M20.31 15.44A9 9 0 0021 12M20.31 8.56a9 9 0 00-1.95-2.92M15.44 3.69A9 9 0 0012 3M9 12l2 2 4-4" />
+        </svg>
+    )
 }
 
-export default circleDashedCheck;
+export default SvgComponent;

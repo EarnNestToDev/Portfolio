@@ -23,23 +23,23 @@ const size = {
 }
 
 const SVG = {
-    java: <SVGJava size={size.big} />,
-    netbeans: <SVGNetBeans size={size.big} />,
-    androidStudio: <SVGAndroidStudio size={size.mid} />,
-    vscode: <SVGVSCode size={size.big} />,
-    php: <SVGPHP size={size.mid} />,
-    mysql: <SVGMySQL size={size.mid} />,
-    json: <SVGJSON size={size.sml} color="white" />,
-    javascript: <SVGJavaScript size={size.mid} />,
-    xampp: <SVGXampp size={size.mid} />,
-    firebase: <SVGFirebase size={size.sml} />,
-    python: <SVGPython size={size.sml} />,
-    chatgpt: <SVGChatGPT size={size.mid} />,
-    nodejs: <SVGNodeJS size={size.mid} />,
-    nextjs: <SVGNextJS size={size.mid} color="white" />,
-    tailwind: <SVGTailwind size={size.mid} />,
-    typescript: <SVGTypeScript size={size.mid} />,
-    github: <SVGGithub size={size.mid} color="white" />
+    java: <SVGJava width={size.big} height={size.big} />,
+    netbeans: <SVGNetBeans width={size.big} height={size.big} />,
+    androidStudio: <SVGAndroidStudio width={size.mid} height={size.mid} />,
+    vscode: <SVGVSCode width={size.big} height={size.big} />,
+    php: <SVGPHP width={size.mid} height={size.mid} />,
+    mysql: <SVGMySQL width={size.mid} height={size.mid} />,
+    json: <SVGJSON width={size.sml} height={size.sml} stroke="white" />,
+    javascript: <SVGJavaScript width={size.mid} height={size.mid} />,
+    xampp: <SVGXampp width={size.mid} height={size.mid} />,
+    firebase: <SVGFirebase width={size.sml} height={size.sml} />,
+    python: <SVGPython width={size.sml} height={size.sml} />,
+    chatgpt: <SVGChatGPT width={size.mid} height={size.mid} />,
+    nodejs: <SVGNodeJS width={size.mid} height={size.mid} />,
+    nextjs: <SVGNextJS width={size.mid} height={size.mid} stroke="white" />,
+    tailwind: <SVGTailwind width={size.mid} height={size.mid} />,
+    typescript: <SVGTypeScript width={size.mid} height={size.mid} />,
+    github: <SVGGithub width={size.mid} height={size.mid} stroke="white" />
 };
 
 const customDecorate = {

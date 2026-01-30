@@ -2,14 +2,12 @@ import SVGNodeJS from "@/components/icons/tecnologies/nodejs";
 import SVGNextJS from "@/components/icons/tecnologies/nextjs";
 import SVGTailwind from "@/components/icons/tecnologies/tailwind";
 import SVGTypeScript from "@/components/icons/tecnologies/typescript";
-import SVGTablerI from "@/components/icons/tabler";
 
 const SVG = {
-    nodejs: <SVGNodeJS size={32} />,
-    nextjs: <SVGNextJS size={32} color="currentColor" />,
-    tailwind: <SVGTailwind size={32} />,
-    typescript: <SVGTypeScript size={32} />,
-    tablerI: <SVGTablerI size={32} color="currentColor" />,
+    nodejs: <SVGNodeJS width={32} height={32} />,
+    nextjs: <SVGNextJS width={32} height={32} />,
+    tailwind: <SVGTailwind width={32} height={32} />,
+    typescript: <SVGTypeScript width={32} height={32} />
 }
 
 const Footer = () => {

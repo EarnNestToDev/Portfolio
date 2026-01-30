@@ -12,7 +12,7 @@ export default function Skills() {
             <article className="w-full flex flex-col items-start justify-center gap-2 rounded-lg p-2">
 
                 <div className="text-2xl font-bold w-content rounded-lg p-2 flex flex-row items-center gap-2">
-                    <Bulb size={36} color="#ffc11a" />
+                    <Bulb width={36} height={36} stroke="#ffc11a" />
                     <span>
                         Habilidades
                     </span>

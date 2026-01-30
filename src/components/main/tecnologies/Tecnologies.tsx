@@ -1,6 +1,7 @@
-import Code from "@/components/icons/code";
 import Card from "@/components/main/tecnologies/Card";
 import Content from "@/components/main/tecnologies/Content";
+
+import Code from "@/components/icons/code";
 
 export default function Tecnologies() {
 
@@ -11,7 +12,7 @@ export default function Tecnologies() {
 
             <article className="w-full flex flex-col items-start justify-center gap-2 rounded-lg p-2">
                 <div className="text-2xl font-bold w-content rounded-lg p-2 flex flex-row items-center gap-2">
-                    <Code size={36} color="#6aa6f0" />
+                    <Code width={36} height={36} stroke="#6aa6f0" />
                     <span>
                         Tecnologías
                     </span>
