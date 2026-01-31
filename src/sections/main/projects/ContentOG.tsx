@@ -1,4 +1,4 @@
-import Links from "@/components/main/projects/Links";
+import Links from "@/sections/main/projects/Links";
 
 import SVGJava from "@/components/icons/tecnologies/java";
 import SVGAndroidStudio from "@/components/icons/tecnologies/android_studio";
@@ -17,14 +17,6 @@ import SVGNextJS from "@/components/icons/tecnologies/nextjs";
 import SVGTailwind from "@/components/icons/tecnologies/tailwind";
 import SVGTypeScript from "@/components/icons/tecnologies/typescript";
 
-import JSON_IMG_6 from "../../../../public/image/projects/6/img_url.json";
-import JSON_IMG_5 from "../../../../public/image/projects/5/img_url.json";
-import JSON_IMG_4 from "../../../../public/image/projects/4/img_url.json";
-import JSON_IMG_3 from "../../../../public/image/projects/3/img_url.json";
-import JSON_IMG_1 from "../../../../public/image/projects/1/img_url.json";
-import JSON_IMG_0 from "../../../../public/image/projects/0/img_url.json";
-
-
 const size = {
     DEF: 32,
     BIG: 48
@@ -37,14 +29,14 @@ const SVG = {
     vscode: <SVGVSCode width={size.DEF} height={size.DEF} />,
     php: <SVGPHP width={size.DEF} height={size.DEF} />,
     mysql: <SVGMySQL width={size.BIG} height={size.BIG} />,
-    json: <SVGJSON width={size.DEF} height={size.DEF} stroke="currentColor" />,
+    json: <SVGJSON width={size.DEF} height={size.DEF} fill="currentColor" />,
     javascript: <SVGJavaScript width={size.DEF} height={size.DEF} />,
     xampp: <SVGXampp width={size.DEF} height={size.DEF} />,
     firebase: <SVGFirebase width={size.DEF} height={size.DEF} />,
     python: <SVGPython width={size.DEF} height={size.DEF} />,
     chatgpt: <SVGChatGPT width={size.DEF} height={size.DEF} />,
     nodejs: <SVGNodeJS width={size.DEF} height={size.DEF} />,
-    nextjs: <SVGNextJS width={size.DEF} height={size.DEF} stroke="currentColor" />,
+    nextjs: <SVGNextJS width={size.DEF} height={size.DEF} fill="currentColor" />,
     tailwind: <SVGTailwind width={size.DEF} height={size.DEF} />,
     typescript: <SVGTypeScript width={size.DEF} height={size.DEF} />,
 };
@@ -66,17 +58,9 @@ const descInfo = (description: string) => {
 
 const link = new Links();
 
-const JSON = {
-    project6: JSON_IMG_6,
-    project5: JSON_IMG_5,
-    project4: JSON_IMG_4,
-    project3: JSON_IMG_3,
-    project1: JSON_IMG_1,
-    project0: JSON_IMG_0,
-    noImages: undefined
-}
+const url_default_img = (folder: number) => "./image/projects/" + folder + "/";
 
-const Projects = [
+const projects = [
     {
         id: 7,
         customDecorate: rank.actual,
@@ -86,21 +70,14 @@ const Projects = [
         description:
             <>
                 <p>
-                    Si bien es cierto que es innecesario y poco prudente
-                    colocar el portafolio en esta sección,
-                    el objetivo principal es destacar el uso de tecnologías
-                    modernas y con poco o nulo uso de mi parte.
+                    Lo sé, es irónico e innecesario poner el portafolio...
                 </p>
                 <p>
-                    Por otro lado, el desarrollo y el tiempo para adaptarse
-                    a las nuevas herramientas fue más rápido de lo estimado
-                    resultando en un proyecto tal vez no de acuerdo referente
-                    a las buenas prácticas, pero funcional.
+                    Pero es un proyecto realizado con tecnologías modernas y no exploradas por mí.
+                    En opinión, ha sido una experiencia muy cómoda a diferencia del desarrollo web vanilla.
                 </p>
-                <p>
-                    Por último, me encantaría destacar lo cómodo y satisfactorio
-                    que fue el empleo de estas herramientas para el desarrollo
-                    de este proyecto.
+                <p className="font-bold italic">
+                    Vivan los frameworks y los componentes.
                 </p>
             </>,
         tecnologies: [
@@ -112,7 +89,7 @@ const Projects = [
         ],
         link: [
             link.github("https://github.com/EarnNestToDev/Portfolio"),
-            link.viewImages(JSON.noImages, "QdBHLji29yY")
+            // link.viewImages(url_default_img(7), 0, "QdBHLji29yY")
         ]
     },
     {
@@ -120,7 +97,7 @@ const Projects = [
         customDecorate: rank.destacado,
         title: "TutorTracking (ITSLV)",
         year: "2025",
-        url: JSON.project6[0].url,
+        url: url_default_img(6),
         description:
             <>
                 <p>
@@ -154,7 +131,7 @@ const Projects = [
             SVG.xampp
         ],
         link: [
-            link.viewImages(JSON.project6, "mnJud2eDZqA")
+            // link.viewImages(url_default_img(6), 10, "mnJud2eDZqA")
         ]
     },
     {
@@ -162,7 +139,7 @@ const Projects = [
         customDecorate: rank.regular,
         title: "GPSPrototipe",
         year: "2024",
-        url: JSON.project5[0].url,
+        url: url_default_img(5),
         description:
             <>
                 <p>
@@ -195,7 +172,7 @@ const Projects = [
         customDecorate: rank.regular,
         title: "Toxic Plant Identifier Prototipe",
         year: "2024",
-        url: JSON.project4[0].url,
+        url: url_default_img(4),
         description:
             <>
                 <p>
@@ -219,7 +196,6 @@ const Projects = [
         customDecorate: rank.regular,
         title: "Práctica Analizador Léxico",
         year: "2024",
-        url: JSON.project3[0].url,
         description:
             <>
                 <p>
@@ -233,8 +209,7 @@ const Projects = [
             SVG.netbeans
         ],
         link: [
-            link.github("https://github.com/EarnNestToDev/AnaLex.git"),
-            link.viewImages(JSON.project3)
+            link.github("https://github.com/EarnNestToDev/AnaLex.git")
         ]
     },
     {
@@ -242,6 +217,7 @@ const Projects = [
         customDecorate: rank.regular,
         title: "Punto de Venta de Videojuegos",
         year: "2023",
+        url: url_default_img(2),
         description:
             <>
                 <p>
@@ -266,7 +242,7 @@ const Projects = [
         customDecorate: rank.irrelevante,
         title: "Práctica Windows Server",
         year: "2023",
-        url: JSON.project1[0].url,
+        url: url_default_img(1),
         description:
             <>
                 <p>
@@ -282,7 +258,7 @@ const Projects = [
         customDecorate: rank.irrelevante,
         title: "Prácticas de Cisco",
         year: "2023",
-        url: JSON.project0[0].url,
+        url: url_default_img(0),
         description:
             <>
                 <p>
@@ -295,4 +271,4 @@ const Projects = [
 ];
 
 
-export default Projects;
+export default projects;

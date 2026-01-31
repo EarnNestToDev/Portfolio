@@ -1,7 +1,7 @@
 import GitHub from "@/components/icons/github";
 import Link from "@/components/icons/link";
 
-import RenderPopup from "@/components/main/projects/RenderPopup";
+import RenderPopup from "@/sections/main/projects/RenderPopup";
 
 export default class Links {
 

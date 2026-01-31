@@ -1,5 +1,5 @@
-import SocialLinks from "@/components/main/SocialLinks";
-import ButtonNavbar from "@/components/ButtonNavbar";
+import SocialLinks from "@/sections/main/SocialLinks";
+import ButtonNavbar from "@/components/ui/ButtonNavbar";
 
 import SVGBriefcase from "@/components/icons/brieftcase";
 

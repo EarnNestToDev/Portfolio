@@ -1,5 +1,5 @@
-import Content from "@/components/main/projects/Content";
-import Card from "@/components/main/projects/Card";
+import Content from "@/sections/main/projects/Data";
+import Card from "@/sections/main/projects/Card";
 
 import Briefcase_outline from "@/components/icons/brieftcase_outline";
 

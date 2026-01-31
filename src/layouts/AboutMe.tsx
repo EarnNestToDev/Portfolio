@@ -1,5 +1,5 @@
-import Profile from "@/components/aboutMe/Profile";
-import Extras from "@/components/aboutMe/Extras";
+import Profile from "@/sections/aboutMe/Profile";
+import Extras from "@/sections/aboutMe/Extras";
 
 export default function AboutMeLayout() {
     return (

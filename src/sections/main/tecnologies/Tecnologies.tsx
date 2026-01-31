@@ -1,5 +1,5 @@
-import Card from "@/components/main/tecnologies/Card";
-import Content from "@/components/main/tecnologies/Content";
+import Card from "@/sections/main/tecnologies/Card";
+import Content from "@/sections/main/tecnologies/Data";
 
 import Code from "@/components/icons/code";
 

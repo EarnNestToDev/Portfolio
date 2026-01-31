@@ -1,11 +1,11 @@
-import Presentation from "@/components/main/Presentation";
-import Navbar from "@/components/main/Navbar";
-import Projects from "@/components/main/projects/Projects";
-import Tecnologies from "@/components/main/tecnologies/Tecnologies";
-import Skills from "@/components/main/skills/Skills";
-import AboutMe from "@/components/main/AboutMe";
+import Presentation from "@/sections/main/Presentation";
+import Navbar from "@/sections/main/Navbar";
+import Projects from "@/sections/main/projects/Projects";
+import Tecnologies from "@/sections/main/tecnologies/Tecnologies";
+import Skills from "@/sections/main/skills/Skills";
+import AboutMe from "@/sections/main/AboutMe";
 
-import Footer from "@/components/Footer";
+import Footer from "@/components/ui/Footer";
 
 export default function MainLayout() {
 

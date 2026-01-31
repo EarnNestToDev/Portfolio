@@ -1,4 +1,4 @@
-import ContactMe from "@/components/main/ContactMe";
+import ContactMe from "@/sections/main/ContactMe";
 
 import SVGUser from "@/components/icons/user_outline";
 
