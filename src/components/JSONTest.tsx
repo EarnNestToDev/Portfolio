@@ -1,4 +1,4 @@
-import JSON_FILE_PATH from "../../public/txt/saludos.json";
+import JSON_FILE_PATH from "../../public/data/saludos.json";
 
 const JSON = JSON_FILE_PATH;
 const MIN_RANDOM_NUMBER = 0;
