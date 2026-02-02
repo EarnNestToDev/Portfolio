@@ -75,18 +75,23 @@ const Presentation = () => {
 
                     <div className="col-span-3 row-start-3 h-content gap-4 flex flex-col mt-4">
                         <div>
-                            <span className="text-lg text-zinc-50/80 text-balance line-height-1.3">
+                            <p className="text-lg text-zinc-50/80 text-balance line-height-1.3">
+
+                                Bienvenido a mi Portafolio Web.
                                 Soy un
                                 <span className="font-bold text-green-500 pl-2 pr-2">
                                     recién egresado
                                 </span>
                                 de la carrera en busca
                                 de oportunidad laboral en el área,
-                                bienvenido a mi portafolio web en el cual presento
+                                aquí te presento
                                 los proyectos que he realizado durante mi
                                 formación académica y profesional.
-                                También puede verse como una carta de presentación.
-                            </span>
+                                <span className="italic text-zinc-50/50">
+                                    También funciona como mi carta de presentación...
+                                </span>
+
+                            </p>
                         </div>
 
                         <div className="flex flex-col md:flex-row gap-4 md:gap-2 md:justify-between items-stretch md:items-center">
