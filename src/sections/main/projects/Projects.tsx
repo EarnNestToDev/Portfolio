@@ -13,12 +13,15 @@ export default function Projects() {
                 <div className="text-2xl font-bold w-content rounded-lg p-2 flex flex-row items-center gap-2">
                     <Briefcase_outline width={36} height={36} stroke="#6ffd59" />
                     <span>
-                        Proyectos
+                        Experiencia
                     </span>
                 </div>
                 <div className="text-base text-gray-200/50 font-bold rounded-lg pl-2 pr-2">
                     <span>
-                        Conocimiento y experiencia aplicados en desarrollo de proyectos
+                        Carezco de experiencia profesional,
+                        sin embargo he desarrollado diversos
+                        proyectos durante mi desarrollo
+                        académico.
                     </span>
                 </div>
             </article>
