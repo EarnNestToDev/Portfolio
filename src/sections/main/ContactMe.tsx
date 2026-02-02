@@ -3,15 +3,17 @@ import Toast from "@/components/ToastDefault";
 import SVGEmail from "@/components/icons/email";
 import SVGWhatsApp from "@/components/icons/whatsapp";
 
-const EMAIL = "earnnesttodev@gmail.com";
-const PHONE = "923_118_0488";
+const CONTACTO = {
+    EMAIL: "earnnesttodev@gmail.com",
+    PHONE: "923_118_0488"
+}
 
 const ContactMe = () => {
     return (
         <article className="w-full rounded-lg flex flex-col md:flex-row items-center justify-center gap-4 p-2">
 
             <button
-                data-phone={EMAIL}
+                data-text="Copiar email"
                 title="Copiar email"
                 className="
                 w-full
@@ -27,19 +29,19 @@ const ContactMe = () => {
                 cursor-pointer
                 px-4 py-2 
                 md:after:content-['•'] 
-                after:content-[attr(data-phone)] 
-                md:hover:after:content-['Copiar_email'] 
+                after:content-[attr(data-text)] 
+                md:hover:after:content-[attr(data-text)] 
                 transition-all duration-600
                 "
                 onClick={() => {
-                    copiarAlPortapapeles(EMAIL);
+                    copiarAlPortapapeles(CONTACTO.EMAIL);
                 }}
             >
                 <SVGEmail width={24} height={24} stroke="white" />
             </button>
 
             <button
-                data-phone={PHONE.replaceAll("_", " ")}
+                data-text="Copiar número telefónico"
                 title="Copiar número telefónico"
                 className="
                 w-full
@@ -55,11 +57,11 @@ const ContactMe = () => {
                 cursor-pointer
                 px-4 py-2 
                 md:after:content-['•'] 
-                after:content-[attr(data-phone)] 
-                hover:after:content-['Copiar_número'] 
+                after:content-[attr(data-text)] 
+                hover:after:content-[attr(data-text)] 
                 transition-all duration-600"
                 onClick={() => {
-                    copiarAlPortapapeles(PHONE.replaceAll("_", ""));
+                    copiarAlPortapapeles(CONTACTO.PHONE.replaceAll("_", ""));
                 }}
             >
                 <SVGWhatsApp width={24} height={24} stroke="white" />
