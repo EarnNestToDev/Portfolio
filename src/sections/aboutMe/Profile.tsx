@@ -6,13 +6,15 @@ const imgURL = {
 const Profile = () => {
     return (
         <section
-            className="bg-red-500 grid grid-cols[1fr, 3fr] grid-rows[auto] w-full items-center justify-center gap-2 rounded-lg p-2">
+            className="bg-red-500OFF grid grid-cols-[1fr_3fr] grid-rows-[auto] w-full items-center justify-center gap-2 rounded-lg p-2">
 
-            <article>
+            <article
+                className="aspect-9/16 h-[300px] bg-red-500">
                 {/* img */}
             </article>
 
-            <article>
+            <article
+                className="bg-red-500 w-[300px] h-full">
                 {/* description */}
             </article>
         </section>

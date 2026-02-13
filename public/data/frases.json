@@ -1,0 +1,1096 @@
+{
+    "autor": [
+        "Ernesto De La Cruz Campos",
+        "EDLCC",
+        "EarnNestToDev",
+        "Ernxx304"
+    ],
+    "description": [
+        "Frases y reflexiones que en alguna ocasión escuché y guardé."
+    ],
+    "titles": [
+        "Reflexiones que me gustaron",
+        "Reflexiones que alguna vez escuché",
+        "Reflexiones que he recolectádo",
+        "Reflexiones que me han ayudado",
+        "Reflexiones"
+    ],
+    "reflexiones": [
+        {
+            "cita": "El desastre y la felicidad caminan de las manos",
+            "autor": "El Monje Rojo Rezo"
+        },
+        {
+            "cita": "Un pasatiempo que no suscite curiosidad y emoción no te dejará satisfecho",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Cuando tu cantidad de felicidad se vuelve grande, quizá lo haga tambien tu soledad",
+            "autor": "Hittori Bochi"
+        },
+        {
+            "cita": "Escapar de una pelea es como vencer",
+            "autor": "Father's Coach"
+        },
+        {
+            "cita": "La negligencia te obligará a verificar las cosas antes de hacerlas",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Mucho de algo no es bueno",
+            "autor": "GilbertoS"
+        },
+        {
+            "cita": "Si quieres aprender algo tienes que aprender a relacionarlo con lo que te gusta",
+            "autor": "El Tio Resumen"
+        },
+        {
+            "cita": "Si te sientes triste y vas a terapia, en hora buena!, estás luchando por sentirte mejor",
+            "autor": "Ezquizofrenia Natural"
+        },
+        {
+            "cita": "Las personas no estarán de acuerdo en algo hasta que escuchen lo que quieran oir",
+            "autor": "Campose"
+        },
+        {
+            "cita": "La probabilidad nunca es 0, a no ser que esté programada",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Cada quien vive su propio infierno",
+            "autor": "Campose"
+        },
+        {
+            "cita": "El amor es más que felicidad, líbido y muestras afectivas, implica confianza, respeto, apoyo y empatía",
+            "autor": "¡No me preguntes Solo Gózalo!"
+        },
+        {
+            "cita": "Y la mujer detrás de la maleza le sonreirá al hombre por 10 segundos para que su corazón sonria por 10 años",
+            "autor": "Corintios 12:32"
+        },
+        {
+            "cita": "Dios dice que se amen unos a los otros, pero nisiquiera se comprenden o se ayudan los unos a los otros",
+            "autor": "Campose"
+        },
+        {
+            "cita": "No tengo fundamentos solidos como para justificar mis pensamientos, al final son solo eso, pensamientos",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Me gustan las metáforas porque son una forma de ocultar lo que realmente quieres decir, pero hay veces en que esas metáforas no parecieran serlo",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Cuando competimos en lo que amamos, nos olvidamos de lo divertido y emocionante que era cuando comenzamos y solo nos centramos en la gloria y los trofeos que ganamos",
+            "autor": "Z"
+        },
+        {
+            "cita": "El amor es querer y procurar al otro, verlo crecer, verlo progresar, verlo desarrollarse, verlo ser feliz, aunque aveces eso no te incluya a tí",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "El que vive enamorado queda ilusionado, el que vive ilusionado muere en la realidad y el que vive en la realidad anhela vivir en la ilusión",
+            "autor": "Nava"
+        },
+        {
+            "cita": "Siempre trato de esperar lo peor de todo para no sufrir tanto el final",
+            "autor": "Campose"
+        },
+        {
+            "cita": "No demuestres desinterés aún si la otra persona lo hace, no sabes qué problemas podría estar pasando esa persona",
+            "autor": "AGC"
+        },
+        {
+            "cita": "Así como el hombre tiene un potencial enorme de destruir, matar y engañar también tiene un íncreible potencial para edificar, salvar y proteger",
+            "autor": "Hombres Tradicionales"
+        },
+        {
+            "cita": "Que la maldad del hombre no te estorbe, ni su opinión, ni sus palabras",
+            "autor": "Marco Aurelio"
+        },
+        {
+            "cita": "El desespero por no encontrar un significado, nos lleva a destruir gradualmente nuestra propia vida",
+            "autor": "Hombres Tradicionales"
+        },
+        {
+            "cita": "El hombre que tiene conciencia sufre mientras reconoce su pecado, ese es su castigo",
+            "autor": "Dostoyevski"
+        },
+        {
+            "cita": "Nada en la tierra consume al hombre más rápidamente que la pasión del resentimiento",
+            "autor": "Nietzsche"
+        },
+        {
+            "cita": "La pasividad absoluta, el no hacer lo que se debe hacer es en escencia cobardía",
+            "autor": "Hombres Tradicionales"
+        },
+        {
+            "cita": "No sea excesivo, lanzate a la vida sin deliveraciones, no tengas miedo, la inundación te llevará y te pondrá de nuevo en pie",
+            "autor": "Dostoyevski"
+        },
+        {
+            "cita": "Al evitar la confrontación con ánimo de preservar la armonía social, el individuo es socavado al no ejercer su autonomía libertad de ser quien debe ser. En consecuencia en el individuo, víctima de su propia cobardía el desprecio interno emerge como fuerza imparable y se impide la posibilidad de crecimiento",
+            "autor": "Hombres Tradicionales"
+        },
+        {
+            "cita": "Amarse a uno mismo es sufrir el proceso mediante el cual enfrentamos nuestra propia oscuridad, es reconocer tanto virtudes como defectos, es tomar las desiciones que duelen en el momento pero que son fructiferas a largo plazo. Amarse es tener el coraje de hacer lo que debemos hacer por nuestro propio bien",
+            "autor": "Hombres Tradicionales"
+        },
+        {
+            "cita": "El hombre solo es verdaderamente libre cuando no tiene miedo de su propia sombra",
+            "autor": "Dostoyevski"
+        },
+        {
+            "cita": "Lo principal es que no se mienta a sí mismo, quien se miente a así mismo y cree su propia mentira llega a no distinguir la verdad ni dentro de él, ni a su alrededor, por lo que deja de respetarse a sí mismo y de respetar a los dempas, al no respetar a nadie, deja de amar y para estar ocupado y distraerse al carecer de amor propio se entrega a las pasiones y lo goces groseros y llevan sus vicios hasta la bestialidad y todo por las constantes mentiras a la gente y a sí mismo",
+            "autor": "Fiódor Pálovich"
+        },
+        {
+            "cita": "Las generaciones actuales le temen tanto a la complejidad de la vida que simplemente se van por el cámino fácil y rápido",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Si quieres ser respetado por los demás empieza por respetarte a tí mismo, solo por eso, por el respeto propio, obligarás a otros a repetarte",
+            "autor": "Dostoyevski"
+        },
+        {
+            "cita": "Reconoce tus errores, modifica tus defectos y perfecciona tus virtudes, encargate de mejorar lo bueno y erradicar lo malo que habita en tí",
+            "autor": "Hombres Tradicionales"
+        },
+        {
+            "cita": "Preparate, porque la vida va a arrastrar tu cara contra el suelo las veces que pueda",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Expresar emociones negativas no siempre es malo, en realidad puede ayudarnos a comprender mejor a los demás, a empatizar con ellos y a fortalecer nuestras relaciones",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "Aunque la noche parezca interminable, un día llegará la mañana",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "Aveces, incluso vivir puede ser un acto de coraje",
+            "autor": "Séneca el Joven"
+        },
+        {
+            "cita": "Mientras el deseo nos asalta surgiendo sin previo aviso, el acto de amar es una elección, nace de nosotros y se proyecta hacia el otro",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "El dolor y el sufrimiento son siempre inevitables para una gran inteligencia y un corazón profundo. Además, es la vida lo que importa, nada más que la vida: el proceso de descubrir, el proceso eterno y perpetuo, no el descubrimiento en sí mismo",
+            "autor": "Dostoyevski"
+        },
+        {
+            "cita": "Ayudar a otros de forma efectiva requiere de prácticamente de tomar todo en cuenta. Tu forma no siempre resulta la mejor para otros",
+            "autor": "Campose"
+        },
+        {
+            "cita": "La única manera que tenemos de vencer a la muerte es viviendo y no se puede vivir teniendo miedo",
+            "autor": "Hombre Pretencioso"
+        },
+        {
+            "cita": "Dios concédeme serenidad para aceptar las cosas que no puedo cambiar, valor para cambiar las que sí puedo y sabiduría para distinguir la diferencia",
+            "autor": "N/A"
+        },
+        {
+            "cita": "Tú podrás ser cualquier persona para el resto del mundo, pero para mí tú eres el mundo",
+            "autor": "Doctor Seuss"
+        },
+        {
+            "cita": "Es cierto, tal vez haya más personas como tú, pero a mis ojos eres única, porque yo puedo ver ese brillo que te distingue del resto",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Reír es arriesgarse a parecer tonto. Llorar es arriesgarse a parecer sensible. Acercarse a otro es arriesgarse al compromiso. Exponer sentimientos es arriesgarse a exponer tu ser. Amar es arriesgarse a no ser amado. Tener esperanza es arriesgarse a la desilusión. Intentar es arriesgarse al fracaso",
+            "autor": "Leo Buscaglia"
+        },
+        {
+            "cita": "La diversión siempre superará al dinero",
+            "autor": "El Fercho"
+        },
+        {
+            "cita": "Y necesito verte, pero no te veo. Necesito escucharte, pero no te escucho. Necesito tocarte, pero no te toco. Necesito pensarte, y es lo único que hago",
+            "autor": "Charles Bukowski"
+        },
+        {
+            "cita": "Quienes murieron ayer tenían planes para hoy. Valora un poco más tu vida, no busques solo placer. En un segundo solo cambia. Dale amor y perdón antes de que se vaya, porque el tiempo va y no vuelve",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "Es absurdo condenar la ignoracia del pasado desde la sabiduría del presente",
+            "autor": "Pablo D'Ors"
+        },
+        {
+            "cita": "Siempre me he sentido solo toda mi vida, desde que tengo memoria. No sé sí me gusta, o sí solo me he acostumbrado a ello, pero sí se esto: Estar sólo te hace cosas, te sientes mierda, amargado y enfadado todo el tiempo, te come por dentro",
+            "autor": "Simon (COF)"
+        },
+        {
+            "cita": "Nadie puede ayudar a aquel que no quiere ayuda",
+            "autor": "Mexican Lopez"
+        },
+        {
+            "cita": "Aunque pueda parecer una emoción negativa, la tristeza cumple un papel importante en nuestra vida emocional. Nos invita a reflexionar, a conectarnos con nuestra vulnerabilidad y a buscar consuelo con aquellos que nos rodean. A través de ella, podemos aprender lecciones valiosas sobre nosotros mismos y sobre como afrontar los desafios que nuestra vida presenta. Es importante recordar que la tristeza es una emoción temporal, y que con el tiempo puede ceder su lugar a la esperanza y felicidad",
+            "autor": "Mexican Lopez"
+        },
+        {
+            "cita": "La consciencia es como un trozo de vidrio sujetado por una mano desnuda, se puede usar tanto como para atacar como para defenderse, entre más fuerte se sujete esa arma, más daño se hará uno mismo",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Avanzar sin rumbo es prácticamente retroceder",
+            "autor": "Mexican Lopez"
+        },
+        {
+            "cita": "Don't be sad it's over, smile because it happened [ No estés triste si se acabó, sonríe porque eso sucedió ]",
+            "autor": "Craft Therapy"
+        },
+        {
+            "cita": "¿Y si no puedo?, mejor planteate, ¿Qué pasa si lo consigo?",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "La vida es como el ciclo del día y la noche. Algunas noches se sienten muy largas y algunos dias se sienten muy cortos. En los momentos claros eres una persona capaz de todo sin importar qué, en los momentos oscuros te dás cuenta de todos tus limitantes. No es hasta que ves la ténue luz de la mañana que decides nuevamente levantarte y volver a intertarlo",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Hay algo vital que debes saber sobre el fracaso, nunca dejes que te derrote",
+            "autor": "Hadock"
+        },
+        {
+            "cita": "Es más poderoso el que se vence a sí mismo que el que vence a los demás",
+            "autor": "Séneca El Joven"
+        },
+        {
+            "cita": "No esperes que los demás hagan lo que tú consideras correcto; simplemente haz lo correcto tú mismo",
+            "autor": "Epicteto"
+        },
+        {
+            "cita": "El secreto del cambio no es enfocar toda tu energía en luchar contra lo viejo, sino en construir lo nuevo",
+            "autor": "Sócrates"
+        },
+        {
+            "cita": "Prefiero que todo el mundo esté en desacuerdo conmigo que perder la armonía que tengo conmigo mismo",
+            "autor": "Sócrates"
+        },
+        {
+            "cita": "Las dificultades provienen de la falta de confianza en uno mismo",
+            "autor": "Séneca El Joven"
+        },
+        {
+            "cita": "Cuando un hombre no sabe a qué puerto se dirige. Ningún viento es el viento correcto y favorable",
+            "autor": "Séneca El Joven"
+        },
+        {
+            "cita": "El día que un hombre se vuelva superior al placer, también se volverá superior al dolor",
+            "autor": "Séneca El Joven"
+        },
+        {
+            "cita": "Las personas solo ven las decisiones que tomas, pero no las opciones que tenías",
+            "autor": "Itachi Uchiha"
+        },
+        {
+            "cita": "Unos lloran con lágrimas, otros con pensamientos",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Nada le sucede a ningún hombre que no esté hecho para soportarlo",
+            "autor": "Marco Aurelio"
+        },
+        {
+            "cita": "Al margen de lo que digan o hagan otros, mi deber es ser bueno",
+            "autor": "Marco Aurelio"
+        },
+        {
+            "cita": "Mi noche más tranquila, fue cuando acepté que ya no había nada por hacer y decidí soltarte",
+            "autor": "Mario Benedetti"
+        },
+        {
+            "cita": "Quien vive en armonía consigo mismo, vive en armonía con el universo",
+            "autor": "Marco Aurelio"
+        },
+        {
+            "cita": "No hay peor pecado que provocar lagrimas en una persona que nos ha regalado sus mejores sonrisas",
+            "autor": "Bob Marley"
+        },
+        {
+            "cita": "Estamos más asustados que heridos; Y sufrimos más de la imaginación que de la realidad",
+            "autor": "Séneca El Joven"
+        },
+        {
+            "cita": "Que bonita es la desilusión que nos libera de apegos",
+            "autor": "Dorian A"
+        },
+        {
+            "cita": "Todo lo que amas te dejará algún día",
+            "autor": "Charles Bukoswski"
+        },
+        {
+            "cita": "No tengas miedo a amar de verdad, aprende, devuelve y disfruta todo lo bueno hasta que sea necesario, de lo contrario te arrepentirás",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Tener algo que perder es lo que hace que valga la pena vivir",
+            "autor": "Mente Max"
+        },
+        {
+            "cita": "A veces, la persona solitaria puede ser la más fuerte, ya que ha aprendido a encontrar su fuerza y su compañía en su propio ser",
+            "autor": "Carl Gustav Jung"
+        },
+        {
+            "cita": "La originalidad prospera en la soledad",
+            "autor": "Nikola Tesla"
+        },
+        {
+            "cita": "Es bueno estar solo, porque la soledad es difícil, y que algo sea difícil, debe ser una razón más para hacerlo",
+            "autor": "Rainer Maria Rilke"
+        },
+        {
+            "cita": "Mientras hay innumerable formas en que nos saboteamos a nosotros mismo, a veces nuestros problemas no son generados por nosotros, sino por las personas que nos rodean",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Montaigne en sus ensayos exploró temas relacionados con la experiencia humana, consideraba que la soledad era un estado propicio para la reflexión y el autoconocimiento. Defendía la idea de que pasar tiempo a solas podía ser beneficioso para el crecimiento personal",
+            "autor": "Montaigne"
+        },
+        {
+            "cita": "La soledad es el puente entre nuestro ser interno y el vasto universo exterior. La soledad enseña que no estamos definidos por quienes nos rodean, sino por quienes somos",
+            "autor": "Arthur Schopenhauer"
+        },
+        {
+            "cita": "En la soledad y la oscuridad, el alma lucha buscando respuestas",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Cualquiera puede ser salvado de un camino de autodestrucción, siempre y cuando tenga una mente abierta y esté dispuesto a aprender cosas nuevas, experimentar con nuevas perspectivas y seguir desarrollandose como persona",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Una y otra vez el relator huye del desafío, y como resultado, nunca crece como persona",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Es actuar con valentía, no pensar que simplemente somos valientes",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Sentarte y prometerte que harás algo, aunque no lo harás conlleva el riesgo de eventualmente causarte desprecio, y ese es un precio que nadie debería estar dispuesto a pagar",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "¿Qué importan tus ideas si no puedes actuar sobre ellas?",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Una vez que desafíes al mismísimo Dios te sobrarán motivos para no volverlo a hacer",
+            "autor": "Campose"
+        },
+        {
+            "cita": "La vida sólo puede ser entendida mirando hacia atrás, pero tiene que ser vivida hacia delante",
+            "autor": "Soren Kierkegaard"
+        },
+        {
+            "cita": "Cada uno de nosotros lleva su propio bosque oscuro donde se esconden los desafios más profundos. Al final, la iluminación en nuestro bosque personal y por consiguiente, la luz que encontramos en nuestras vidas es proporcional a la oscuridad que estamos dispuestos a enfrentar",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "La felicidad es disfrutar el presente, sin dependencia ansiosa del futuro",
+            "autor": "Séneca El Joven"
+        },
+        {
+            "cita": "Aprende a ser agradecido con lo que tienes mientras persigues lo que deseas",
+            "autor": "Pitágoras"
+        },
+        {
+            "cita": "La tristeza es causada por la inteligencia. Cuánto más entiendes ciertas cosas, más desearías no comprenderlas",
+            "autor": "Charles Bukowski"
+        },
+        {
+            "cita": "Al discutir por texto, no se puede leer el cuerpo, no se puede leer el tono, no se puede leer el rostro. Sin eso, las palabras cambian de sentido. Garantía de un terrible malentendido",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "El silencio no siempre significa que no tengas nada que decir. Puede significar que te das cuenta de que las palabras no siempre son necesarias",
+            "autor": "Heart Ramsey"
+        },
+        {
+            "cita": "A veces perder es ganar y no encontrar lo que se busca es encontrarse",
+            "autor": "Alejandro Jodorowsky"
+        },
+        {
+            "cita": "Cada cosa que amas, es muy probable que la pierdas, pero al final, el amor volverá de una forma diferente",
+            "autor": "Franz Kafka"
+        },
+        {
+            "cita": "En la vida vas a tener apegos, porque las personas que encuentras puede significar algo para tí aunque no quieras. Y las despedidas son duras",
+            "autor": "Lain Madness"
+        },
+        {
+            "cita": "El verdadero placer es aquel que dura más allá del momento",
+            "autor": "Séneca El Joven"
+        },
+        {
+            "cita": "La persona indicada no te completará; ya estás completo. La persona indicada, te ampliará, impulsando tu crecimiento y elevando tu conciencia",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Por más que busques en otros jardines jamás volverás a encontrar la misma flor",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Cuando somos felices siempre somos buenos, pero cuando somos buenos no siempre somos felices",
+            "autor": "Oscar Wilde"
+        },
+        {
+            "cita": "A mí no me digas qué te dijeron de mí, a mí dime qué dijiste tú, cuando hablaban de mí",
+            "autor": "Corazón Poético"
+        },
+        {
+            "cita": "Existe mucho más locura en la certeza que en la duda",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Las leyendas fueron hechas para ser contadas, más no reconocidas",
+            "autor": "Ricardo Castro"
+        },
+        {
+            "cita": "El que entendió que no podía cambiar la realidad, se dió a la tarea de cambiarse a él mismo",
+            "autor": "Farik Dieck"
+        },
+        {
+            "cita": "Durante el duelo, los escapes están bien, pero no podemos quedarnos a vivir ahí",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "Tienes que probar cosas que pueden no funcionar... Y sobre todo no debes dejar que nadie defina tus límites, porque del lugar de donde vienes tu único límite es tu alma",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "La verdadera madurez no se trata de evitar errores, sino de aprender de ellos y asumir la responsabilidad de nuestras acciones",
+            "autor": "El Mori"
+        },
+        {
+            "cita": "Que seas distraido al principio, no significa que lo seas al final",
+            "autor": "El Mori"
+        },
+        {
+            "cita": "Los ojos siempre, siempre le pertenecen a las personas que los hacen brillar",
+            "autor": "Frida Kahlo"
+        },
+        {
+            "cita": "Aunque el mundo real pueda ser imperfecto es en esos defectos dónde encontramos nuestra verdadera fortaleza y felicidad",
+            "autor": "TakoDKnasta"
+        },
+        {
+            "cita": "Si gastas tu tiempo persiguiendo mariposas éstas se irán volando pero si usas tu tiempo para construir un bonito jardín las mariposas vendrán a tí y si no vienen, siempre tendrás un bonito jardín. Trabaja en tí todos los días debes estar en paz contigo mismo, tu prioridad eres tú, sé mejor que ayer pero peor que mañana",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "La sombra representa aquellos aspectos reprimidos o negados de nosotros mismos y que solemos proyectar en otros",
+            "autor": "Carl Gustav Jung"
+        },
+        {
+            "cita": "El tiempo y la perfección son relativos en cada persona",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Nosotros no somos un cuento, nosotros en verdad existimos",
+            "autor": "Himel"
+        },
+        {
+            "cita": "A veces, el mejor regalo que una persona te puede dar es intentar conocerte",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Ya has marcado una diferencia, todas las pequeñas victorias, los buenos recuerdos en los tiempos difíciles, los amigos que encontramos, nadie puede quitarte eso y seguiremos hacía delante, juntos",
+            "autor": "Sonic IDW"
+        },
+        {
+            "cita": "El problema con darle una oportunidad a la gente es que no puedes evitar que se equivoquen",
+            "autor": "Sonic IDW"
+        },
+        {
+            "cita": "Primero tú, después tú, y al final tú",
+            "autor": "LSG"
+        },
+        {
+            "cita": "El amor es un ejercicio constante de reconocimiento y aceptación de los fundamentos que constituyen lo que el otro es",
+            "autor": "Señor_Marx"
+        },
+        {
+            "cita": "Amar supone la lucha constante con uno mismo y sus propios fundamentos",
+            "autor": "Señor_Marx"
+        },
+        {
+            "cita": "El amor significa que tú aceptas a una persona... Con todo y sus fracasos, estupidez y puntos negativos y, no obstante, esa persona sigue siendo un absoluto para ti, es todo lo que hace que valga la pena vivir la vida. Pero la perfección que ves radica en la imperfección misma y es así cómo deberíamos aprender a amar el mundo",
+            "autor": "Ecologísta"
+        },
+        {
+            "cita": "Para pequeñas criaturas como nosotros la inmensidad del universo es soportable solo a través del amor",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Ver el mundo, afrontar peligros, traspasar muros, acercarse, encontrarse y sentir. Ese es el propósito de la vida",
+            "autor": "LIFE"
+        },
+        {
+            "cita": "Prefiero vivir el momento tal cual es",
+            "autor": "Shon"
+        },
+        {
+            "cita": "Las cosas hermosas no buscan llamar la atención",
+            "autor": "Shon"
+        },
+        {
+            "cita": "A veces, la perfección irónicamente la encuentras en la imperfección",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Eres un torpe. Torpe, como todos los somos en algún momento de nuestras vidas",
+            "autor": "TakoDKnasta"
+        },
+        {
+            "cita": "Qué tan dispuesto, estás en alcanzar aquello que anhelas?",
+            "autor": "TakoDKnasta"
+        },
+        {
+            "cita": "Las heridas que más duelen provienen de tí mismo",
+            "autor": "Joe te lo dice"
+        },
+        {
+            "cita": "El verdadero poder no está en las armas o en la violencia, sino en el espíritu y en la paz que hay en tí",
+            "autor": "Joe te lo dice"
+        },
+        {
+            "cita": "A veces tu enemigo no es ese objetivo que estás persiguiendo o ese problema a resolver, es todo lo que ese problema causa en tu vida",
+            "autor": "Joe te lo dice"
+        },
+        {
+            "cita": "No es la meta misma, es todo lo que ella causa en tí",
+            "autor": "Joe te lo dice"
+        },
+        {
+            "cita": "El obstáculo en el camino se convierte en el camino",
+            "autor": "Joe te lo dice"
+        },
+        {
+            "cita": "Daría todo lo que sé, por la mitad de lo que ignoro",
+            "autor": "Joe te lo dice"
+        },
+        {
+            "cita": "Si siguen huyendo lo más seguro es que morirán",
+            "autor": "Luca"
+        },
+        {
+            "cita": "Porque todo el que hace lo malo odia la luz. Y no viene a la luz para que sus acciones no sean expuestas",
+            "autor": "Juan 3:20"
+        },
+        {
+            "cita": "La comparación es el asesino de la felicidad... Y viceversa",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Atesora todos los encuentros, la muerte no es el único adiós en ésta vida",
+            "autor": "Frieren"
+        },
+        {
+            "cita": "Con que solo me regalen una sola porción de su tiempo soy más que feliz",
+            "autor": "Campose"
+        },
+        {
+            "cita": "El verdadero valor de las cosas no está en su precio, sino en su simbolísmo y todo el esfuerzo que hubo detrás para conseguirlo",
+            "autor": "Campose"
+        },
+        {
+            "cita": "La verdadera valentía no reside en la ausencia de miedos sino en la capacidad de enfrentarlo y superarlo",
+            "autor": "TakoDKnasta"
+        },
+        {
+            "cita": "Todos debemos de llevar a aprender a controlar lo desconocido y dejar atrás lo que nos áta, a un pasado que no nos permite crecer y evolucionar como personas",
+            "autor": "TakoDKnasta"
+        },
+        {
+            "cita": "Aveces la música calla a las voces de tu mente, que solo buscan destruirte",
+            "autor": "Alicia Quesney"
+        },
+        {
+            "cita": "Por qué odiarla? Ella me hizo feliz en su momento, me hizo recordar lo que soy, un hombre que puede amar, un hombre que puede superar sus miedos si se lo propone",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "No puedes ayudar a todos... Pero trata de hacerlo con los que puedas",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Encontrarás muchas dificultades por delante, ese es tu destino, no te desalientes, ni aún en los momentos más difíciles",
+            "autor": "Buho (Zela)"
+        },
+        {
+            "cita": "El fracaso no es el final, es parte del proceso",
+            "autor": "Hielow"
+        },
+        {
+            "cita": "Un ganador es un perdedor que lo intentó una vez más",
+            "autor": "Bananeirou"
+        },
+        {
+            "cita": "No se hagan los fuertes, porque las personas fuertes son las que saben cuando buscar ayuda",
+            "autor": "gerardoportelaa"
+        },
+        {
+            "cita": "Cuando mueres empiezas desde cero de nuevo, pero con más experiencia",
+            "autor": "Mojang"
+        },
+        {
+            "cita": "Uno de los mejores maestros es el sufrimiento",
+            "autor": "Campose"
+        },
+        {
+            "cita": "El sufrimiento es experiencia, aquel que evita el sufrimiento evita el conocimiento",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Cuando te gusta una flor, solo la arrancas. Pero cuando amas una flor, la cuidas y riegas a diario. Quien entiende esto, entiende la vida",
+            "autor": "El principito"
+        },
+        {
+            "cita": "El enemigo más difícil de enfrentar, eres tú mismo",
+            "autor": "La Marmota Espacial"
+        },
+        {
+            "cita": "No todo lo que brilla es una buena medusa",
+            "autor": "S. Patrick"
+        },
+        {
+            "cita": "Si estuviera en tus zapatos caminaría con cuidado y no por un camino de rosas",
+            "autor": "S. Patrick"
+        },
+        {
+            "cita": "La verdadera reconciliación implica reconocer el dolor que se causó y aceptar las consecuencias de tus actos",
+            "autor": "TakoDKnasta"
+        },
+        {
+            "cita": "Uno da a otros lo que tiene en su interior, por lo que las cosas que das a otros define lo que tienes en tí",
+            "autor": "Xpresate"
+        },
+        {
+            "cita": "Un hogar son recuerdos que creas y compartes",
+            "autor": "Splintter"
+        },
+        {
+            "cita": "Lo contrario del amor es la indiferencia",
+            "autor": "Nanami (JJK)"
+        },
+        {
+            "cita": "Ser un niño no es ningún pecado",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Buscar formas para no tirar del gatillo",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "El dolor que cargamos, no nos da derecho a repartirlo a los demás",
+            "autor": "Mau Lucero"
+        },
+        {
+            "cita": "Antes del quebrantamiento es la soberbia, y antes de la caída la altivez de espíritu",
+            "autor": "Proverbios 16:18"
+        },
+        {
+            "cita": "No importa que tan alto llegues si en el camino te haz perdido a ti mismo",
+            "autor": "Pepe te cuenta"
+        },
+        {
+            "cita": "Aun los más dotados a veces se rinden sin lograr nada valioso",
+            "autor": "Pinako Rockbell"
+        },
+        {
+            "cita": "Levántate y camina hacia adelante, después de todo tienes piernas para eso",
+            "autor": "Edward Elric"
+        },
+        {
+            "cita": "El hombre no puede obtener nada sin dar primero algo a cambio",
+            "autor": "Fullmetal"
+        },
+        {
+            "cita": "¿Puedes permitirte el distraerte por cada causa perdida?",
+            "autor": "Roy Mustang"
+        },
+        {
+            "cita": "El sueño es solo una fantasía, si sucede nunca fue un sueño",
+            "autor": "Fullmetal"
+        },
+        {
+            "cita": "Es como un libro, que te molestes y dejes de leerlo, no cambia el final",
+            "autor": "Fullmetal"
+        },
+        {
+            "cita": "Ninguna habilidad es inútil en el lugar adecuado",
+            "autor": "Campose"
+        },
+        {
+            "cita": "No existe un mejor regalo que no palidezca junto a tu cara y tu sonrisa",
+            "autor": "Maes Hughes"
+        },
+        {
+            "cita": "Lagrimas que no pueden verse pero sí sentirse...",
+            "autor": "Scar"
+        },
+        {
+            "cita": "En el sufrimiento más terrible un hombre puede dormir, pero para el que lo inflije su mente no puede descansar nunca",
+            "autor": "Fullmetal"
+        },
+        {
+            "cita": "Una persona solo puede ser feliz si hace la misma cantidad de esfuerzo",
+            "autor": "Fullmetal"
+        },
+        {
+            "cita": "La comida sabe mejor cuando se comparte",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Es peligroso desear algo, sin considerar la realidad",
+            "autor": "Edward Elric"
+        },
+        {
+            "cita": "La ceguera es el castigo de quienes sueñan el futuro",
+            "autor": "Fullmetal"
+        },
+        {
+            "cita": "Ante la ausencia del casi todo logras apreciar las cosas simples",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Mira al infinito y a la vez mirate a tí",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Será interesante ver que clase de mundo creará alguien dominado por su odio hacia los demás",
+            "autor": "Scar"
+        },
+        {
+            "cita": "Quien mira hacia afuera sueña, quien mira hacia adentro despierta",
+            "autor": "Carl Gustav Jung"
+        },
+        {
+            "cita": "El verdadero amor es la comprensión",
+            "autor": "porteela"
+        },
+        {
+            "cita": "Las personas necesitamos más llorar que sonreír muchas veces",
+            "autor": "porteela"
+        },
+        {
+            "cita": "Que aburrido sería ser feliz todos los días",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Si consigues todo lo que quieres en el momento que quieres ¿Qué sentido tendría la vida?",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Saber cuando necesitas ayuda te hace una persona inteligente, no inútil",
+            "autor": "Hielow"
+        },
+        {
+            "cita": "Lo queríamos los dos, y ninguno preguntó, por lo que ambos supusimos que la respuesta era \"NO\". Y fue así como otro \"SÍ\" en silencio se quedó.",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "En realidad no temes a la mujer que amas por miedo a que se moleste, si no que temes a herir sus sentimientos y que puedas perderla por eso",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Un santuario para la esperanza, incluso en tiempos como estos no podemos renunciar a los que nos hace humanos",
+            "autor": "Khan"
+        },
+        {
+            "cita": "Cuando el dialogo no existe, tampoco la unidad",
+            "autor": "Super Nills"
+        },
+        {
+            "cita": "Una parte de lograr ser feliz está en agradecer",
+            "autor": "Christian Abello"
+        },
+        {
+            "cita": "Los que se quejan de que nadie los entendería también son unos niños",
+            "autor": "Shoko"
+        },
+        {
+            "cita": "Solo puedo salvar a aquellos que estén dispuestos a ser salvados por otros",
+            "autor": "Satoru Gojo"
+        },
+        {
+            "cita": "No hay ganadores con la venganza",
+            "autor": "Sonic"
+        },
+        {
+            "cita": "El duelo no termina porque el amor no termina",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "A veces basta con imaginar la ausencia para darnos cuenta de su verdadero valor",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "La verdadera libertad de sisifo no estaba en deshacerse de la piedra, si no en encontrar felicidad mientras la cargaba",
+            "autor": "Albert Kamiut"
+        },
+        {
+            "cita": "En esta vida no sirve de nada todo si no tienes con quien compartirlo",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "Nunca sabemos cuando nuestras palabras por mínimas o insignificantes que nos parezcan, pueden significar el mundo para alguien más",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "¿Sabes que es lo mejor de tocar fondo?, que lo único que queda es subir",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Si no luchas por lo que quieres, no llores por lo que pierdes",
+            "autor": "Severo Sanlucar"
+        },
+        {
+            "cita": "El mundo se ha acabado y no hay nada más que hacer",
+            "autor": "Campose"
+        },
+        {
+            "cita": "¿La amabas porque era única y especial?, o ¿era única y especial porque la amabas?",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Podría ser tu miedo sin siquiera saberlo",
+            "autor": "Campose"
+        },
+        {
+            "cita": "El amor siempre es paciente y amable, nunca celoso, nunca es engreído, grocero o egoísta, no se ofende, ni se reciente",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Alguien que ama con fuerza a los otros pero que también odia con la misma intensidad",
+            "autor": "THE GEEK WALL"
+        },
+        {
+            "cita": "No puede haber amor sin duelo",
+            "autor": "Robot Axel"
+        },
+        {
+            "cita": "Las misiones cambian, siempre lo hacen",
+            "autor": "Master Chief"
+        },
+        {
+            "cita": "A veces, lo mejor de tí no nace cuando ganas, sino cuando lo pierdes todo",
+            "autor": "Mau Lucero"
+        },
+        {
+            "cita": "De que sirve cuidar tu corazón si no se lo vas a mostrar a nadie",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Nadie nota tus lágrimas, nadie nota tu tristeza, nadie nota tu dolor, pero todos notan tus errores",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "No se puede entregar toda una vida en un solo mes",
+            "autor": "Campose"
+        },
+        {
+            "cita": "No soy un ave, y ninguna red puede atraparme. Soy un ser humano libre, con una voluntad independiente",
+            "autor": "Charlotte Brontë"
+        },
+        {
+            "cita": "Vivimos en un mundo en donde muchas veces, el que grita más fuerte tiene la última palabra, el que tiene más dinero tiene más influencia y en el que impone miedo, consigue respeto",
+            "autor": "Xpresate"
+        },
+        {
+            "cita": "Vive, equivócate, arriesga, para que así el día de mañana le cuentes al mundo las cosas que hiciste y no las cosas que te perdiste",
+            "autor": "Purplevenom"
+        },
+        {
+            "cita": "El miedo nos hace cometer errores y sus consecuencias lo pueden pagar otros",
+            "autor": "Mikesalazar4813"
+        },
+        {
+            "cita": "Lo que más le hace falta al mundo es lo que tú has venido a darle",
+            "autor": "Jodorowsky"
+        },
+        {
+            "cita": "Un camino sin piedras no es un camino",
+            "autor": "JAZC"
+        },
+        {
+            "cita": "Tú no volviste a escribir ni yo a molestar, y hasta ahí llegó",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Lo que no se confronta en el mundo interno, termina manifestándose en el externo",
+            "autor": "Karl Yung"
+        },
+        {
+            "cita": "Cuando no estamos listos, un milagro da tanto miedo como una pesadilla",
+            "autor": "Nicole Brennan"
+        },
+        {
+            "cita": "Darle espacio a alguien no es lo mismo que abandonarlo",
+            "autor": "Kinger"
+        },
+        {
+            "cita": "¿Por qué cerramos los ojos al rezar, llorar, besar o soñar?. Porque lo más hermoso no se ve, se siente con el corazón",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "La lluvia que arruina tu día es la misma que mañana hará crecer tu jardín",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Quien te abandonó en medio del océano no tiene derecho a saber que hicieron los tiburones contigo, ni cómo lograste volver a la orilla",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Todo hombre es un campo de batalla. La guerra entre quien es y quien puede ser perdurará hasta su último aliento. Pocos ganan esa guerra, pero los que lo hacen cambiarán la historia",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Es necesario haber deseado morir para saber lo bueno que es vivir",
+            "autor": "Alejandro Dumas"
+        },
+        {
+            "cita": "Dice estar muerto pero llora con ciertas canciones y se conmueve al filo de un libro. Él no está muerto , sólo está infinitamente roto",
+            "autor": "Elena Poe"
+        },
+        {
+            "cita": "El hombre mira lo que está delante de sus ojos, pero el Señor mira el corazón",
+            "autor": "1 Samuel 16:7"
+        },
+        {
+            "cita": "No solo que porque esté en tu cabeza significa que es tuyo",
+            "autor": "Prismo"
+        },
+        {
+            "cita": "En lugar de mostrarte la victoria, Reach te muestra todo lo que se pierde, antes de llegar a ella",
+            "autor": "TheShadow1832"
+        },
+        {
+            "cita": "Incluso cuando estas perdiendo, pelear todavía se siente bien",
+            "autor": "TheShadow1832"
+        },
+        {
+            "cita": "Lo más doloroso del sufrimiento no es el dolor en sí, sino sentir que nadie lo nota, que la angustia es invisible",
+            "autor": "tupsicologa.cristiana"
+        },
+        {
+            "cita": "La duda es el primer paso hacia la Fé",
+            "autor": "Jesús"
+        },
+        {
+            "cita": "Quienes nacen en el infierno valoran el cielo",
+            "autor": "plochde5"
+        },
+        {
+            "cita": "El marinero no maldice al mar por sus tormentas, ajusta sus velas y recuerda que no controla el viento, sino su timón",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "La Biblia está llena de héroes, pero también está llena de gente rota",
+            "autor": "daminonahuel"
+        },
+        {
+            "cita": "¿Qué es mejor, nacer con buen corazón o superar tu naturaleza malvada mediante un gran esfuerzo?",
+            "autor": "Paarthurnax"
+        },
+        {
+            "cita": "La soledad es el verdadero peligro",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Es mejor llegar con propósito, que apresurarse sin dirección",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Amar no termina con la muerte, solo cambia la forma en que se siente",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Lo difícil no es olvidar el pesado, es olvidar el futuro que te imaginaste",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "No puedo engañar el corazón y a la mente de que nunca te quise realmente, odiarte a tí seria odiar una parte de mí",
+            "autor": "Farid Dieck"
+        },
+        {
+            "cita": "No puedes derrotar a un hombre que pelea consigo mismo todos los días",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "El amor el cómo un mundo hardcore, un error puede llevarte a perderlo todo",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "Si en algún punto llegaste a dudar una vez de mi cariño no te preocupes, es normal. Si llegaste a dudar más de una vez, me disculpo por no saber amar como tú me lo das, pues ofrezco lo poco que sé y lo que puedo dar. Si te es poco, te pido que me perdones, en mi defensa todo es (puro y real) desde la sinceridad",
+            "autor": "Campose"
+        },
+        {
+            "cita": "¿Es tu corazón capaz de anteponer tus propias necesidades sobre la decisión de la otra persona?",
+            "autor": "Campose"
+        },
+        {
+            "cita": "No te entiendo, por qué sería capaz de reclamarte algo, si al fin y al cabo ya no tenemos relación alguna. Todo derecho se me fue revocado desde la última conversación",
+            "autor": "Campose"
+        },
+        {
+            "cita": "Yo y el señor corazón decimos cosas bonitas de ti",
+            "autor": "Cuco"
+        },
+        {
+            "cita": "El mayor error del ser humano es intentar sacarse de la cabeza aquello que no sale del corazón",
+            "autor": "Mario Benedetti"
+        },
+        {
+            "cita": "Nunca sabes que tan enamorado estas, hasta que quieres alejarte y no puedes",
+            "autor": "Desconocido"
+        },
+        {
+            "cita": "No hagas promesas a una chica, si sabes que no podrás cumplirlas",
+            "autor": "Cortana"
+        },
+        {
+            "cita": "Sin arrepentirme de nada, porque sabía que el vidrio cortaba y aun así lo agarré con las manos",
+            "autor": "Mario Benedetti"
+        },
+        {
+            "cita": "No esperes a ser perfecto, porque es algo que no existe",
+            "autor": "OtterPascal"
+        },
+        {
+            "cita": "A veces, avanzar es volver atrás",
+            "autor": "TheShadow1832"
+        },
+        {
+            "cita": "La mente aprende que caer no duele tanto cuando ya esperas caer",
+            "autor": "Cassy XD"
+        },
+        {
+            "cita": "Nos enseñaron a ser amables con el mundo, pero se olvidaron de enseñarnos a ser amables con la persona que vemos en el espejo cada mañana",
+            "autor": "OtterPascal"
+        },
+        {
+            "cita": "Ámate, felicítate por las batallas internas que nadie más ve, porque al final, la fuente de calor más importante no es la que encuentras en el camino, sino la que enciendes dentro de ti cada vez que decides ser amable contigo mismo y seguir adelante",
+            "autor": "OtterPascal"
+        },
+        {
+            "cita": "Si eres capaz de amar y cuidar a los demás, ¿por qué te excluyes de esa ecuación?. Tú también mereces esa empatía",
+            "autor": "OtterPascal"
+        },
+        {
+            "cita": "Aprender a reconocer tus logros no es egolatría, es justicia. Admitir tus errores con honestidad, reconociendo que hiciste lo mejor con lo que tenías, no es mediocridad. Debemos elogiarnos y recompensar nuestros esfuerzos sin sentir culpa por no ser perfectos",
+            "autor": "OtterPascal"
+        },
+        {
+            "cita": "A veces el acto más profundo de amar es no volver",
+            "autor": "porteela"
+        }
+    ]
+}

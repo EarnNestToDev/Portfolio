@@ -47,7 +47,7 @@ const customDecorate = {
     destacado: "bg-orange-500",
     regular: "bg-sky-800",
     irrelevante: "bg-sky-200",
-    scale: " hover:scale-110 transition-all hover:bg-zinc-200/30"
+    scale: " transition-all hover:bg-zinc-50/10"
 }
 
 const tecnologies =

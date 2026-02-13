@@ -35,7 +35,7 @@ export default function Projects() {
                         title={Content.title}
                         year={Content.year}
                         image={Content.url}
-                        description={Content.description}
+                        description={Content.description.short}
                         tecnologies={Content.tecnologies}
                         link={Content.link}
                     />

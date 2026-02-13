@@ -16,54 +16,53 @@ export default function Card({
     link?: React.ReactNode[];
 }) {
 
-    const defaultDecorate = "bg-zinc-900/80 rounded-lg p-2 ";
+    const DEFAULT_DECORATE = "bg-zinc-900/80OFF rounded-lg p-2 ";
 
     function showLinkSection() {
-        if (link) {
-            return (
-                <footer className={defaultDecorate + "col-start-1 row-start-4 flex flex-row items-center justify-evenly gap-2 " + (link ? "block" : "none")}>
-                    {link}
-                </footer>
-            );
-        }
+        if (!link) return null;
+        return link;
     }
 
     function showImageSection() {
-        if (image) {
-            return (
-                <main className={defaultDecorate + "row-start-2 flex flex-col items-center justify-center " + (image ? "block" : "none")}>
-                    <img src={image} alt={title}
-                        className="max-w-[100px] max-h-[auto] aspect-square object-cover rounded-lg"
-                    />
-                </main>
-            );
-        } else {
-            return (<main className={"row-start-2 flex"}></main>);
-        }
+        if (!image) return null;
+        return <img
+            src={image}
+            alt={title}
+            className="max-w-[60px] max-h-[auto] aspect-square rounded-lg"
+        />;
+    }
+
+    function showTecnologiesSection() {
+        if (!tecnologies) return null;
+        return tecnologies.map((Content, index) => (
+            <div
+                className="px-4 py-2 bg-zinc-400/20 rounded-lg text-xs font-bold"
+            >{tecnologies[index]}</div>
+        ));
     }
 
     return (
-        <article className={"min-w-[90vw] md:min-w-[600px] grid grid-cols-[2fr_auto] grid-rows-[auto_auto_3fr_auto] items-stretch justify-center rounded-lg p-2 gap-2 object-cover snap-center " + customDecorate}>
+        <article className={"min-w-[90vw] md:min-w-[600px] max-h-[50vh] grid grid-cols-1 grid-rows-[1fr_2fr_1fr] items-center justify-center rounded-4xl p-4 gap-2 snap-center " + customDecorate}>
 
-            <header className={defaultDecorate + "text-xl font-bold text-start flex flex-row items-center justify-center gap-2"}>
-                {title}
+            <header className="text-xl font-bold text-start flex flex-row items-center justify-between gap-2">
+                <div>{showImageSection()}</div>
+                <div className="text-zinc-50/80 text-2xl text-wrap">{title}</div>
+                <div className="text-sm text-zinc-50/90 rounded-xl bg-zinc-400/20 px-4 py-2">{year}</div>
             </header>
 
-            <header className={defaultDecorate + "text-lg font-bold text-zinc-300 flex items-center justify-center"}>
-                {year}
-            </header>
+            <main className="text-wrap flex flex-col gap-4">
+                <div className="italic text-zinc-50/80">
+                    {description}
+                </div>
 
-            {showImageSection()}
-
-            <main className={defaultDecorate + "col-start-1 row-start-3 text-wrap overflow-scroll overflow-x-auto scroll-default"}>
-                {description}
+                <div className="flex flex-row flex-wrap items-center justify-start gap-2">
+                    {showTecnologiesSection()}
+                </div>
             </main>
 
-            <aside className={defaultDecorate + "row-span-3 col-start-2 row-start-2 h-full flex flex-col flex-wrap items-center justify-evenly gap-2"}>
-                {tecnologies}
-            </aside>
-
-            {showLinkSection()}
+            <footer className="flex flex-row flex-wrap items-center justify-start gap-4">
+                {showLinkSection()}
+            </footer>
 
         </article>
     );

@@ -1,11 +1,14 @@
 import GitHub from "@/components/icons/github";
 import Link from "@/components/icons/link";
+import Watch from "@/components/icons/photo";
 
 import RenderPopup from "@/sections/main/projects/RenderPopup";
 
+const DEFAULT_SIZE = 24;
+
 export default class Links {
 
-    private DEFAULT_DECORATE = "border-2 border-zinc-50/20 bg-zinc-950/60 hover:bg-zinc-950 rounded-full p-2 hover:scale-115 transition-all cursor-pointer ";
+    private DEFAULT_DECORATE = "flex flex-row items-center justify-center gap-2 bg-zinc-50 hover:invert-100 rounded-full py-2 px-4 hover:scale-110 transition-all cursor-pointer ";
 
     public github(url: string) {
 
@@ -17,7 +20,14 @@ export default class Links {
                 rel="noopener noreferrer"
                 className={this.DEFAULT_DECORATE}
             >
-                <GitHub width={36} height={36} fill="white" />
+                <GitHub
+                    width={DEFAULT_SIZE}
+                    height={DEFAULT_SIZE}
+                    fill="black"
+                />
+
+                {titleIcon("Ver GitHub", "Repo")}
+
             </a>
         );
     }
@@ -32,7 +42,14 @@ export default class Links {
                 rel="noopener noreferrer"
                 className={this.DEFAULT_DECORATE}
             >
-                <Link width={36} height={36} stroke="white" />
+                <Link
+                    width={DEFAULT_SIZE}
+                    height={DEFAULT_SIZE}
+                    stroke="black"
+                />
+
+                {titleIcon("Ver sitio web", "Link")}
+
             </a>
         );
     }
@@ -48,10 +65,30 @@ export default class Links {
                 json={json_path}
                 url_video={url_video}
                 defaultDecorate={this.DEFAULT_DECORATE}
+                icon={
+                    <Watch
+                        width={DEFAULT_SIZE}
+                        height={DEFAULT_SIZE}
+                        fill="black"
+                    />
+                }
+                title={titleIcon("Ver imágenes", "Img")}
             />
         );
     }
 }
+
+function titleIcon(title: string, shortTitle: string) {
+    return <span
+        data-title={title}
+        data-shortTitle={shortTitle}
+        className="
+            text-md text-wrap text-black 
+            md:after:content-[attr(data-title)]
+            after:content-[attr(data-shortTitle)]
+        "
+    />
+};
 
 type JSON_PATH = {
     url: string;

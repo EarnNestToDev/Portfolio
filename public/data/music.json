@@ -1,617 +1,671 @@
-[
-    {
-        "title": "She's not yours",
-        "artist": "Foxtide",
-        "link": "https://youtu.be/UQAVwteSBd8?si=Zm7Oe_hWEApGowpP"
-    },
-    {
-        "title": "Power Walker",
-        "artist": "WillyRodriguezWasTaken",
-        "link": "https://youtu.be/jgIaMNaNPUU?si=5Rw-v4V4imCXgJBl"
-    },
-    {
-        "title": "Mezzanine State",
-        "artist": "Mexican Slum Rats",
-        "link": "https://youtu.be/2X25JZ0sASo?si=KEbaa3C-JKDxzX5g"
-    },
-    {
-        "title": "In My Head Till I'm Dead",
-        "artist": "Surf Curse",
-        "link": "https://youtu.be/uBUX_ZxDCYk?si=aOSEeHGO4ZgxzyRg"
-    },
-    {
-        "title": "Stress Relief",
-        "artist": "late night drive home",
-        "link": "https://youtu.be/uPRt1L2CWR8?si=bH9ZTNJyN0sck2X2"
-    },
-    {
-        "title": "Love Liquor",
-        "artist": "WillyRodriguezWasTaken",
-        "link": "https://youtu.be/0UbnV2eZhyk?si=LTydeLNaDcvM1Uuj"
-    },
-    {
-        "title": "Heartbreak and Handjobs",
-        "artist": "WillyRodriguezWasTaken",
-        "link": "https://youtu.be/G496EQhXYuI?si=ajkKZjcJ7UOl4jC3"
-    },
-    {
-        "title": "Darling",
-        "artist": "Alone In My Room",
-        "link": "https://youtu.be/HjTJ2aL_55U?si=EhUfqYsKcJI_gexY"
-    },
-    {
-        "title": "Corazon de limon",
-        "artist": "Hecsar Landis",
-        "link": "https://youtu.be/pez_vA1oa4U?si=NODp3SSVTebmrB5R"
-    },
-    {
-        "title": "Looking Out for You",
-        "artist": "Joy Again",
-        "link": "https://youtu.be/DMy-PSqQbos?si=oaPaZ2eVjDttASDs"
-    },
-    {
-        "title": "As Friends",
-        "artist": "autumnwood.",
-        "link": "https://youtu.be/Ngknl20sGh8?si=w8kRpV9RBV7Dng4B"
-    },
-    {
-        "title": "DaDave Brubeck",
-        "artist": "Vacations",
-        "link": "https://youtu.be/vGDTqHMTXe8?si=ZI66MaXiUDq0IOEd"
-    },
-    {
-        "title": "RipRiptide",
-        "artist": "Vance Joy",
-        "link": "https://youtu.be/uJ_1HMAGb4k?si=FmgcPgX5sRCNPM44"
-    },
-    {
-        "title": "Book Of Revelation",
-        "artist": "The Drums",
-        "link": "https://youtu.be/FHHzLWCesEo?si=OGg9kCoAzEQ4DB3v"
-    },
-    {
-        "title": "Big Fat Train",
-        "artist": "MoMoTusk",
-        "link": "https://youtu.be/omTMxE9VXN4?si=BhNKcxdVlzSNbFo1"
-    },
-    {
-        "title": "Don't Need Sleep",
-        "artist": "Frankie & The Witch Fingers",
-        "link": "https://youtu.be/rHTJF15Fkus?si=JBbO6piqf3SVrMEE"
-    },
-    {
-        "title": "Euphoria",
-        "artist": "Mexican Slum Rats",
-        "link": "https://youtu.be/o-h0cqQddaw?si=BpqDCBV6nepuZ88_"
-    },
-    {
-        "title": "Slwdve",
-        "artist": "Mexican Slum Rats",
-        "link": "https://youtu.be/deRfadaQYm4?si=n6UZz68qvfoRNmRc"
-    },
-    {
-        "title": "wasted affairs",
-        "artist": "mind's eye",
-        "link": "https://youtu.be/Qj3tsI0rG5M?si=pu1xVP7sspcNGg_a"
-    },
-    {
-        "title": "Away",
-        "artist": "Mexican Slum Rats",
-        "link": "https://youtu.be/iip15B43CLg?si=45fJ-4Rcy8SV39bz"
-    },
-    {
-        "title": "Beach Song",
-        "artist": "The Red Pears",
-        "link": "https://youtu.be/Xn9ItN2BDaU?si=i7FFaGXKRptIVH-3"
-    },
-    {
-        "title": "Ballroom Blitz",
-        "artist": "Sweet",
-        "link": "https://youtu.be/mPQPdYttl7U?si=4XPkrbYb-Z1qTJgL"
-    },
-    {
-        "title": "Elevator",
-        "artist": "Teenage Dads",
-        "link": "https://youtu.be/N3R62uE_NiY?si=VLkSdJeMQZcWTUX0"
-    },
-    {
-        "title": "Shout it Out",
-        "artist": "Steaming Satellites",
-        "link": "https://youtu.be/VKS0nhKx5EY?si=A7rOmGq1SVsYlVHb"
-    },
-    {
-        "title": "Back On You",
-        "artist": "Djo",
-        "link": "https://youtu.be/3qC9L0IGkOw?si=rqpVzmxxITK0FQIi"
-    },
-    {
-        "title": "Strange Again",
-        "artist": "The Vices",
-        "link": "https://youtu.be/nfC41XmLDU4?si=ANKhEQjBkvwMpcVW"
-    },
-    {
-        "title": "Miracle",
-        "artist": "Jurassic Shark",
-        "link": "https://youtu.be/eUhQvb_3lQY?si=M0IxLPUZpsgnpTu6"
-    },
-    {
-        "title": "Another Round",
-        "artist": "SONS",
-        "link": "https://youtu.be/VxpvvtDzYCw?si=ZrHgaq-hS8__mFhR"
-    },
-    {
-        "title": "Safe In My Skin",
-        "artist": "These New South Whales",
-        "link": "https://youtu.be/93iB5UI6EmI?si=RnQc3iG5Eyr6pZs3"
-    },
-    {
-        "title": "Nowhere Bound (These Days)",
-        "artist": "Surely Tempo",
-        "link": "https://youtu.be/ngT16wIP4u0?si=J4C4AEBSbfxGcZ-l"
-    },
-    {
-        "title": "wake up",
-        "artist": "Lil Darkie",
-        "link": "https://youtu.be/yJdKAI5D_-k?si=bgIiZTYVEFLGrhtx"
-    },
-    {
-        "title": "Pause at You",
-        "artist": "Courting",
-        "link": "https://youtu.be/9JwKUX-GeeQ?si=OmPTDB9m_cWBm7Gr"
-    },
-    {
-        "title": "One Way Or Another",
-        "artist": "Blondie",
-        "link": "https://youtu.be/_zBwRDEFMRY?si=IZg0hibWwav5FXy7"
-    },
-    {
-        "title": "In My Head",
-        "artist": "Sad Park",
-        "link": "https://youtu.be/Lt3kCm05Guo?si=ehJn72o5RqGI6D1g"
-    },
-    {
-        "title": "Pleasantries",
-        "artist": "Mustard Service",
-        "link": "https://youtu.be/LL55iTN3gQs?si=tcu1oPzQ5QyfQ57Q"
-    },
-    {
-        "title": "Take Me Out",
-        "artist": "Franz Ferdinand",
-        "link": "https://youtu.be/7dfBmjrN5W0?si=QjRYtClRivHr9_o-"
-    },
-    {
-        "title": "Riptide",
-        "artist": "Vance Joy",
-        "link": "https://youtu.be/TL_oroU9eN8?si=Xnq5jI0QdYAUoWsu"
-    },
-    {
-        "title": "Pookie",
-        "artist": "autumnwood.",
-        "link": "https://youtu.be/HgHpz2TUnGQ?si=S2GDCxx7DMpJVQdW"
-    },
-    {
-        "title": "Short Films",
-        "artist": "autumnwood.",
-        "link": "https://youtu.be/NWsyFUC0MzE?si=BJ9DhF0q2NQvn6vC"
-    },
-    {
-        "title": "I Fell In Love With a Church Girl",
-        "artist": "autumnwood.",
-        "link": "https://youtu.be/ZGnazuZl7-Q?si=kvOfOSnqxbyxZHy8"
-    },
-    {
-        "title": "Everything (You Say)",
-        "artist": "autumnwood.",
-        "link": "https://youtu.be/FQj9KJGaCO0?si=Ei4ama8e1SWg821Z"
-    },
-    {
-        "title": "VCR Date",
-        "artist": "autumnwood.",
-        "link": "https://youtu.be/lnqaa6XdGa0?si=mwkb6UwPFZ1Vn1E3"
-    },
-    {
-        "title": "As Friends",
-        "artist": "autumnwood.",
-        "link": "https://youtu.be/Ngknl20sGh8?si=YtGeXpK59x3HpLBg"
-    },
-    {
-        "title": "Black Betty",
-        "artist": "RamJam",
-        "link": "https://youtu.be/4cn_woPvjQI?si=pzfiGpBT2MLESdoc"
-    },
-    {
-        "title": "Pretty Visitors",
-        "artist": "Arctic Monkeys",
-        "link": "https://youtu.be/I7rkCHBHPN8?si=V7S7_PY47l3q4fms"
-    },
-    {
-        "title": "Temptation Greets You Like Your Naughty Friend",
-        "artist": "Arctic Monkeys",
-        "link": "https://youtu.be/DEhjtOUrQ8s?si=DDSpNUHUF_788j_4"
-    },
-    {
-        "title": "Plastic Tramp",
-        "artist": "Arctic Monkeys",
-        "link": "https://youtu.be/sKh-PjS-o1I?si=bL52A7itVkzD-eGr"
-    },
-    {
-        "title": "Tungs",
-        "artist": "The Frights",
-        "link": "https://youtu.be/kXAOVxjOoFY?si=FgGb5UKPuYqZv2ZK"
-    },
-    {
-        "title": "Potion Approaching",
-        "artist": "Arctic Monkeys",
-        "link": "https://youtu.be/FqNSOErn-Q0?si=jyw2jSxrc0jNPgE4"
-    },
-    {
-        "title": "This Charming Man",
-        "artist": "The Smiths",
-        "link": "https://youtu.be/OYYZFx7_DS8?si=eRTIW89v2prGE7eS"
-    },
-    {
-        "title": "I Got Cracked",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/jVxDhzI70iY?si=rWF93HY0AyoEfCPD"
-    },
-    {
-        "title": "Honey",
-        "artist": "VACATIONS",
-        "link": "https://youtu.be/SMO2dUACwak?si=-kyn6ym4yRw0-vd4"
-    },
-    {
-        "title": "Old Yellow Bricks",
-        "artist": "Arctic Monkeys",
-        "link": "https://youtu.be/NgLWF2XJyKA?si=w2peZsbSuf5h5ijG"
-    },
-    {
-        "title": "I Bet You Look Good On The Dancefloor",
-        "artist": "Arctic Monkeys",
-        "link": "https://youtu.be/CYpn8yUnX_c?si=2GpxhS0SdPOvW0Pq"
-    },
-    {
-        "title": "Origami",
-        "artist": "The Rare Occasions",
-        "link": "https://youtu.be/CYpn8yUnX_c?si=2GpxhS0SdPOvW0Pq"
-    },
-    {
-        "title": "Heart Basel",
-        "artist": "The Drums",
-        "link": "https://youtu.be/o7bQlxKhnSQ?si=khUIushuzRg0zrKg"
-    },
-    {
-        "title": "Boys Don't Cry",
-        "artist": "The Cure",
-        "link": "https://youtu.be/iP-r_XkMINc?si=IpNt4UYRPTSd18nA"
-    },
-    {
-        "title": "Little Green Bag",
-        "artist": "George Baker",
-        "link": "https://youtu.be/sobvrbX-_tM?si=f41egS_CknS4r_Xs"
-    },
-    {
-        "title": "Mary",
-        "artist": "Alex G",
-        "link": "https://youtu.be/INaXwbgvGVc?si=8RMBFdOBGkTmYmVA"
-    },
-    {
-        "title": "Stallion Running",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/BsSUHoxXeP4?si=kSzpbGbu-_BmR-d_"
-    },
-    {
-        "title": "Snap Out Of It",
-        "artist": "Arctic Monkeys",
-        "link": "https://youtu.be/H8tLS_NOWLs?si=rwiyrOXSCLgg20-x"
-    },
-    {
-        "title": "Fluorescent Adolescent",
-        "artist": "Arctic Monkeys",
-        "link": "https://youtu.be/od2q-e5K-Zc?si=JMvHpeq6HtEcQ9lT"
-    },
-    {
-        "title": "I Got Cracked",
-        "artist": "Arctic Monkeys",
-        "link": "https://youtu.be/otx1lZtLPMs?si=1G-lfjioYLENluBQ"
-    },
-    {
-        "title": "Hurricane",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/djNGlx4c934?si=PntGFPg3-nJZ-uh0"
-    },
-    {
-        "title": "Plains",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/iZBd3ixZnDk?si=nzPHm1tzBbg790NO"
-    },
-    {
-        "title": "Swimmie",
-        "artist": "edgar déception",
-        "link": "https://youtu.be/aJ0XhX-BSyY?si=7PVzbBmWpfr6d_wJ"
-    },
-    {
-        "title": "vitesse radar",
-        "artist": "edgar déception",
-        "link": "https://youtu.be/vg1b2ID7-LY?si=Wtp74wSw-PzNf_UJ"
-    },
-    {
-        "title": "Watcher, Sleeper, Dreamer",
-        "artist": "Captain Samurai",
-        "link": "https://youtu.be/6T01F7KHMSY?si=zKnpATFhhlvgvfXy"
-    },
-    {
-        "title": "I'll Be Around",
-        "artist": "The Growlers",
-        "link": "https://youtu.be/p50R8rkzkhk?si=GAUSQgEbAH0Ey5ti"
-    },
-    {
-        "title": "GESHUOU",
-        "artist": "INOHA",
-        "link": "https://youtu.be/CM4DiAPbXXI?si=weYuOiyIaKMEVZDg"
-    },
-    {
-        "title": "Statue",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/FyeMqslrNx4?si=LR34fMRK4CbqtPZw"
-    },
-    {
-        "title": "Bad Sun",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/ohmZFPekeNM?si=85LXHjIqXDEQau11"
-    },
-    {
-        "title": "Staring",
-        "artist": "Tipling Rock",
-        "link": "https://youtu.be/7wOcT-4tfGQ?si=FsC4LUgLaQZAaDt0"
-    },
-    {
-        "title": "Jamie",
-        "artist": "Surf Curse",
-        "link": "https://youtu.be/JZ1Hpa8aMpw?si=AqdimNHQAwXPzaAm"
-    },
-    {
-        "title": "Fear City",
-        "artist": "Surf Curse",
-        "link": "https://youtu.be/pB9kPN3oMM8?si=44L8zlC96MaOcd32"
-    },
-    {
-        "title": "No Tomorrows",
-        "artist": "Surf Curse",
-        "link": "https://youtu.be/D3LiEDaEMEk?si=QZvZWlXE89fEbfj9"
-    },
-    {
-        "title": "Night Ride",
-        "artist": "The Growlers",
-        "link": "https://youtu.be/lTBTp7mRbXc?si=uBiERqbjCll86l_o"
-    },
-    {
-        "title": "What You Were",
-        "artist": "The Drums",
-        "link": "https://youtu.be/Xn81lBYS_sg?si=JqBXyJ5_9OR87T48"
-    },
-    {
-        "title": "The Smell Saved My Life",
-        "artist": "Surf Curse",
-        "link": "https://youtu.be/XtGVaubFT3A?si=GhL0RqLgedtGAFqW"
-    },
-    {
-        "title": "Ponyboy",
-        "artist": "Surf Curse",
-        "link": "https://youtu.be/IwSY0_666vQ?si=bdC1NwpjXVVE8mb-"
-    },
-    {
-        "title": "Goth Babe",
-        "artist": "",
-        "link": "https://youtu.be/T_Hwdv7MiBs?si=mQGtq4EHQS8P6VCC"
-    },
-    {
-        "title": "Chloe Kelly",
-        "artist": "Surf Curse",
-        "link": "https://youtu.be/iMrTC6hrTnU?si=IZEZPqr01eE9-OjC"
-    },
-    {
-        "title": "Cousins",
-        "artist": "Vampire Weekend",
-        "link": "https://youtu.be/h5bEGG85PGw?si=xWokHbTpM4BeiUuh"
-    },
-    {
-        "title": "Bottom",
-        "artist": "McCafferty",
-        "link": "https://youtu.be/Oby8Cy9SYa4?si=YEiAMk86ThFBNgPc"
-    },
-    {
-        "title": "Pisse",
-        "artist": "Fahrradsattel",
-        "link": "https://youtu.be/ODkERmUh0hQ?si=h3HTtrQRirk-yjg_"
-    },
-    {
-        "title": "Sad Clown",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/HYwzIddpL9E?si=Un5KSxMl1V6uFfAI"
-    },
-    {
-        "title": "Painted",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/dgacx6bW4HI?si=39yOAH5-dMH8mt06"
-    },
-    {
-        "title": "Deceptacon",
-        "artist": "Le Tigre",
-        "link": "https://youtu.be/wjNln9mXuTI?si=fCRVt6zWEDtu-1M3"
-    },
-    {
-        "title": "Christmas Kids",
-        "artist": "Owen Evans",
-        "link": "https://youtu.be/3oeQleJ77fU?si=pVNIbfA2H-kLp1UJ"
-    },
-    {
-        "title": "Worn / Wander",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/cE-WlRFC8m0?si=N4jhq9QyBLTAteKG"
-    },
-    {
-        "title": "Bust",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/822hdL2irHM?si=zdj66MoxRAPBuRek"
-    },
-    {
-        "title": "Ash in the Sun",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/3JYtfkcm04o?si=nQlZcN1KSOt4vn8p"
-    },
-    {
-        "title": "Alien Blues",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/xvegS6xDmKE?si=oTRsLSJzS1gca7f3"
-    },
-    {
-        "title": "Darla",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/MXDMheycmFI?si=VKd_AKkZWlBNHVXy"
-    },
-    {
-        "title": "Oulala",
-        "artist": "Vundabar",
-        "link": "https://youtu.be/FB4WMC4liQk?si=Spd4I4jAqHZh5ID0"
-    },
-    {
-        "title": "Break Stuff",
-        "artist": "Limp Bizkit",
-        "link": "https://youtu.be/FtOnSQvz8yc?si=DOxFkA9QbegkH_o5"
-    },
-    {
-        "title": "BLOODSTAINS",
-        "artist": "Legal Noise",
-        "link": "https://youtu.be/sfQBdSu77Qs?si=Y8U6cCUI-uHF7SMT"
-    },
-    {
-        "title": "Love Buzz",
-        "artist": "Nirvana",
-        "link": "https://youtu.be/ZEh3mO9MPV0?si=4jWfLDlGhz7cnfZP"
-    },
-    {
-        "title": "Cycles Of Existential Rhyme",
-        "artist": "Chicano Batman",
-        "link": "https://youtu.be/JR7k6DOvuwQ?si=hYw9XcuME084bSU9"
-    },
-    {
-        "title": "Token Eastern Song",
-        "artist": "Nirvana",
-        "link": "https://youtu.be/rmFcXfRGYWI?si=iDW0gDvEqjeauDjb"
-    },
-    {
-        "title": "If You Must",
-        "artist": "Nirvana",
-        "link": "https://youtu.be/8g3ARLULHFM?si=DtBr4gKn4bOKEcUj"
-    },
-    {
-        "title": "Swing Lynn",
-        "artist": "Harmless",
-        "link": "https://youtu.be/_Paw8ZRSlqY?si=CCoMmuN8rnxMQBPe"
-    },
-    {
-        "title": "Grumpy Days",
-        "artist": "Lonely Gimmick",
-        "link": "https://youtu.be/vb5mK-jdlto?si=LTPAYC-pXnQnfIUA"
-    },
-    {
-        "title": "Gotta Get Away",
-        "artist": "Vista Kicks",
-        "link": "https://youtu.be/sYiADVzdKQo?si=A7x4Tf1RuLUPeycW"
-    },
-    {
-        "title": "Take Me Out",
-        "artist": "Franz Ferdinand",
-        "link": "https://youtu.be/Ijk4j-r7qPA?si=Llm6hrZtyP4jgvIj"
-    },
-    {
-        "title": "Lysergic Bliss",
-        "artist": "xxofMontrealxx",
-        "link": "https://youtu.be/RYb76H2au_Y?si=9QL_lsOKZt9pIq1B"
-    },
-    {
-        "title": "Rainbow Kraut",
-        "artist": "The John Steel Singers",
-        "link": "https://youtu.be/x763JYPh2jQ?si=hp1E3KpSbrHYkDig"
-    },
-    {
-        "title": "Jigsaw Falling Into Place",
-        "artist": "Radiohead",
-        "link": "https://youtu.be/GoLJJRIWCLU?si=xNmS4Qpo4KEiYQwx"
-    },
-    {
-        "title": "Cheri Cheri Lady",
-        "artist": "Morden Talking",
-        "link": "https://youtu.be/eNvUS-6PTbs?si=YOG8MjO1gCQd7BFh"
-    },
-    {
-        "title": "Miss Alissa",
-        "artist": "eodmofficial",
-        "link": "https://youtu.be/6uT0nxumxMM?si=02Odg0EKhTXKaXD4"
-    },
-    {
-        "title": "The Lemon Song",
-        "artist": "Led Zeppelin",
-        "link": "https://youtu.be/_r85Cf6mS18?si=Z5dRaoY9S8sMVmoQ"
-    },
-    {
-        "title": "N.I.B",
-        "artist": "Black Sabbath",
-        "link": "https://youtu.be/9kgQQuPZ8K0?si=v--omowdTqyM48nL"
-    },
-    {
-        "title": "Paranoid",
-        "artist": "Black Sabbath",
-        "link": "https://youtu.be/BOTIIw76qiE?si=tYUgkUFO_cCPAAOA"
-    },
-    {
-        "title": "War Pigs",
-        "artist": "Black Sabbath",
-        "link": "https://youtu.be/hZcLIsHdvss?si=CRS1YVSPUE9ky185"
-    },
-    {
-        "title": "Symphony For The Devil",
-        "artist": "The Rolling Stones",
-        "link": "https://youtu.be/GgnClrx8N2k?si=VuXYgJCe7bxiSf_d"
-    },
-    {
-        "title": "Given Up",
-        "artist": "Linkin Park",
-        "link": "https://youtu.be/D93vYwuMeUw?si=Lx05WFGtli7nmVks"
-    },
-    {
-        "title": "Perfect Crime",
-        "artist": "Guns N' Roses",
-        "link": "https://youtu.be/eZW1XpW_Uws?si=VkdFwS2vMTqy8GNJ"
-    },
-    {
-        "title": "Black Dog",
-        "artist": "Led Zeppelin",
-        "link": "https://youtu.be/yBuub4Xe1mw?si=v7dBmWUq8E2ng8Cd"
-    },
-    {
-        "title": "Iron Man",
-        "artist": "Black Sabbath",
-        "link": "https://youtu.be/b3-QqGVt-tM?si=sZ7zKkoV-GgDZfh-"
-    },
-    {
-        "title": "Kashmir",
-        "artist": "Led Zeppelin",
-        "link": "https://youtu.be/tzVJPgCn-Z8?si=VDr0d9EQ7SfxsNIb"
-    },
-    {
-        "title": "Tush",
-        "artist": "ZZ Top",
-        "link": "https://youtu.be/WzU3iR3Wrog?si=lJqYiwoVUeJM8K9I"
-    },
-    {
-        "title": "La Grange",
-        "artist": "ZZ Top",
-        "link": "https://youtu.be/bSt4myecN_c?si=ywvMW9ZzF1cxaMWC"
-    },
-    {
-        "title": "Last Train To London",
-        "artist": "ELO",
-        "link": "https://youtu.be/qXXZMebT3m8?si=g50NIXQWcwN8CohI"
-    }
-]
+{
+    "autor": [
+        "Ernesto De La Cruz Campos",
+        "EDLCC",
+        "EarnNestToDev",
+        "Ernxx304"
+    ],
+    "description": [
+        "Música que me gustó y que recomiendo escuchar sí o sí en tu vida."
+    ],
+    "titles": [
+        "Wanna listen some tunes?.mp4",
+        "Música que recomiendo",
+        "Ahí te va una obra maestra...",
+        "Escucha este temardo...",
+        "Recomiendo escuchar...",
+        "Hey, listen!!"
+    ],
+    "musics": [
+        {
+            "title": "She's not yours",
+            "artist": "Foxtide",
+            "link": "https://youtu.be/UQAVwteSBd8?si=Zm7Oe_hWEApGowpP"
+        },
+        {
+            "title": "Power Walker",
+            "artist": "WillyRodriguezWasTaken",
+            "link": "https://youtu.be/jgIaMNaNPUU?si=5Rw-v4V4imCXgJBl"
+        },
+        {
+            "title": "Mezzanine State",
+            "artist": "Mexican Slum Rats",
+            "link": "https://youtu.be/2X25JZ0sASo?si=KEbaa3C-JKDxzX5g"
+        },
+        {
+            "title": "In My Head Till I'm Dead",
+            "artist": "Surf Curse",
+            "link": "https://youtu.be/uBUX_ZxDCYk?si=aOSEeHGO4ZgxzyRg"
+        },
+        {
+            "title": "Stress Relief",
+            "artist": "late night drive home",
+            "link": "https://youtu.be/uPRt1L2CWR8?si=bH9ZTNJyN0sck2X2"
+        },
+        {
+            "title": "Love Liquor",
+            "artist": "WillyRodriguezWasTaken",
+            "link": "https://youtu.be/0UbnV2eZhyk?si=LTydeLNaDcvM1Uuj"
+        },
+        {
+            "title": "Heartbreak and Handjobs",
+            "artist": "WillyRodriguezWasTaken",
+            "link": "https://youtu.be/G496EQhXYuI?si=ajkKZjcJ7UOl4jC3"
+        },
+        {
+            "title": "Darling",
+            "artist": "Alone In My Room",
+            "link": "https://youtu.be/HjTJ2aL_55U?si=EhUfqYsKcJI_gexY"
+        },
+        {
+            "title": "Corazon de limon",
+            "artist": "Hecsar Landis",
+            "link": "https://youtu.be/pez_vA1oa4U?si=NODp3SSVTebmrB5R"
+        },
+        {
+            "title": "Looking Out for You",
+            "artist": "Joy Again",
+            "link": "https://youtu.be/DMy-PSqQbos?si=oaPaZ2eVjDttASDs"
+        },
+        {
+            "title": "As Friends",
+            "artist": "autumnwood.",
+            "link": "https://youtu.be/Ngknl20sGh8?si=w8kRpV9RBV7Dng4B"
+        },
+        {
+            "title": "DaDave Brubeck",
+            "artist": "Vacations",
+            "link": "https://youtu.be/vGDTqHMTXe8?si=ZI66MaXiUDq0IOEd"
+        },
+        {
+            "title": "RipRiptide",
+            "artist": "Vance Joy",
+            "link": "https://youtu.be/uJ_1HMAGb4k?si=FmgcPgX5sRCNPM44"
+        },
+        {
+            "title": "Book Of Revelation",
+            "artist": "The Drums",
+            "link": "https://youtu.be/FHHzLWCesEo?si=OGg9kCoAzEQ4DB3v"
+        },
+        {
+            "title": "Big Fat Train",
+            "artist": "MoMoTusk",
+            "link": "https://youtu.be/omTMxE9VXN4?si=BhNKcxdVlzSNbFo1"
+        },
+        {
+            "title": "Don't Need Sleep",
+            "artist": "Frankie & The Witch Fingers",
+            "link": "https://youtu.be/rHTJF15Fkus?si=JBbO6piqf3SVrMEE"
+        },
+        {
+            "title": "Euphoria",
+            "artist": "Mexican Slum Rats",
+            "link": "https://youtu.be/o-h0cqQddaw?si=BpqDCBV6nepuZ88_"
+        },
+        {
+            "title": "Slwdve",
+            "artist": "Mexican Slum Rats",
+            "link": "https://youtu.be/deRfadaQYm4?si=n6UZz68qvfoRNmRc"
+        },
+        {
+            "title": "wasted affairs",
+            "artist": "mind's eye",
+            "link": "https://youtu.be/Qj3tsI0rG5M?si=pu1xVP7sspcNGg_a"
+        },
+        {
+            "title": "Away",
+            "artist": "Mexican Slum Rats",
+            "link": "https://youtu.be/iip15B43CLg?si=45fJ-4Rcy8SV39bz"
+        },
+        {
+            "title": "Beach Song",
+            "artist": "The Red Pears",
+            "link": "https://youtu.be/Xn9ItN2BDaU?si=i7FFaGXKRptIVH-3"
+        },
+        {
+            "title": "Ballroom Blitz",
+            "artist": "Sweet",
+            "link": "https://youtu.be/mPQPdYttl7U?si=4XPkrbYb-Z1qTJgL"
+        },
+        {
+            "title": "Elevator",
+            "artist": "Teenage Dads",
+            "link": "https://youtu.be/N3R62uE_NiY?si=VLkSdJeMQZcWTUX0"
+        },
+        {
+            "title": "Shout it Out",
+            "artist": "Steaming Satellites",
+            "link": "https://youtu.be/VKS0nhKx5EY?si=A7rOmGq1SVsYlVHb"
+        },
+        {
+            "title": "Back On You",
+            "artist": "Djo",
+            "link": "https://youtu.be/3qC9L0IGkOw?si=rqpVzmxxITK0FQIi"
+        },
+        {
+            "title": "Strange Again",
+            "artist": "The Vices",
+            "link": "https://youtu.be/nfC41XmLDU4?si=ANKhEQjBkvwMpcVW"
+        },
+        {
+            "title": "Miracle",
+            "artist": "Jurassic Shark",
+            "link": "https://youtu.be/eUhQvb_3lQY?si=M0IxLPUZpsgnpTu6"
+        },
+        {
+            "title": "Another Round",
+            "artist": "SONS",
+            "link": "https://youtu.be/VxpvvtDzYCw?si=ZrHgaq-hS8__mFhR"
+        },
+        {
+            "title": "Safe In My Skin",
+            "artist": "These New South Whales",
+            "link": "https://youtu.be/93iB5UI6EmI?si=RnQc3iG5Eyr6pZs3"
+        },
+        {
+            "title": "Nowhere Bound (These Days)",
+            "artist": "Surely Tempo",
+            "link": "https://youtu.be/ngT16wIP4u0?si=J4C4AEBSbfxGcZ-l"
+        },
+        {
+            "title": "wake up",
+            "artist": "Lil Darkie",
+            "link": "https://youtu.be/yJdKAI5D_-k?si=bgIiZTYVEFLGrhtx"
+        },
+        {
+            "title": "Pause at You",
+            "artist": "Courting",
+            "link": "https://youtu.be/9JwKUX-GeeQ?si=OmPTDB9m_cWBm7Gr"
+        },
+        {
+            "title": "One Way Or Another",
+            "artist": "Blondie",
+            "link": "https://youtu.be/_zBwRDEFMRY?si=IZg0hibWwav5FXy7"
+        },
+        {
+            "title": "In My Head",
+            "artist": "Sad Park",
+            "link": "https://youtu.be/Lt3kCm05Guo?si=ehJn72o5RqGI6D1g"
+        },
+        {
+            "title": "Pleasantries",
+            "artist": "Mustard Service",
+            "link": "https://youtu.be/LL55iTN3gQs?si=tcu1oPzQ5QyfQ57Q"
+        },
+        {
+            "title": "Take Me Out",
+            "artist": "Franz Ferdinand",
+            "link": "https://youtu.be/7dfBmjrN5W0?si=QjRYtClRivHr9_o-"
+        },
+        {
+            "title": "Riptide",
+            "artist": "Vance Joy",
+            "link": "https://youtu.be/TL_oroU9eN8?si=Xnq5jI0QdYAUoWsu"
+        },
+        {
+            "title": "Pookie",
+            "artist": "autumnwood.",
+            "link": "https://youtu.be/HgHpz2TUnGQ?si=S2GDCxx7DMpJVQdW"
+        },
+        {
+            "title": "Short Films",
+            "artist": "autumnwood.",
+            "link": "https://youtu.be/NWsyFUC0MzE?si=BJ9DhF0q2NQvn6vC"
+        },
+        {
+            "title": "I Fell In Love With a Church Girl",
+            "artist": "autumnwood.",
+            "link": "https://youtu.be/ZGnazuZl7-Q?si=kvOfOSnqxbyxZHy8"
+        },
+        {
+            "title": "Everything (You Say)",
+            "artist": "autumnwood.",
+            "link": "https://youtu.be/FQj9KJGaCO0?si=Ei4ama8e1SWg821Z"
+        },
+        {
+            "title": "VCR Date",
+            "artist": "autumnwood.",
+            "link": "https://youtu.be/lnqaa6XdGa0?si=mwkb6UwPFZ1Vn1E3"
+        },
+        {
+            "title": "As Friends",
+            "artist": "autumnwood.",
+            "link": "https://youtu.be/Ngknl20sGh8?si=YtGeXpK59x3HpLBg"
+        },
+        {
+            "title": "Want Me More",
+            "artist": "autumnwood.",
+            "link": "https://youtu.be/NFeFE80jOng?si=osD6b8ttozvkcDei"
+        },
+        {
+            "title": "Black Betty",
+            "artist": "RamJam",
+            "link": "https://youtu.be/4cn_woPvjQI?si=pzfiGpBT2MLESdoc"
+        },
+        {
+            "title": "Pretty Visitors",
+            "artist": "Arctic Monkeys",
+            "link": "https://youtu.be/I7rkCHBHPN8?si=V7S7_PY47l3q4fms"
+        },
+        {
+            "title": "Temptation Greets You Like Your Naughty Friend",
+            "artist": "Arctic Monkeys",
+            "link": "https://youtu.be/DEhjtOUrQ8s?si=DDSpNUHUF_788j_4"
+        },
+        {
+            "title": "Plastic Tramp",
+            "artist": "Arctic Monkeys",
+            "link": "https://youtu.be/sKh-PjS-o1I?si=bL52A7itVkzD-eGr"
+        },
+        {
+            "title": "Tungs",
+            "artist": "The Frights",
+            "link": "https://youtu.be/kXAOVxjOoFY?si=FgGb5UKPuYqZv2ZK"
+        },
+        {
+            "title": "Potion Approaching",
+            "artist": "Arctic Monkeys",
+            "link": "https://youtu.be/FqNSOErn-Q0?si=jyw2jSxrc0jNPgE4"
+        },
+        {
+            "title": "This Charming Man",
+            "artist": "The Smiths",
+            "link": "https://youtu.be/OYYZFx7_DS8?si=eRTIW89v2prGE7eS"
+        },
+        {
+            "title": "I Got Cracked",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/jVxDhzI70iY?si=rWF93HY0AyoEfCPD"
+        },
+        {
+            "title": "Honey",
+            "artist": "VACATIONS",
+            "link": "https://youtu.be/SMO2dUACwak?si=-kyn6ym4yRw0-vd4"
+        },
+        {
+            "title": "Old Yellow Bricks",
+            "artist": "Arctic Monkeys",
+            "link": "https://youtu.be/NgLWF2XJyKA?si=w2peZsbSuf5h5ijG"
+        },
+        {
+            "title": "I Bet You Look Good On The Dancefloor",
+            "artist": "Arctic Monkeys",
+            "link": "https://youtu.be/CYpn8yUnX_c?si=2GpxhS0SdPOvW0Pq"
+        },
+        {
+            "title": "Origami",
+            "artist": "The Rare Occasions",
+            "link": "https://youtu.be/CYpn8yUnX_c?si=2GpxhS0SdPOvW0Pq"
+        },
+        {
+            "title": "Heart Basel",
+            "artist": "The Drums",
+            "link": "https://youtu.be/o7bQlxKhnSQ?si=khUIushuzRg0zrKg"
+        },
+        {
+            "title": "Boys Don't Cry",
+            "artist": "The Cure",
+            "link": "https://youtu.be/iP-r_XkMINc?si=IpNt4UYRPTSd18nA"
+        },
+        {
+            "title": "Little Green Bag",
+            "artist": "George Baker",
+            "link": "https://youtu.be/sobvrbX-_tM?si=f41egS_CknS4r_Xs"
+        },
+        {
+            "title": "Mary",
+            "artist": "Alex G",
+            "link": "https://youtu.be/INaXwbgvGVc?si=8RMBFdOBGkTmYmVA"
+        },
+        {
+            "title": "Stallion Running",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/BsSUHoxXeP4?si=kSzpbGbu-_BmR-d_"
+        },
+        {
+            "title": "Snap Out Of It",
+            "artist": "Arctic Monkeys",
+            "link": "https://youtu.be/H8tLS_NOWLs?si=rwiyrOXSCLgg20-x"
+        },
+        {
+            "title": "Fluorescent Adolescent",
+            "artist": "Arctic Monkeys",
+            "link": "https://youtu.be/od2q-e5K-Zc?si=JMvHpeq6HtEcQ9lT"
+        },
+        {
+            "title": "I Got Cracked",
+            "artist": "Arctic Monkeys",
+            "link": "https://youtu.be/otx1lZtLPMs?si=1G-lfjioYLENluBQ"
+        },
+        {
+            "title": "Hurricane",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/djNGlx4c934?si=PntGFPg3-nJZ-uh0"
+        },
+        {
+            "title": "Plains",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/iZBd3ixZnDk?si=nzPHm1tzBbg790NO"
+        },
+        {
+            "title": "Swimmie",
+            "artist": "edgar déception",
+            "link": "https://youtu.be/aJ0XhX-BSyY?si=7PVzbBmWpfr6d_wJ"
+        },
+        {
+            "title": "vitesse radar",
+            "artist": "edgar déception",
+            "link": "https://youtu.be/vg1b2ID7-LY?si=Wtp74wSw-PzNf_UJ"
+        },
+        {
+            "title": "Watcher, Sleeper, Dreamer",
+            "artist": "Captain Samurai",
+            "link": "https://youtu.be/6T01F7KHMSY?si=zKnpATFhhlvgvfXy"
+        },
+        {
+            "title": "I'll Be Around",
+            "artist": "The Growlers",
+            "link": "https://youtu.be/p50R8rkzkhk?si=GAUSQgEbAH0Ey5ti"
+        },
+        {
+            "title": "GESHUOU",
+            "artist": "INOHA",
+            "link": "https://youtu.be/CM4DiAPbXXI?si=weYuOiyIaKMEVZDg"
+        },
+        {
+            "title": "Statue",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/FyeMqslrNx4?si=LR34fMRK4CbqtPZw"
+        },
+        {
+            "title": "Bad Sun",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/ohmZFPekeNM?si=85LXHjIqXDEQau11"
+        },
+        {
+            "title": "Staring",
+            "artist": "Tipling Rock",
+            "link": "https://youtu.be/7wOcT-4tfGQ?si=FsC4LUgLaQZAaDt0"
+        },
+        {
+            "title": "Jamie",
+            "artist": "Surf Curse",
+            "link": "https://youtu.be/JZ1Hpa8aMpw?si=AqdimNHQAwXPzaAm"
+        },
+        {
+            "title": "Fear City",
+            "artist": "Surf Curse",
+            "link": "https://youtu.be/pB9kPN3oMM8?si=44L8zlC96MaOcd32"
+        },
+        {
+            "title": "No Tomorrows",
+            "artist": "Surf Curse",
+            "link": "https://youtu.be/D3LiEDaEMEk?si=QZvZWlXE89fEbfj9"
+        },
+        {
+            "title": "Night Ride",
+            "artist": "The Growlers",
+            "link": "https://youtu.be/lTBTp7mRbXc?si=uBiERqbjCll86l_o"
+        },
+        {
+            "title": "What You Were",
+            "artist": "The Drums",
+            "link": "https://youtu.be/Xn81lBYS_sg?si=JqBXyJ5_9OR87T48"
+        },
+        {
+            "title": "The Smell Saved My Life",
+            "artist": "Surf Curse",
+            "link": "https://youtu.be/XtGVaubFT3A?si=GhL0RqLgedtGAFqW"
+        },
+        {
+            "title": "Ponyboy",
+            "artist": "Surf Curse",
+            "link": "https://youtu.be/IwSY0_666vQ?si=bdC1NwpjXVVE8mb-"
+        },
+        {
+            "title": "Goth Babe",
+            "artist": "Surf Curse",
+            "link": "https://youtu.be/T_Hwdv7MiBs?si=mQGtq4EHQS8P6VCC"
+        },
+        {
+            "title": "Chloe Kelly",
+            "artist": "Surf Curse",
+            "link": "https://youtu.be/iMrTC6hrTnU?si=IZEZPqr01eE9-OjC"
+        },
+        {
+            "title": "Cousins",
+            "artist": "Vampire Weekend",
+            "link": "https://youtu.be/h5bEGG85PGw?si=xWokHbTpM4BeiUuh"
+        },
+        {
+            "title": "Bottom",
+            "artist": "McCafferty",
+            "link": "https://youtu.be/Oby8Cy9SYa4?si=YEiAMk86ThFBNgPc"
+        },
+        {
+            "title": "Pisse",
+            "artist": "Fahrradsattel",
+            "link": "https://youtu.be/ODkERmUh0hQ?si=h3HTtrQRirk-yjg_"
+        },
+        {
+            "title": "Sad Clown",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/HYwzIddpL9E?si=Un5KSxMl1V6uFfAI"
+        },
+        {
+            "title": "Painted",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/dgacx6bW4HI?si=39yOAH5-dMH8mt06"
+        },
+        {
+            "title": "Deceptacon",
+            "artist": "Le Tigre",
+            "link": "https://youtu.be/wjNln9mXuTI?si=fCRVt6zWEDtu-1M3"
+        },
+        {
+            "title": "Christmas Kids",
+            "artist": "Owen Evans",
+            "link": "https://youtu.be/3oeQleJ77fU?si=pVNIbfA2H-kLp1UJ"
+        },
+        {
+            "title": "Worn / Wander",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/cE-WlRFC8m0?si=N4jhq9QyBLTAteKG"
+        },
+        {
+            "title": "Bust",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/822hdL2irHM?si=zdj66MoxRAPBuRek"
+        },
+        {
+            "title": "Ash in the Sun",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/3JYtfkcm04o?si=nQlZcN1KSOt4vn8p"
+        },
+        {
+            "title": "Alien Blues",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/xvegS6xDmKE?si=oTRsLSJzS1gca7f3"
+        },
+        {
+            "title": "Darla",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/MXDMheycmFI?si=VKd_AKkZWlBNHVXy"
+        },
+        {
+            "title": "Oulala",
+            "artist": "Vundabar",
+            "link": "https://youtu.be/FB4WMC4liQk?si=Spd4I4jAqHZh5ID0"
+        },
+        {
+            "title": "Break Stuff",
+            "artist": "Limp Bizkit",
+            "link": "https://youtu.be/FtOnSQvz8yc?si=DOxFkA9QbegkH_o5"
+        },
+        {
+            "title": "BLOODSTAINS",
+            "artist": "Legal Noise",
+            "link": "https://youtu.be/sfQBdSu77Qs?si=Y8U6cCUI-uHF7SMT"
+        },
+        {
+            "title": "Love Buzz",
+            "artist": "Nirvana",
+            "link": "https://youtu.be/ZEh3mO9MPV0?si=4jWfLDlGhz7cnfZP"
+        },
+        {
+            "title": "Cycles Of Existential Rhyme",
+            "artist": "Chicano Batman",
+            "link": "https://youtu.be/JR7k6DOvuwQ?si=hYw9XcuME084bSU9"
+        },
+        {
+            "title": "Token Eastern Song",
+            "artist": "Nirvana",
+            "link": "https://youtu.be/rmFcXfRGYWI?si=iDW0gDvEqjeauDjb"
+        },
+        {
+            "title": "If You Must",
+            "artist": "Nirvana",
+            "link": "https://youtu.be/8g3ARLULHFM?si=DtBr4gKn4bOKEcUj"
+        },
+        {
+            "title": "Swing Lynn",
+            "artist": "Harmless",
+            "link": "https://youtu.be/_Paw8ZRSlqY?si=CCoMmuN8rnxMQBPe"
+        },
+        {
+            "title": "Grumpy Days",
+            "artist": "Lonely Gimmick",
+            "link": "https://youtu.be/vb5mK-jdlto?si=LTPAYC-pXnQnfIUA"
+        },
+        {
+            "title": "Gotta Get Away",
+            "artist": "Vista Kicks",
+            "link": "https://youtu.be/sYiADVzdKQo?si=A7x4Tf1RuLUPeycW"
+        },
+        {
+            "title": "Take Me Out",
+            "artist": "Franz Ferdinand",
+            "link": "https://youtu.be/Ijk4j-r7qPA?si=Llm6hrZtyP4jgvIj"
+        },
+        {
+            "title": "Lysergic Bliss",
+            "artist": "xxofMontrealxx",
+            "link": "https://youtu.be/RYb76H2au_Y?si=9QL_lsOKZt9pIq1B"
+        },
+        {
+            "title": "Rainbow Kraut",
+            "artist": "The John Steel Singers",
+            "link": "https://youtu.be/x763JYPh2jQ?si=hp1E3KpSbrHYkDig"
+        },
+        {
+            "title": "Jigsaw Falling Into Place",
+            "artist": "Radiohead",
+            "link": "https://youtu.be/GoLJJRIWCLU?si=xNmS4Qpo4KEiYQwx"
+        },
+        {
+            "title": "Cheri Cheri Lady",
+            "artist": "Morden Talking",
+            "link": "https://youtu.be/eNvUS-6PTbs?si=YOG8MjO1gCQd7BFh"
+        },
+        {
+            "title": "Miss Alissa",
+            "artist": "eodmofficial",
+            "link": "https://youtu.be/6uT0nxumxMM?si=02Odg0EKhTXKaXD4"
+        },
+        {
+            "title": "The Lemon Song",
+            "artist": "Led Zeppelin",
+            "link": "https://youtu.be/_r85Cf6mS18?si=Z5dRaoY9S8sMVmoQ"
+        },
+        {
+            "title": "N.I.B",
+            "artist": "Black Sabbath",
+            "link": "https://youtu.be/9kgQQuPZ8K0?si=v--omowdTqyM48nL"
+        },
+        {
+            "title": "Paranoid",
+            "artist": "Black Sabbath",
+            "link": "https://youtu.be/BOTIIw76qiE?si=tYUgkUFO_cCPAAOA"
+        },
+        {
+            "title": "War Pigs",
+            "artist": "Black Sabbath",
+            "link": "https://youtu.be/hZcLIsHdvss?si=CRS1YVSPUE9ky185"
+        },
+        {
+            "title": "Symphony For The Devil",
+            "artist": "The Rolling Stones",
+            "link": "https://youtu.be/GgnClrx8N2k?si=VuXYgJCe7bxiSf_d"
+        },
+        {
+            "title": "Given Up",
+            "artist": "Linkin Park",
+            "link": "https://youtu.be/D93vYwuMeUw?si=Lx05WFGtli7nmVks"
+        },
+        {
+            "title": "Perfect Crime",
+            "artist": "Guns N' Roses",
+            "link": "https://youtu.be/eZW1XpW_Uws?si=VkdFwS2vMTqy8GNJ"
+        },
+        {
+            "title": "Black Dog",
+            "artist": "Led Zeppelin",
+            "link": "https://youtu.be/yBuub4Xe1mw?si=v7dBmWUq8E2ng8Cd"
+        },
+        {
+            "title": "Iron Man",
+            "artist": "Black Sabbath",
+            "link": "https://youtu.be/b3-QqGVt-tM?si=sZ7zKkoV-GgDZfh-"
+        },
+        {
+            "title": "Kashmir",
+            "artist": "Led Zeppelin",
+            "link": "https://youtu.be/tzVJPgCn-Z8?si=VDr0d9EQ7SfxsNIb"
+        },
+        {
+            "title": "Tush",
+            "artist": "ZZ Top",
+            "link": "https://youtu.be/WzU3iR3Wrog?si=lJqYiwoVUeJM8K9I"
+        },
+        {
+            "title": "La Grange",
+            "artist": "ZZ Top",
+            "link": "https://youtu.be/bSt4myecN_c?si=ywvMW9ZzF1cxaMWC"
+        },
+        {
+            "title": "Last Train To London",
+            "artist": "ELO",
+            "link": "https://youtu.be/qXXZMebT3m8?si=g50NIXQWcwN8CohI"
+        },
+        {
+            "title": "Nobody",
+            "artist": "Skindred",
+            "link": "https://youtu.be/ApScvH2sgyE?si=e3sHUqquxrZmXJJZ"
+        },
+        {
+            "title": "The Devil Went Down To Georgia",
+            "artist": "Charlie Daniels",
+            "link": "https://youtu.be/sh7BZf7D5Bw?si=n8TUM8HwpbVZreFn"
+        },
+        {
+            "title": "Ca plane pour moi",
+            "artist": "Plastic Bertrand",
+            "link": "https://youtu.be/8soQkubMk1g?si=HD6ImCDKr7AphwZI"
+        },
+        {
+            "title": "Come, Meet the Family",
+            "artist": "Mexican Slum Rats",
+            "link": "https://youtu.be/9t7KGrVyx6M?si=X0CP0YiB9bWNl_ih"
+        },
+        {
+            "title": "Arguments (With Your Lover)",
+            "artist": "Mustard Service",
+            "link": "https://youtu.be/5p877UAlU9w?si=zhRmS3kYxxARUA5l"
+        },
+        {
+            "title": "The Overlook Hotel",
+            "artist": "Mexican Slum Rats",
+            "link": "https://youtu.be/j3vlUfXyahk?si=59M5806JxJXheYVB"
+        }
+    ]
+}

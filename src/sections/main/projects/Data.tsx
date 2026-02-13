@@ -1,21 +1,22 @@
 import Links from "@/sections/main/projects/Links";
 
-import SVGJava from "@/components/icons/tecnologies/java";
-import SVGAndroidStudio from "@/components/icons/tecnologies/android_studio";
-import SVGNetbeans from "@/components/icons/tecnologies/netbeans";
-import SVGPHP from "@/components/icons/tecnologies/php";
-import SVGMySQL from "@/components/icons/tecnologies/mysql";
-import SVGJSON from "@/components/icons/tecnologies/json";
-import SVGJavaScript from "@/components/icons/tecnologies/javascript";
-import SVGVSCode from "@/components/icons/tecnologies/vscode";
-import SVGXampp from "@/components/icons/tecnologies/xampp";
-import SVGFirebase from "@/components/icons/tecnologies/firebase";
-import SVGPython from "@/components/icons/tecnologies/python";
-import SVGChatGPT from "@/components/icons/tecnologies/chatgpt";
-import SVGNodeJS from "@/components/icons/tecnologies/nodejs";
-import SVGNextJS from "@/components/icons/tecnologies/nextjs";
-import SVGTailwind from "@/components/icons/tecnologies/tailwind";
-import SVGTypeScript from "@/components/icons/tecnologies/typescript";
+// import SVGJava from "@/components/icons/tecnologies/java";
+// import SVGAndroidStudio from "@/components/icons/tecnologies/android_studio";
+// import SVGNetbeans from "@/components/icons/tecnologies/netbeans";
+// import SVGPHP from "@/components/icons/tecnologies/php";
+// import SVGMySQL from "@/components/icons/tecnologies/mysql";
+// import SVGJSON from "@/components/icons/tecnologies/json";
+// import SVGJavaScript from "@/components/icons/tecnologies/javascript";
+// import SVGVSCode from "@/components/icons/tecnologies/vscode";
+// import SVGXampp from "@/components/icons/tecnologies/xampp";
+// import SVGFirebase from "@/components/icons/tecnologies/firebase";
+// import SVGPython from "@/components/icons/tecnologies/python";
+// import SVGChatGPT from "@/components/icons/tecnologies/chatgpt";
+// import SVGNodeJS from "@/components/icons/tecnologies/nodejs";
+// import SVGNextJS from "@/components/icons/tecnologies/nextjs";
+// import SVGTailwind from "@/components/icons/tecnologies/tailwind";
+// import SVGTypeScript from "@/components/icons/tecnologies/typescript";
+// import SVGReact from "@/components/icons/tecnologies/react";
 
 import JSON_IMG_6 from "../../../../public/image/projects/6/img_url.json";
 import JSON_IMG_5 from "../../../../public/image/projects/5/img_url.json";
@@ -27,33 +28,54 @@ import JSON_IMG_0 from "../../../../public/image/projects/0/img_url.json";
 
 const size = {
     DEF: 32,
-    BIG: 48
+    BIG: 32
 };
+
+// const SVG = {
+//     java: <SVGJava width={size.DEF} height={size.DEF} />,
+//     androidStudio: <SVGAndroidStudio width={size.DEF} height={size.DEF} />,
+//     netbeans: <SVGNetbeans width={size.DEF} height={size.DEF} />,
+//     vscode: <SVGVSCode width={size.DEF} height={size.DEF} />,
+//     php: <SVGPHP width={size.DEF} height={size.DEF} />,
+//     mysql: <SVGMySQL width={size.BIG} height={size.BIG} />,
+//     json: <SVGJSON width={size.DEF} height={size.DEF} stroke="currentColor" />,
+//     javascript: <SVGJavaScript width={size.DEF} height={size.DEF} />,
+//     xampp: <SVGXampp width={size.DEF} height={size.DEF} />,
+//     firebase: <SVGFirebase width={size.DEF} height={size.DEF} />,
+//     python: <SVGPython width={size.DEF} height={size.DEF} />,
+//     chatgpt: <SVGChatGPT width={size.DEF} height={size.DEF} />,
+//     nodejs: <SVGNodeJS width={size.DEF} height={size.DEF} />,
+//     nextjs: <SVGNextJS width={size.DEF} height={size.DEF} stroke="currentColor" />,
+//     tailwind: <SVGTailwind width={size.DEF} height={size.DEF} />,
+//     typescript: <SVGTypeScript width={size.DEF} height={size.DEF} />,
+//     react: <SVGReact width={size.DEF} height={size.DEF} />
+// };
 
 const SVG = {
-    java: <SVGJava width={size.DEF} height={size.DEF} />,
-    androidStudio: <SVGAndroidStudio width={size.DEF} height={size.DEF} />,
-    netbeans: <SVGNetbeans width={size.DEF} height={size.DEF} />,
-    vscode: <SVGVSCode width={size.DEF} height={size.DEF} />,
-    php: <SVGPHP width={size.DEF} height={size.DEF} />,
-    mysql: <SVGMySQL width={size.BIG} height={size.BIG} />,
-    json: <SVGJSON width={size.DEF} height={size.DEF} stroke="currentColor" />,
-    javascript: <SVGJavaScript width={size.DEF} height={size.DEF} />,
-    xampp: <SVGXampp width={size.DEF} height={size.DEF} />,
-    firebase: <SVGFirebase width={size.DEF} height={size.DEF} />,
-    python: <SVGPython width={size.DEF} height={size.DEF} />,
-    chatgpt: <SVGChatGPT width={size.DEF} height={size.DEF} />,
-    nodejs: <SVGNodeJS width={size.DEF} height={size.DEF} />,
-    nextjs: <SVGNextJS width={size.DEF} height={size.DEF} stroke="currentColor" />,
-    tailwind: <SVGTailwind width={size.DEF} height={size.DEF} />,
-    typescript: <SVGTypeScript width={size.DEF} height={size.DEF} />,
-};
+    java: "Java",
+    androidStudio: "Android Studio",
+    netbeans: "Netbeans",
+    vscode: "Vscode",
+    php: "PHP",
+    mysql: "MySQL",
+    json: "JSON",
+    javascript: "JavaScript",
+    xampp: "Xampp",
+    firebase: "Firebase",
+    python: "Python",
+    chatgpt: "Chatgpt",
+    nodejs: "Node.js",
+    nextjs: "Next.js",
+    tailwind: "TailwindCSS",
+    typescript: "TypeScript",
+    react: "React"
+}
 
 const rank = {
-    actual: "bg-lime-500/80",
-    destacado: "bg-orange-500/80",
-    regular: "bg-sky-500/80",
-    irrelevante: "bg-sky-100/80"
+    actual: "bg-lime-950 saturate-150",
+    destacado: "bg-orange-950 saturate-150",
+    regular: "bg-sky-950 saturate-150",
+    irrelevante: "bg-zinc-800 saturate-150"
 }
 
 const descInfo = (description: string) => {
@@ -80,33 +102,43 @@ const Projects = [
     {
         id: 7,
         customDecorate: rank.actual,
-        title: "Portafolio",
+        title: "Portfolio Web",
         year: "2026",
         // url: url_default_img(7),
         description:
-            <>
-                <p>
-                    Si bien es cierto que es innecesario y poco prudente
-                    colocar el portafolio en esta sección,
-                    el objetivo principal es destacar el uso de tecnologías
-                    modernas y con poco o nulo uso de mi parte.
-                </p>
-                <p>
-                    Por otro lado, el desarrollo y el tiempo para adaptarse
-                    a las nuevas herramientas fue más rápido de lo estimado
-                    resultando en un proyecto tal vez no de acuerdo referente
-                    a las buenas prácticas, pero funcional.
-                </p>
-                <p>
-                    Por último, me encantaría destacar lo cómodo y satisfactorio
-                    que fue el empleo de estas herramientas para el desarrollo
-                    de este proyecto.
-                </p>
-            </>,
+        {
+            short:
+                <>
+                    <p>
+                        Portafolio/Sitio Web personal
+                    </p>
+                </>,
+            long:
+                <>
+                    <p>
+                        Si bien es cierto que es innecesario y poco prudente
+                        colocar el portafolio en esta sección,
+                        el objetivo principal es destacar el uso de tecnologías
+                        modernas y con poco o nulo uso de mi parte.
+                    </p>
+                    <p>
+                        Por otro lado, el desarrollo y el tiempo para adaptarse
+                        a las nuevas herramientas fue más rápido de lo estimado
+                        resultando en un proyecto tal vez no de acuerdo referente
+                        a las buenas prácticas, pero funcional.
+                    </p>
+                    <p>
+                        Por último, me encantaría destacar lo cómodo y satisfactorio
+                        que fue el empleo de estas herramientas para el desarrollo
+                        de este proyecto.
+                    </p>
+                </>
+        }
+        ,
         tecnologies: [
-            SVG.vscode,
             SVG.nodejs,
             SVG.nextjs,
+            SVG.react,
             SVG.typescript,
             SVG.tailwind
         ],
@@ -118,39 +150,43 @@ const Projects = [
     {
         id: 6,
         customDecorate: rank.destacado,
-        title: "TutorTracking (ITSLV)",
+        title: "TutorTracking",
         year: "2025",
         url: JSON.project6[0].url,
         description:
-            <>
-                <p>
-                    TutorTracking es una check-list para los docentes del
-                    Instituto Tecnológico Superior de Villa la Venta.
-                    Permite:
-                </p>
-                <ul className="list-disc list-inside">
-                    <li>Loggeo de usuario.</li>
-                    <li>Tomar lista de forma rapida y sencilla.</li>
-                    <li>Consultar check-list anteriores.</li>
-                    <li>Crear reportes mensuales en PDF.</li>
-                    <li>Automatizar mensajes para notificar falta a alumnos.</li>
-                    <li>Gestionar a los docentes del lado del servidor.</li>
-                </ul>
-                {descInfo("Está disponible exclusivamente para la institución para plataformas Android.")}
-                <p className="font-bold flex items-center justify-center">
-                    ► Proyecto de titulación ◄
-                </p>
-            </>
-        ,
+        {
+            short:
+                <>
+                    <p>
+                        Sistema de registro de asistencias
+                    </p>
+                </>,
+            long:
+                <>
+                    <p>
+                        TutorTracking es una check-list para los docentes del
+                        Instituto Tecnológico Superior de Villa la Venta.
+                        Permite:
+                    </p>
+                    <ul className="list-disc list-inside">
+                        <li>Loggeo de usuario.</li>
+                        <li>Tomar lista de forma rapida y sencilla.</li>
+                        <li>Consultar check-list anteriores.</li>
+                        <li>Crear reportes mensuales en PDF.</li>
+                        <li>Automatizar mensajes para notificar falta a alumnos.</li>
+                        <li>Gestionar a los docentes del lado del servidor.</li>
+                    </ul>
+                    {descInfo("Está disponible exclusivamente para la institución para plataformas Android.")}
+                    <p className="font-bold flex items-center justify-center">
+                        ► Proyecto de titulación ◄
+                    </p>
+                </>
+        },
         tecnologies: [
             SVG.androidStudio,
-            SVG.vscode,
             SVG.java,
             SVG.php,
             SVG.mysql,
-            SVG.json,
-            SVG.chatgpt,
-            SVG.javascript,
             SVG.xampp
         ],
         link: [
@@ -164,25 +200,32 @@ const Projects = [
         year: "2024",
         url: JSON.project5[0].url,
         description:
-            <>
-                <p>
-                    Es un localizador en tiempo real pensado principalmente para personas dependientes
-                    y con discapacidades.
-                </p>
-                <p>
-                    La aplicación móvil funciona como el localizador y
-                    la página web como un visor.
-                </p>
-                {descInfo("Proyecto en equipo multi-disciplinario que logró pasar la etapa local del InnovaTecNM 2024.")}
-            </>,
+        {
+            short:
+                <>
+                    <p>
+                        Sistema de localización
+                    </p>
+                </>,
+            long:
+                <>
+                    <p>
+                        Es un localizador en tiempo real pensado principalmente para personas dependientes
+                        y con discapacidades.
+                    </p>
+                    <p>
+                        La aplicación móvil funciona como el localizador y
+                        la página web como un visor.
+                    </p>
+                    {descInfo("Proyecto en equipo multi-disciplinario que logró pasar la etapa local del InnovaTecNM 2024.")}
+                </>
+        }
+        ,
         tecnologies: [
             SVG.androidStudio,
-            SVG.vscode,
             SVG.java,
             SVG.php,
             SVG.firebase,
-            SVG.json,
-            SVG.chatgpt,
             SVG.javascript
         ],
         link: [
@@ -193,21 +236,30 @@ const Projects = [
     {
         id: 4,
         customDecorate: rank.regular,
-        title: "Toxic Plant Identifier Prototipe",
+        title: "Toxic Plant Identifier",
         year: "2024",
         url: JSON.project4[0].url,
         description:
-            <>
-                <p>
-                    Es una aplicación capaz de identificar plantas tóxicas a través de un modelo
-                    de Machine Learning preentrenado mediante una fotografía desde el dispositivo
-                    móvil Android.
-                </p>
-                {descInfo("Se entrenó con 2 plantas (Belladona y Hortensia).")}
-            </>,
+        {
+            short:
+                <>
+                    <p>
+                        Sistema identificador de Plantas Tóxicas
+                    </p>
+                </>,
+            long:
+                <>
+                    <p>
+                        Es una aplicación capaz de identificar plantas tóxicas a través de un modelo
+                        de Machine Learning preentrenado mediante una fotografía desde el dispositivo
+                        móvil Android.
+                    </p>
+                    {descInfo("Se entrenó con 2 plantas (Belladona y Hortensia).")}
+                </>
+        }
+        ,
         tecnologies: [
             SVG.androidStudio,
-            SVG.vscode,
             SVG.java
         ],
         link: [
@@ -221,16 +273,27 @@ const Projects = [
         year: "2024",
         url: JSON.project3[0].url,
         description:
-            <>
-                <p>
-                    Proyecto de un analizador léxico en Java desde cero,
-                    sin usar librerías o algún tipo de framework,
-                    totalmente vanilla.
-                </p>
-                {descInfo("Este proyecto me ayudó mucho a desarrollar mi análisis y lógica de programación.")}
-            </>,
+        {
+            short:
+                <>
+                    <p>
+                        Analizador léxico
+                    </p>
+                </>,
+            long:
+                <>
+                    <p>
+                        Proyecto de un analizador léxico en Java desde cero,
+                        sin usar librerías o algún tipo de framework,
+                        totalmente vanilla.
+                    </p>
+                    {descInfo("Este proyecto me ayudó mucho a desarrollar mi análisis y lógica de programación.")}
+                </>
+        }
+        ,
         tecnologies: [
-            SVG.netbeans
+            SVG.netbeans,
+            SVG.java
         ],
         link: [
             link.github("https://github.com/EarnNestToDev/AnaLex.git"),
@@ -240,23 +303,34 @@ const Projects = [
     {
         id: 2,
         customDecorate: rank.regular,
-        title: "Punto de Venta de Videojuegos",
+        title: "VidegameCenter",
         year: "2023",
         description:
-            <>
-                <p>
-                    Es un CRUD pensado para videojuegos capaz de ejecutarse en diferentes
-                    ordenadores con SO Windows. Posee:
-                </p>
-                <ul className="list-disc list-inside">
-                    <li>Loggin de usuarios.</li>
-                    <li>Sistema de control de usuarios.</li>
-                    <li>CRUD de DB.</li>
-                </ul>
-                {descInfo("Solo fue un proyecto final.")}
-            </>,
+        {
+            short:
+                <>
+                    <p>
+                        Ecommerce para la venta de videojuegos
+                    </p>
+                </>,
+            long:
+                <>
+                    <p>
+                        Es un CRUD pensado para videojuegos capaz de ejecutarse en diferentes
+                        ordenadores con SO Windows. Posee:
+                    </p>
+                    <ul className="list-disc list-inside">
+                        <li>Loggin de usuarios.</li>
+                        <li>Sistema de control de usuarios.</li>
+                        <li>CRUD de DB.</li>
+                    </ul>
+                    {descInfo("Solo fue un proyecto final.")}
+                </>
+        }
+        ,
         tecnologies: [
             SVG.netbeans,
+            SVG.java,
             SVG.mysql
         ],
         link: []
@@ -268,13 +342,23 @@ const Projects = [
         year: "2023",
         url: JSON.project1[0].url,
         description:
-            <>
-                <p>
-                    Práctica para levantar y gestionar servicios en Windows Server
-                    además de alojar páginas web desde ahí.
-                </p>
-                {descInfo("Gestioné servicios como HTTP, PHP, MySQL, EMAIL, etc.")}
-            </>,
+        {
+            short:
+                <>
+                    <p>
+                        Servidor de Windows Server
+                    </p>
+                </>,
+            long:
+                <>
+                    <p>
+                        Práctica para levantar y gestionar servicios en Windows Server
+                        además de alojar páginas web desde ahí.
+                    </p>
+                    {descInfo("Gestioné servicios como HTTP, PHP, MySQL, EMAIL, etc.")}
+                </>
+        }
+        ,
         link: []
     },
     {
@@ -284,12 +368,22 @@ const Projects = [
         year: "2023",
         url: JSON.project0[0].url,
         description:
-            <>
-                <p>
-                    Prácticas en Cisco para gestionar y montar diversos
-                    sistemas de redes como la de árbol, punto a punto, etc.
-                </p>
-            </>,
+        {
+            short:
+                <>
+                    <p>
+                        Gestión y administración de redes en Cisco.
+                    </p>
+                </>,
+            long:
+                <>
+                    <p>
+                        Prácticas en Cisco para gestionar y montar diversos
+                        sistemas de redes como la de árbol, punto a punto, etc.
+                    </p>
+                </>
+        }
+        ,
         link: []
     }
 ];

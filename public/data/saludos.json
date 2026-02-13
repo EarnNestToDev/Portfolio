@@ -1,44 +1,21 @@
 [
-    {
-        "text": "Wasup"
-    },
-    {
-        "text": "Hey honey..."
-    },
-    {
-        "text": "Hey swettie..."
-    },
-    {
-        "text": "What's the matter, pumpkind?"
-    },
-    {
-        "text": "Eu"
-    },
-    {
-        "text": "Aea"
-    },
-    {
-        "text": "Que onda pa..."
-    },
-    {
-        "text": "How u doing?"
-    },
-    {
-        "text": "Ola"
-    },
-    {
-        "text": "Quaso"
-    },
-    {
-        "text": "Zep zep zep..."
-    },
-    {
-        "text": "Bebe agua..."
-    },
-    {
-        "text": "No olvides tomar un vaso de agua"
-    },
-    {
-        "text": "Eyo wasup man..."
-    }
+    "Wasup",
+    "Hey honey...",
+    "Hey swettie...",
+    "What's the matter, pumpkind?",
+    "Eu",
+    "Aea",
+    "Que onda pa...",
+    "How u doing?",
+    "Ola",
+    "Quaso",
+    "Zep zep zep...",
+    "Bebe agua...",
+    "No olvides tomar un vaso de agua",
+    "Eyo wasup man...",
+    "Amo debuggear xd",
+    "Los frameworks son clave.jpg",
+    "Sip, uno más del montón",
+    "Esque Java God",
+    "Welcome.jpg"
 ]

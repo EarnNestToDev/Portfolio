@@ -1,49 +1,51 @@
 import React, { useState } from "react";
 
-import View from "@/components/icons/photo";
+import CarouselPopup from "@/sections/main/projects/CarouselPopup";
 
-import Carousel from "@/sections/main/projects/CarouselPopup";
+import Popup from "@/components/ui/PopupFullscreen";
 
 const RenderPopup = ({
   json,
   defaultDecorate,
-  url_video
+  url_video,
+  icon,
+  title
 }: {
   json: JSON_PATH[];
   defaultDecorate: string;
   url_video?: string;
+  icon: React.ReactNode;
+  title: React.ReactNode;
 }) => {
 
-  const [test, setTest] = useState<React.ReactNode | null>(null);
-
-  const renderContentPopUp = () => {
-    setTest(
-      <Carousel
-        json_url_img={json}
-        killContentPopUp={killContentPopUp}
-        url_video={url_video}
-      />
-    );
-    return
-  }
-
-  const killContentPopUp = () => {
-    setTest(null);
-    return
-  }
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      <a
+
+      <button
         title="Ver imágenes del proyecto"
         className={defaultDecorate}
         onClick={() => {
-          renderContentPopUp()
+          setIsOpen(true)
         }}
       >
-        <View width={36} height={36} fill="white" />
-      </a>
-      {test}
+        {icon}
+        {title}
+      </button>
+
+      <Popup
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
+      >
+        {
+          <CarouselPopup
+            json_url_img={json}
+            url_video={url_video}
+          />
+        }
+      </Popup>
+
     </>
   );
 }

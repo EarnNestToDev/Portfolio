@@ -1,0 +1,59 @@
+{
+    "opinion": [
+        "Ernesto De La Cruz Campos",
+        "EDLCC",
+        "EarnNestToDev",
+        "Ernxx304"
+    ],
+    "description": [
+        "Videojuegos favoritos, el peak del gaming."
+    ],
+    "titles": [
+        "Videojuegos"
+    ],
+    "videojuegos": [
+        {
+            "title": "Monster Hunter World: Iceborne",
+            "opinion": "Developer de día, Hunter de noche. Llegué en la 3ra generación, pero el claw clutch me atrapó, encima con la música y la sensación del coop ufff, juegazo, ¿Ya mencioné que es un juegazo?.",
+            "img_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/582010/ss_a262c53b8629de7c6547933dc0b49d31f4e1b1f1.1920x1080.jpg",
+            "img_url2": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/582010/ss_6d26868b45c20bf4dd5f75f31264aca08ce17217.1920x1080.jpg",
+            "steam_url": "https://store.steampowered.com/app/582010/Monster_Hunter_World/"
+        },
+        {
+            "title": "Halo",
+            "opinion": "Empecé desde el CE y de ahí me quedé con la historia del jefesito. 'Soy un coro eterno, unan su voz a la mía y canten la victoria imperecedera'.",
+            "img_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/976730/ss_99af4fb4b95471b3b7df467b3b39705f46a97e8d.1920x1080.jpg",
+            "steam_url": "https://store.steampowered.com/app/976730/Halo_The_Master_Chief_Collection/"
+        },
+        {
+            "title": "Minecraft",
+            "opinion": "Simplemente el Minecraft, soy más técnico pero algún día seré builder y terminaré mi mansión xd.",
+            "img_url": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/PDP-Gallery_OV_1_16x9.jpg?imwidth=1200",
+            "steam_url": "https://www.minecraft.net"
+        },
+        {
+            "title": "Terraria",
+            "opinion": "Con el mod del Calamity ufff, juegardo, aunque me quedé en la dificultad experto xd.",
+            "img_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
+            "steam_url": "https://store.steampowered.com/app/105600/Terraria/"
+        },
+        {
+            "title": "Left 4 Dead 2",
+            "opinion": "El versus, excelente juego, pero la comunidad lo mata.",
+            "img_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/550/ss_1d9d6e638c8ad4b04fac0f49ca32947b31396f24.1920x1080.jpg",
+            "steam_url": "https://store.steampowered.com/app/550/Left_4_Dead_2/"
+        },
+        {
+            "title": "Metal Slug",
+            "opinion": "Los primeros juegos de mi vida, todavía amo los primeros 6 y el XX, una vez me pasé el 3 con un 'coin'.",
+            "img_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/366250/ss_2608834e1b86c7ada0996a1326cf60fe39634e52.1920x1080.jpg",
+            "steam_url": "https://store.steampowered.com/search?term=metal+slug"
+        },
+        {
+            "title": "Blasphemous",
+            "opinion": "Porque penitensiosos y dolorosos son los caminos del milagro.",
+            "img_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/774361/ss_18ba96d8179a90adb569efd2362110be142048b5.1920x1080.jpg",
+            "steam_url": "https://store.steampowered.com/app/774361/Blasphemous/"
+        }
+    ]
+}
