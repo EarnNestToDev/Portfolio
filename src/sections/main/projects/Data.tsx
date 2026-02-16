@@ -22,6 +22,7 @@ import JSON_IMG_6 from "../../../../public/image/projects/6/img_url.json";
 import JSON_IMG_5 from "../../../../public/image/projects/5/img_url.json";
 import JSON_IMG_4 from "../../../../public/image/projects/4/img_url.json";
 import JSON_IMG_3 from "../../../../public/image/projects/3/img_url.json";
+import JSON_IMG_2 from "../../../../public/image/projects/2/img_url.json";
 import JSON_IMG_1 from "../../../../public/image/projects/1/img_url.json";
 import JSON_IMG_0 from "../../../../public/image/projects/0/img_url.json";
 
@@ -93,6 +94,7 @@ const JSON = {
     project5: JSON_IMG_5,
     project4: JSON_IMG_4,
     project3: JSON_IMG_3,
+    project2: JSON_IMG_2,
     project1: JSON_IMG_1,
     project0: JSON_IMG_0,
     noImages: undefined
@@ -305,6 +307,7 @@ const Projects = [
         customDecorate: rank.regular,
         title: "VidegameCenter",
         year: "2023",
+        url: JSON.project2[0].url,
         description:
         {
             short:
@@ -333,7 +336,9 @@ const Projects = [
             SVG.java,
             SVG.mysql
         ],
-        link: []
+        link: [
+            link.viewImages(JSON.project2)
+        ]
     },
     {
         id: 1,
