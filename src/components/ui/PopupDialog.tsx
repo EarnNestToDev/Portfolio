@@ -34,11 +34,32 @@ export default function Popup({ isOpen, onClose, children }: PopupProps) {
 
     return (
         <article
-            className="fixed inset-0 z-10 flex items-center justify-center bg-black/70 backdrop-blur-sm"
+            className="
+                fixed
+                inset-0 
+                z-10 flex 
+                items-center 
+                justify-center 
+                bg-black/70 
+                backdrop-blur-sm
+            "
             onClick={onClose}
         >
             <main
-                className="relative bg-zinc-900 rounded-2xl p-6 max-w-lg w-[90vw] md:w-full shadow-xl"
+                className="
+                    relative 
+                    bg-zinc-900 
+                    rounded-2xl 
+                    border-b-2
+                    border-t-4
+                    border-x-2
+                    border-zinc-50/10
+                    p-6 
+                    md:max-w-lg
+                    w-[90vw] 
+                    md:w-full 
+                    shadow-xl
+                "
                 onClick={(e) => e.stopPropagation()}
             >
                 <button

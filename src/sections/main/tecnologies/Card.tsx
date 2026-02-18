@@ -7,12 +7,14 @@ export default function Card(
         customDecorate,
         title,
         icon,
-        description
+        description,
+        textColor
     }: {
         customDecorate?: string;
         title: string;
         icon: React.ReactNode;
         description?: string;
+        textColor?: string;
     }
 ) {
 
@@ -23,13 +25,13 @@ export default function Card(
         <>
             <article
                 onClick={() => setIsOpen(true)}
-                className={"flex flex-col items-stretch justify-center rounded-lg p-2 gap-2 relative cursor-pointer shadow-2xl " + customDecorate}>
-
-                <header className={"text-xl font-bold flex flex-row items-center justify-center gap-2 rounded-2xl p-2"}>
+                className={"flex flex-row items-center justify-start rounded-lg p-2 gap-2 relative cursor-pointer " + customDecorate}>
+                <span className={textColor}>•</span>
+                <header className={"flex flex-row items-center justify-center gap-2 rounded-2xl"}>
                     {icon}
                 </header>
 
-                <footer className={"text-lg word-break font-bold text-zinc-300 flex items-center justify-center p-2"}>
+                <footer className={"font-bold text-md word-break text-zinc-50/60 flex items-center justify-start"}>
                     {title}
                 </footer>
 

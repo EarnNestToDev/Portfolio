@@ -17,8 +17,8 @@ import SVGTypeScript from "@/components/icons/tecnologies/typescript";
 import SVGGithub from "@/components/icons/github";
 
 const size = {
-    big: 64,
-    mid: 48,
+    big: 32,
+    mid: 32,
     sml: 32
 }
 
@@ -47,7 +47,7 @@ const customDecorate = {
     destacado: "bg-orange-500",
     regular: "bg-sky-800",
     irrelevante: "bg-sky-200",
-    scale: " transition-all hover:bg-zinc-50/10"
+    scale: " transition-all bg-zinc-950/15 md:bg-transparent hover:bg-zinc-50/10 px-4 py-2"
 }
 
 const tecnologies =
@@ -107,15 +107,15 @@ const tecnologies =
     learning: [
         {
             customDecorate: customDecorate.scale,
-            title: "NodeJS",
+            title: "Node.js",
             icon: SVG.nodejs,
             description: "Explorando..."
         },
         {
             customDecorate: customDecorate.scale,
-            title: "NextJS",
+            title: "Next.js",
             icon: SVG.nextjs,
-            description: "El primer framework y ya me encanta"
+            description: "Mi primer framework y ya me encanta"
         },
         {
             customDecorate: customDecorate.scale,

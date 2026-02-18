@@ -21,7 +21,7 @@ export default function Projects() {
                         Carezco de experiencia profesional,
                         sin embargo he desarrollado diversos
                         proyectos durante mi desarrollo
-                        académico.
+                        académico
                     </span>
                 </div>
             </article>

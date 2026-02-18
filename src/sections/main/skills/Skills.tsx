@@ -1,7 +1,7 @@
 import Content from "@/sections/main/skills/Data";
 import Card from "@/sections/main/skills/Card";
 
-import Bulb from "@/components/icons/bulb_outline";
+import SVSkill from "@/components/icons/target_arrow";
 
 
 export default function Skills() {
@@ -12,7 +12,7 @@ export default function Skills() {
             <article className="w-full flex flex-col items-start justify-center gap-2 rounded-lg p-2">
 
                 <div className="text-2xl font-bold w-content rounded-lg p-2 flex flex-row items-center gap-2">
-                    <Bulb width={36} height={36} stroke="#ffc11a" />
+                    <SVSkill width={36} height={36} stroke="#ff6778" />
                     <span>
                         Habilidades
                     </span>

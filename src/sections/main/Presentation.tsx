@@ -77,17 +77,23 @@ const Presentation = () => {
                         <div>
                             <p className="text-lg text-zinc-50/80 line-height-1.3">
 
-                                Bienvenido a mi Portafolio Web.
-                                Soy un
+                                Desarrollador con más de
                                 <span className="font-bold text-green-500 pl-2 pr-2">
-                                    recién egresado
+                                    2 años
                                 </span>
-                                de la carrera en busca
-                                de oportunidad laboral en el área,
-                                aquí te presento
-                                los proyectos que he realizado durante mi
-                                formación académica y profesional.
-
+                                experiencia en desarollo web,
+                                software de escritorio y Android,
+                                además de gestión en base de datos
+                                relacionales con enfoque a Back-end
+                                especializado en
+                                <span className="font-bold text-orange-400 px-2">
+                                    Java
+                                </span>
+                                y
+                                <span className="font-bold text-blue-400 pl-2">
+                                    PHP
+                                </span>
+                                .
                             </p>
                         </div>
 
@@ -119,7 +125,7 @@ const Presentation = () => {
                                 rel="noopener noreferrer"
                                 className="
                                 bg-orange-500
-                                hover:bg-orange-600
+                                hover:saturate-200
                                 hover:scale-110
                                 transition-all
                                 cursor-pointer

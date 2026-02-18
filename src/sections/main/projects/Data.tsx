@@ -79,10 +79,10 @@ const SVG = {
 }
 
 const rank = {
-    actual: "bg-lime-500/10 border-t-2 border-t-lime-500/50",
-    destacado: "bg-orange-500/10 border-t-2 border-t-orange-500/50",
-    regular: "bg-sky-500/10 border-t-2 border-t-sky-500/50",
-    irrelevante: "bg-zinc-900/50 border-t-2 border-t-zinc-500/50"
+    actual: "bg-lime-500/10 border-b border-t-4 border-x border-lime-500/50",
+    destacado: "bg-orange-500/10 border-b border-t-4 border-x border-orange-500/50",
+    regular: "bg-sky-500/10 border-b border-t-4 border-x border-sky-500/50",
+    irrelevante: "bg-zinc-900/50 border-b border-t-4 border-x border-zinc-500/50"
 }
 
 const descInfo = (description: string) => {
