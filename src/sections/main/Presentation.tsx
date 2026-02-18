@@ -81,7 +81,7 @@ const Presentation = () => {
                                 <span className="font-bold text-green-500 pl-2 pr-2">
                                     2 años
                                 </span>
-                                experiencia en desarollo web,
+                                de experiencia en el desarrollo web,
                                 software de escritorio y Android,
                                 además de gestión en base de datos
                                 relacionales con enfoque a Back-end

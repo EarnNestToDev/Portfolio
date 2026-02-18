@@ -14,6 +14,7 @@ import SVGNodeJS from "@/components/icons/tecnologies/nodejs";
 import SVGNextJS from "@/components/icons/tecnologies/nextjs";
 import SVGTailwind from "@/components/icons/tecnologies/tailwind";
 import SVGTypeScript from "@/components/icons/tecnologies/typescript";
+import SVGReact from "@/components/icons/tecnologies/react";
 import SVGGithub from "@/components/icons/github";
 
 const size = {
@@ -39,7 +40,8 @@ const SVG = {
     nextjs: <SVGNextJS width={size.mid} height={size.mid} fill="white" />,
     tailwind: <SVGTailwind width={size.mid} height={size.mid} />,
     typescript: <SVGTypeScript width={size.mid} height={size.mid} />,
-    github: <SVGGithub width={size.mid} height={size.mid} fill="white" />
+    github: <SVGGithub width={size.mid} height={size.mid} fill="white" />,
+    react: <SVGReact width={size.mid} height={size.mid} />
 };
 
 const customDecorate = {
@@ -61,15 +63,15 @@ const tecnologies =
         },
         {
             customDecorate: customDecorate.scale,
-            title: "NetBeans",
-            icon: SVG.netbeans,
-            description: "El primer IDE de mi vida"
+            title: "TypeScript",
+            icon: SVG.typescript,
+            description: "No sé por qué, pero por alguna razón me gusta más que JS..."
         },
         {
             customDecorate: customDecorate.scale,
-            title: "VSCode",
-            icon: SVG.vscode,
-            description: "Rápido, eficaz y efervecente xd"
+            title: "NetBeans",
+            icon: SVG.netbeans,
+            description: "El primer IDE de mi vida"
         }
     ],
     regular: [
@@ -77,7 +79,13 @@ const tecnologies =
             customDecorate: customDecorate.scale,
             title: "PHP",
             icon: SVG.php,
-            description: "Me gusta más en backend"
+            description: "Me encanta usarlo como End-point"
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "JavaScript",
+            icon: SVG.javascript,
+            description: "Extrañaba escribir lógica en Web"
         },
         {
             customDecorate: customDecorate.scale,
@@ -87,21 +95,15 @@ const tecnologies =
         },
         {
             customDecorate: customDecorate.scale,
-            title: "Git Hub",
-            icon: SVG.github,
-            description: "'git -push -force' 🗿"
-        },
-        {
-            customDecorate: customDecorate.scale,
             title: "Android Studio",
             icon: SVG.androidStudio,
             description: "Me quitaba toda la Ram :("
         },
         {
             customDecorate: customDecorate.scale,
-            title: "JavaScript",
-            icon: SVG.javascript,
-            description: "Extrañaba escribir lógica en Web"
+            title: "Git Hub",
+            icon: SVG.github,
+            description: "'git -push -force' 🗿"
         }
     ],
     learning: [
@@ -109,7 +111,7 @@ const tecnologies =
             customDecorate: customDecorate.scale,
             title: "Node.js",
             icon: SVG.nodejs,
-            description: "Explorando..."
+            description: "'npm run dev' goes brrrrr 🗿🗿🗿"
         },
         {
             customDecorate: customDecorate.scale,
@@ -119,15 +121,21 @@ const tecnologies =
         },
         {
             customDecorate: customDecorate.scale,
-            title: "TailwindCSS",
-            icon: SVG.tailwind,
-            description: "El CSS que CSS debió ser 🗣️"
+            title: "React",
+            icon: SVG.react,
+            description: "Explorando..."
         },
         {
             customDecorate: customDecorate.scale,
             title: "TypeScript",
             icon: SVG.typescript,
-            description: "Me gusta más que JS"
+            description: "No sé por qué, pero por alguna razón me gusta más que JS..."
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "TailwindCSS",
+            icon: SVG.tailwind,
+            description: "El CSS que CSS debió ser 🗣️"
         }
     ]
 };

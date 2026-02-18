@@ -41,7 +41,7 @@ const AboutMe = () => {
                     <span>
                         Fascinado por las computadoras desde pequeño
                         e impulsado por la curiosidad de crear, dediqué
-                        mi lógica y análisis para la comprensión y uso
+                        mi lógica y análisis para la comprensión y el uso
                         de lenguajes de programación para el desarrollo
                         de software. En el transcurso se me presentó la
                         oportunidad de cursar la carrera de Ingeniería
