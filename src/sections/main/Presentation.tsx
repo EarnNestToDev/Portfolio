@@ -17,7 +17,7 @@ const imgElements = {
 
 const Presentation = () => {
     return (
-        <section className="w-full flex items-center justify-center" id="presentation">
+        <section className="min-h-screen w-full flex items-center justify-center md:mt-0 mt-24" id="presentation">
 
             <article className="
                 borderOFF
@@ -75,7 +75,7 @@ const Presentation = () => {
 
                     <div className="col-span-3 row-start-3 h-content gap-4 flex flex-col mt-4">
                         <div>
-                            <p className="text-lg text-zinc-50/80 text-balance line-height-1.3">
+                            <p className="text-lg text-zinc-50/80 line-height-1.3">
 
                                 Bienvenido a mi Portafolio Web.
                                 Soy un
@@ -87,9 +87,6 @@ const Presentation = () => {
                                 aquí te presento
                                 los proyectos que he realizado durante mi
                                 formación académica y profesional.
-                                <span className="italic text-zinc-50/50">
-                                    También funciona como mi carta de presentación...
-                                </span>
 
                             </p>
                         </div>

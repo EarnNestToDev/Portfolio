@@ -36,7 +36,7 @@ export default function Card({
         if (!tecnologies) return null;
         return tecnologies.map((Content, index) => (
             <div
-                className="px-4 py-2 bg-zinc-400/20 rounded-lg text-xs font-bold"
+                className="px-4 py-2 bg-zinc-950/50 rounded-lg text-xs font-bold"
             >{tecnologies[index]}</div>
         ));
     }
@@ -47,11 +47,11 @@ export default function Card({
             <header className="text-xl font-bold text-start flex flex-row items-center justify-between gap-2">
                 <div>{showImageSection()}</div>
                 <div className="text-zinc-50/80 text-2xl text-wrap">{title}</div>
-                <div className="text-sm text-zinc-50/90 rounded-xl bg-zinc-400/20 px-4 py-2">{year}</div>
+                <div className="text-sm text-zinc-50/90 rounded-xl bg-zinc-950/50 px-4 py-2">{year}</div>
             </header>
 
             <main className="text-wrap flex flex-col gap-4">
-                <div className="italic text-zinc-50/80">
+                <div className="italic text-zinc-50/80 p-2">
                     {description}
                 </div>
 
@@ -60,7 +60,7 @@ export default function Card({
                 </div>
             </main>
 
-            <footer className="flex flex-row flex-wrap items-center justify-start gap-4">
+            <footer className="flex flex-row flex-wrap items-center justify-start gap-4 p-2">
                 {showLinkSection()}
             </footer>
 

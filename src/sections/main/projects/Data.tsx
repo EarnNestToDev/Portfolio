@@ -25,6 +25,7 @@ import JSON_IMG_3 from "../../../../public/image/projects/3/img_url.json";
 import JSON_IMG_2 from "../../../../public/image/projects/2/img_url.json";
 import JSON_IMG_1 from "../../../../public/image/projects/1/img_url.json";
 import JSON_IMG_0 from "../../../../public/image/projects/0/img_url.json";
+import tecnologies from "../tecnologies/Data";
 
 
 const size = {
@@ -69,14 +70,19 @@ const SVG = {
     nextjs: "Next.js",
     tailwind: "TailwindCSS",
     typescript: "TypeScript",
-    react: "React"
+    react: "React",
+    http: "HTTP",
+    ssh: "SSH",
+    dns: "DNS",
+    dhcp: "DHCP",
+    email: "EMAIL"
 }
 
 const rank = {
-    actual: "bg-lime-950 saturate-150",
-    destacado: "bg-orange-950 saturate-150",
-    regular: "bg-sky-950 saturate-150",
-    irrelevante: "bg-zinc-800 saturate-150"
+    actual: "bg-lime-500/10 border-t-2 border-t-lime-500/50",
+    destacado: "bg-orange-500/10 border-t-2 border-t-orange-500/50",
+    regular: "bg-sky-500/10 border-t-2 border-t-sky-500/50",
+    irrelevante: "bg-zinc-900/50 border-t-2 border-t-zinc-500/50"
 }
 
 const descInfo = (description: string) => {
@@ -112,7 +118,8 @@ const Projects = [
             short:
                 <>
                     <p>
-                        Portafolio/Sitio Web personal
+                        Primer acercamiento a la creación
+                        de páginas web con tecnologías modernas.
                     </p>
                 </>,
             long:
@@ -161,6 +168,9 @@ const Projects = [
                 <>
                     <p>
                         Sistema de registro de asistencias
+                        y generación de reportes PDF
+                        para el Instituto Tecnológico Superior
+                        de Villa la Venta.
                     </p>
                 </>,
             long:
@@ -206,7 +216,8 @@ const Projects = [
             short:
                 <>
                     <p>
-                        Sistema de localización
+                        Sistema de localización en tiempo real
+                        orientado para personas dependientes y con discapacidades.
                     </p>
                 </>,
             long:
@@ -246,13 +257,16 @@ const Projects = [
             short:
                 <>
                     <p>
-                        Sistema identificador de Plantas Tóxicas
+                        Sistema identificador de dos tipos de
+                        plantas tóxicas mediante una fotografía
+                        desde un dispositivo móvil.
                     </p>
                 </>,
             long:
                 <>
                     <p>
-                        Es una aplicación capaz de identificar plantas tóxicas a través de un modelo
+                        Es una aplicación capaz de identificar dos tipos de
+                        plantas tóxicas a través de un modelo
                         de Machine Learning preentrenado mediante una fotografía desde el dispositivo
                         móvil Android.
                     </p>
@@ -279,7 +293,8 @@ const Projects = [
             short:
                 <>
                     <p>
-                        Analizador léxico
+                        Analizador léxico como proyecto de universidad
+                        para reforzar la lógica hecho en Java vanilla.
                     </p>
                 </>,
             long:
@@ -305,7 +320,7 @@ const Projects = [
     {
         id: 2,
         customDecorate: rank.regular,
-        title: "VidegameCenter",
+        title: "Videgame Center",
         year: "2023",
         url: JSON.project2[0].url,
         description:
@@ -313,7 +328,8 @@ const Projects = [
             short:
                 <>
                     <p>
-                        Ecommerce para la venta de videojuegos
+                        Software Ecommerce para la gestión
+                        de venta de videojuegos.
                     </p>
                 </>,
             long:
@@ -351,7 +367,9 @@ const Projects = [
             short:
                 <>
                     <p>
-                        Servidor de Windows Server
+                        Práctica para levantar y gestionar un
+                        servidor en Windows Server
+                        además de alojar y administrar páginas web.
                     </p>
                 </>,
             long:
@@ -362,8 +380,16 @@ const Projects = [
                     </p>
                     {descInfo("Gestioné servicios como HTTP, PHP, MySQL, EMAIL, etc.")}
                 </>
-        }
-        ,
+        },
+        tecnologies: [
+            SVG.http,
+            SVG.php,
+            SVG.mysql,
+            SVG.email,
+            SVG.dns,
+            SVG.dhcp,
+            SVG.ssh
+        ],
         link: []
     },
     {
@@ -377,7 +403,8 @@ const Projects = [
             short:
                 <>
                     <p>
-                        Gestión y administración de redes en Cisco.
+                        Prácticas en Cisco para la
+                        gestión y administración de redes.
                     </p>
                 </>,
             long:
@@ -387,8 +414,12 @@ const Projects = [
                         sistemas de redes como la de árbol, punto a punto, etc.
                     </p>
                 </>
-        }
-        ,
+        },
+        tecnologies: [
+            SVG.dns,
+            SVG.dhcp,
+            SVG.ssh
+        ],
         link: []
     }
 ];

@@ -78,7 +78,8 @@ export default function Popup({ isOpen, onClose, children }: PopupProps) {
                 <button
                     onClick={onClose}
                     className="
-                        absolute
+                        fixed
+                        z-1000
                         top-3
                         right-3
                         bg-red-500

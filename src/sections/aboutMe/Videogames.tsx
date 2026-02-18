@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useEffect } from "react";
 
 import JSON_VIDEOGAMES_PATH from "../../../public/data/videojuegos.json";
@@ -6,21 +8,11 @@ import SVGRefresh from "@/components/icons/refresh";
 import SVGGame from "@/components/icons/game";
 import SVGSteam from "@/components/icons/steam";
 import SVGStar from "@/components/icons/star";
+import SVGChevronArrow from "@/components/icons/chevron_arrow";
 
 const JSON_GAMES = JSON_VIDEOGAMES_PATH;
 
 const IconGame = {
-    refresh:
-        <SVGRefresh
-            title="Recomendar otra música"
-            stroke="currentColor"
-            strokeWidth={3}
-            className="
-                        cursor-pointer
-                        hover:scale-115
-                        transition-all
-                        "
-        />,
     icon:
         <SVGGame
             width={50}
@@ -30,16 +22,21 @@ const IconGame = {
         />
 }
 
+
 function Music() {
-    const [game, setGame] = useState<GamesItem | null>(null);
-    const [title, setTitle] = useState<string | null>(null);
+
+    const [actual, setActual] = useState<number | null>(null);
 
     useEffect(() => {
-        setGame(randomResult(JSON_GAMES.videojuegos));
-        setTitle(randomResult(JSON_GAMES.titles));
+        setActual(randomResult());
     }, []);
 
-    if (!game || !title) return null;
+    if (actual === null) return null;
+
+    const title = JSON_GAMES.titles[0];
+    const game = JSON_GAMES.videojuegos[actual];
+    const pos = positionJSONObject(actual);
+    const actualPosNumber = actual;
 
     return (
         <article
@@ -68,6 +65,18 @@ function Music() {
                 gap-2
                 "
         >
+
+            {
+                game
+                &&
+
+                <span
+                    className="bg-zinc-50/10 backdrop-blur-xs fixed left-2 bottom-2 px-3 py-1 rounded-full text-xs font-bold"
+                >
+                    {pos}
+                </span>
+            }
+
             <header
                 className="col-span-2 flex flex-row items-start justify-between gap-2"
             >
@@ -89,27 +98,79 @@ function Music() {
                     </span>
                 }
 
-                <button
-                    title="Cambiar videojuego"
-                    className="
+
+                <div
+                    className="flex flex-row gap-1"
+                >
+                    <button
+                        title="Anterior videojuego"
+                        className="
                             cursor-pointer
                             hover:scale-115
                             transition-all
                             p-1
-                            rounded-full
+                            rounded-l-full
                             backdrop-blur-xs
                             bg-zinc-950/10
                             hover:bg-zinc-50/70
                         "
-                    onClick={() => setGame(randomResult(JSON_GAMES.videojuegos))}
-                >
-                    <SVGRefresh
-                        // stroke="currentColor"
-                        strokeWidth={2}
-                    />
-                </button>
+                        onClick={() => {
+                            setActual(prev => prevPos(prev ?? 0));
+                        }}
+                    >
+                        <SVGChevronArrow
+                            stroke="currentColor"
+                            transform="rotate(180)"
+                            strokeWidth={2}
+                        />
+                    </button>
+
+                    <button
+                        title="Cambiar videojuego"
+                        className="
+                            cursor-pointer
+                            hover:scale-115
+                            transition-all
+                            p-1
+                            rounded-fullOFF
+                            backdrop-blur-xs
+                            bg-zinc-950/10
+                            hover:bg-zinc-50/70
+                        "
+                        onClick={() => {
+                            setActual(prev => randomResult(prev ?? undefined));
+                        }}
+                    >
+                        <SVGRefresh
+                            stroke="currentColor"
+                            strokeWidth={2}
+                        />
+                    </button>
+                    <button
+                        title="Anterior videojuego"
+                        className="
+                            cursor-pointer
+                            hover:scale-115
+                            transition-all
+                            p-1
+                            rounded-r-full
+                            backdrop-blur-xs
+                            bg-zinc-950/10
+                            hover:bg-zinc-50/70
+                        "
+                        onClick={() => {
+                            setActual(prev => nextPos(prev ?? 0));
+                        }}
+                    >
+                        <SVGChevronArrow
+                            stroke="currentColor"
+                            strokeWidth={2}
+                        />
+                    </button>
+                </div>
 
             </header>
+
             <aside
                 className="
                         row-start-2
@@ -120,6 +181,7 @@ function Music() {
             >
                 {IconGame.icon}
             </aside>
+
             <main
                 className="row-start-2 flex flex-col items-start justify-center gap-2">
 
@@ -194,18 +256,44 @@ function Music() {
                 </div>
 
             </main>
+
+
         </article>
     )
 }
 
-function randomResult<T>(json: T[]): T {
+function randomResult(exclude?: number): number {
+    const length = JSON_GAMES.videojuegos.length;
 
-    const randomNumber = Math.floor(Math.random() * json.length);
+    if (length <= 1) return 0;
 
-    const result = json[randomNumber];
+    let random;
 
-    return result;
-};
+    do {
+        random = Math.floor(Math.random() * length);
+    } while (random === exclude);
+
+    return random;
+}
+
+function setJSONObject<T>(json: T[], number: number): T {
+    return json[number];
+}
+
+function positionJSONObject(n: number) {
+    const actualPos = n + 1;
+    return actualPos + " / " + JSON_GAMES.videojuegos.length;
+}
+
+function nextPos(n: number) {
+    const maxJSON = JSON_GAMES.videojuegos.length - 1;
+    return n >= maxJSON ? 0 : n + 1;
+}
+
+function prevPos(n: number) {
+    const maxJSON = JSON_GAMES.videojuegos.length - 1;
+    return n <= 0 ? maxJSON : n - 1;
+}
 
 type GamesItem = {
     title: string;

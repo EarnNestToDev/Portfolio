@@ -53,7 +53,7 @@ export default function Tecnologies() {
                     {
                         contentTecnology(
                             Content.regular,
-                            "Uso común",
+                            "He usado",
                             "text-sky-600"
                         )
                     }

@@ -5,8 +5,8 @@ import SVGBriefcase from "@/components/icons/brieftcase";
 
 const Header = () => {
     return (
-        <header className="bg-opacity-50 backdrop-blur-sm bg-neutral-primary fixed w-full z-20 top-0 start-0 border-b border-orange-200/20 pt-2 pb-2">
-            <nav className="max-w-7xl flex flex-wrap items-center gap-4 justify-between mx-auto pl-2">
+        <header className="bg-opacity-50 backdrop-blur-sm fixed w-full z-20 top-0 start-0 border-b border-orange-200/20 py-2">
+            <nav className="w-full flex flex-wrap items-center gap-4 justify-between mx-auto pl-2 md:pl-8">
                 <div className="hidden md:block">
                     <SVGBriefcase width={36} height={36} fill="white" />
                 </div>
@@ -17,7 +17,7 @@ const Header = () => {
                     <ButtonNavbar name="Sobre mí" href="/#aboutMe" />
                 </div>
 
-                <div className="pr-2">
+                <div className="pr-2 md:pr-8">
                     <SocialLinks />
                 </div>
             </nav>

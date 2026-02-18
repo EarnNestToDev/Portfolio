@@ -2,7 +2,7 @@ import GitHub from "@/components/icons/github";
 import Link from "@/components/icons/link";
 import Watch from "@/components/icons/photo";
 
-import RenderPopup from "@/sections/main/projects/RenderPopup";
+import Popup from "@/sections/main/projects/Popup";
 
 const DEFAULT_SIZE = 24;
 
@@ -61,7 +61,7 @@ export default class Links {
         }
 
         return (
-            <RenderPopup
+            <Popup
                 json={json_path}
                 url_video={url_video}
                 defaultDecorate={this.DEFAULT_DECORATE}
@@ -72,7 +72,7 @@ export default class Links {
                         fill="black"
                     />
                 }
-                title={titleIcon("Ver imágenes", "Img")}
+                name_button={titleIcon("Ver imágenes", "Img")}
             />
         );
     }
