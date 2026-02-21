@@ -77,15 +77,15 @@ const Presentation = () => {
                         <div>
                             <p className="text-lg text-zinc-50/80 line-height-1.3">
 
-                                Desarrollador con más de
+                                Poseo más de
                                 <span className="font-bold text-green-500 pl-2 pr-2">
                                     2 años
                                 </span>
                                 de experiencia en el desarrollo web,
-                                software de escritorio y Android,
+                                software de escritorio, móvil,
                                 además de gestión en base de datos
-                                relacionales con enfoque a Back-end
-                                especializado en
+                                relacionales con un fuerte enfoque en Back-end
+                                especialmente con
                                 <span className="font-bold text-orange-400 px-2">
                                     Java
                                 </span>
