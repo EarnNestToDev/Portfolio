@@ -4,47 +4,79 @@
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/icon.webp"
     },
     {
-        "title": "Loader_1",
+        "title": "Loader_1-TTApp",
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/0.jpg"
     },
     {
-        "title": "Loader_2",
+        "title": "Loader_2-TTApp",
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/1_1.jpg"
     },
     {
-        "title": "Loader_3",
+        "title": "Loader_3-TTApp",
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/1_2.jpg"
     },
     {
-        "title": "Login",
+        "title": "Login-TTApp",
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/2.jpg"
     },
     {
-        "title": "Menu",
+        "title": "Menu-TTApp",
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/3.jpg"
     },
     {
-        "title": "CheckList",
+        "title": "Check_List-TTApp",
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/4.jpg"
     },
     {
-        "title": "Extras_1",
+        "title": "Extras_1-TTApp",
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/4_1.jpg"
     },
     {
-        "title": "Extras_2",
+        "title": "Extras_2-TTApp",
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/4_2.jpg"
     },
     {
-        "title": "PrepareWhatsAppMSG",
+        "title": "Prepare_WhatsApp_MSG-TTApp",
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/5.jpg"
     },
     {
-        "title": "ConsultList",
+        "title": "Consult_List-TTApp",
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/6.jpg"
     },
     {
-        "title": "GenerateReportMensualDocente",
+        "title": "Generate_Report_Mensual_Docente-TTApp",
         "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/7.jpg"
+    },
+    {
+        "title": "Report_PDF-TTApp",
+        "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/8.png"
+    },
+    {
+        "title": "Login-TTAdmin",
+        "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/9.png"
+    },
+    {
+        "title": "Menú-TTAdmin",
+        "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/10.png"
+    },
+    {
+        "title": "Menú_Logger-TTAdmin",
+        "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/10_1.png"
+    },
+    {
+        "title": "Carreras_Module-TTAdmin",
+        "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/11.png"
+    },
+    {
+        "title": "DocentesCSV_Module-TTAdmin",
+        "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/12.png"
+    },
+    {
+        "title": "Configuración-TTAdmin",
+        "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/13.png"
+    },
+    {
+        "title": "Configuración_App-TTAdmin",
+        "url": "https://raw.githubusercontent.com/EarnNestToDev/Projects_Resources/refs/heads/main/portfolio/projects/tutor_tracking/13_1.png"
     }
 ]
