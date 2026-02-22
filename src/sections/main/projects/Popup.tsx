@@ -57,17 +57,19 @@ function setContent(json: JSON_FORMAT[], video?: string) {
       insertVideo(video)
     );
   }
+
   for (let index = 0; index < json.length; index++) {
-    content = [...content,
-    <img
-      key={index}
-      src={json[index].url}
-      alt={json[index].title}
-      loading="lazy"
-      className="rounded-lg h-auto w-full md:h-full md:w-auto"
-    />
-    ]
+    content.push(
+      <img
+        key={index}
+        src={json[index].url}
+        alt={json[index].title}
+        loading="lazy"
+        className="rounded-lg h-auto w-full md:h-full md:w-auto"
+      />
+    );
   }
+
   return content;
 }
 

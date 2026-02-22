@@ -37,7 +37,7 @@ export default function Popup({ isOpen, onClose, children }: PopupProps) {
             className="
                 fixed
                 inset-0 
-                z-10 flex 
+                z-100 flex 
                 items-center 
                 justify-center 
                 bg-black/70 
