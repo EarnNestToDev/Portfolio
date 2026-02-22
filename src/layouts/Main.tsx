@@ -13,7 +13,7 @@ export default function MainLayout() {
         <>
             <Navbar />
 
-            <main className="max-w-[100vw] flex flex-col items-center justify-start mt-24 gap-40">
+            <main className="max-w-full flex flex-col items-center justify-start gap-40">
                 <Presentation />
 
                 <Skills />

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import Popup from "@/components/ui/PopupFullscreen";
 
-import Carrousel from "@/sections/main/projects/Carrousel";
+import Carrousel from "@/sections/main/projects/CarrouselImg";
 import LYTEmbed from "@/components/LiteYTEmbed";
 
 const renderPopup = ({

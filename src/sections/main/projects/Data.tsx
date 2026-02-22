@@ -159,7 +159,7 @@ const Projects = [
     {
         id: 6,
         customDecorate: rank.destacado,
-        title: "TutorTracking",
+        title: "Tutor Tracking",
         year: "2025",
         url: JSON.project6[0].url,
         description:

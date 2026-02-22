@@ -158,17 +158,16 @@ export default function Carousel(
                 ))}
             </ul>
 
-            <div className="flex flex-row justify-between items-center gap-2 mt-4">
+            <div className="flex flex-row justify-center items-center gap-2 mt-4">
                 {content.map((_, i) => (
                     <div
                         className={`
-                            w-full
+                            w-2
                             h-2
-                            rounded-xs
-                            bg-zinc-50
+                            rounded-full
                             transition-all
                             duration-300
-                            ${activeIndicator === i ? "opacity-100 translate-y-1" : "opacity-20"}
+                            ${activeIndicator === i ? "bg-zinc-50 opacity-100 scale-150" : "md:border-2 border border-zinc-50 opacity-20"}
                         `}
                     />
                 ))}

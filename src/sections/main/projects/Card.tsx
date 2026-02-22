@@ -42,16 +42,16 @@ export default function Card({
     }
 
     return (
-        <article className={"min-w-[90vw] md:min-w-[600px] max-h-[50vh] grid grid-cols-1 grid-rows-[1fr_2fr_1fr] items-center justify-center rounded-4xl p-4 gap-2 snap-center " + customDecorate}>
+        <article className={"w-[90vw] md:w-[600px] max-h-[50vh] grid grid-cols-1 grid-rows-[1fr_2fr_1fr] items-center justify-center rounded-4xl p-4 gap-2 snap-center " + customDecorate}>
 
-            <header className="text-xl font-bold text-start flex flex-row items-center justify-between gap-2">
+            <header className="text-xl font-bold text-start flex flex-row items-center justify-between gap-2 p-2">
                 <div>{showImageSection()}</div>
-                <div className="text-zinc-50/80 text-2xl text-wrap">{title}</div>
+                <div className="text-zinc-50/80 text-2xl text-wrap overflow-hidden">{title}</div>
                 <div className="text-sm text-zinc-50/90 rounded-xl bg-zinc-950/50 px-4 py-2">{year}</div>
             </header>
 
             <main className="text-wrap flex flex-col gap-4">
-                <div className="italic text-zinc-50/80 p-2">
+                <div className="text-sm md:text-lg font-normal italic text-zinc-50/80 p-2">
                     {description}
                 </div>
 

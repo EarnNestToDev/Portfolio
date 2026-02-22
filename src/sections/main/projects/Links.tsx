@@ -83,7 +83,8 @@ function titleIcon(title: string, shortTitle: string) {
         data-title={title}
         data-shortTitle={shortTitle}
         className="
-            text-md text-wrap text-black 
+            font-normal
+            text-sm text-wrap text-black 
             md:after:content-[attr(data-title)]
             after:content-[attr(data-shortTitle)]
         "
