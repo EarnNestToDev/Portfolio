@@ -33,8 +33,8 @@ export default function Projects() {
                 <div className="text-base text-gray-200/50 font-bold rounded-lg pl-2 pr-2">
                     <span>
                         Carezco de experiencia profesional,
-                        sin embargo he desarrollado diversos
-                        proyectos durante mi desarrollo
+                        sin embargo, he desarrollado diversos
+                        proyectos durante mi trayecto
                         académico
                     </span>
                 </div>
