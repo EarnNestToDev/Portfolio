@@ -4,6 +4,9 @@ import SVGFilecertificate from "@/components/icons/filecertificate";
 // import Building from "@/components/icons/building";
 import SVGFileDownload from "@/components/icons/filedownload";
 import SVGCircleDashedCheck from "@/components/icons/circledashedcheck";
+import SVGCircleMinus from "@/components/icons/circleminus";
+
+const DEFAULT_STATUS = 1;
 
 const PDF_CV_URL = "./docs/CV-Ernesto_De_La_Cruz_Campos.pdf";
 
@@ -20,19 +23,20 @@ const Presentation = () => {
         <section className="min-h-screen w-full flex items-center justify-center md:mt-0 mt-24" id="presentation">
 
             <article className="
-                borderOFF
-                border-orange-300/50OFF
-                max-w-[90vw]
-                md:max-w-[600px]
-                flex
-                flex-col
-                items-center
-                justify-center
-                gap-2
-                text-gray-700
-                dark:text-gray-200
-                rounded-lg
-                p-2"
+                        borderOFF
+                        border-orange-300/50OFF
+                        max-w-[90vw]
+                        md:max-w-[600px]
+                        flex
+                        flex-col
+                        items-center
+                        justify-center
+                        gap-2
+                        text-gray-700
+                        dark:text-gray-200
+                        rounded-lg
+                        p-2
+                "
             >
                 <div
                     className="flex flex-col md:grid md:grid-cols-[1fr_1fr_1fr] md:grid-rows-[auto_auto_auto] gap-4 items-center justify-center"
@@ -98,52 +102,36 @@ const Presentation = () => {
                         </div>
 
                         <div className="flex flex-col md:flex-row gap-4 md:gap-2 md:justify-between items-stretch md:items-center">
-                            <article
-                                title="Auxilio, necesito chamba xd"
-                                className="
-                                bg-lime-600
-                                text-white
-                                px-4
-                                py-2
-                                rounded-lg
-                                flex
-                                flex-row
-                                items-center
-                                justify-center
-                                gap-2"
-                            >
-                                <div className="
-                                        font-bold
-                                        before:content-['Abierto_a_oferta_laboral']
-                                        hover:before:content-['Ocupo_chamba_pa']"
-                                />
-                                <SVGCircleDashedCheck width={24} height={24} stroke="currentColor" />
-                            </article>
+                            {setStatus(DEFAULT_STATUS)}
                             <a
                                 href={PDF_CV_URL}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="
-                                bg-orange-500
-                                hover:saturate-200
-                                hover:scale-110
-                                transition-all
-                                cursor-pointer
-                                text-white
-                                px-4
-                                py-2
-                                rounded-lg
-                                flex
-                                flex-row
-                                items-center
-                                justify-center
-                                gap-2"
+                                    bg-orange-500
+                                    hover:rounded-full
+                                    hover:saturate-200
+                                    hover:scale-115
+                                    transition-all
+                                    duration-500
+                                    cursor-pointer
+                                    text-white
+                                    px-4
+                                    py-2
+                                    rounded-2xl
+                                    flex
+                                    flex-row
+                                    items-center
+                                    justify-center
+                                    gap-2
+                                "
                             >
                                 <div
                                     className="
-                                    font-bold 
-                                    before:content-['Descargar_CV'] 
-                                    md:before:content-['Vizualizar_CV']"
+                                        font-bold 
+                                        before:content-['Descargar_CV'] 
+                                        md:before:content-['Vizualizar_CV']
+                                    "
                                 />
                                 <SVGFileDownload width={24} height={24} fill="currentColor" />
                             </a>
@@ -155,6 +143,61 @@ const Presentation = () => {
 
         </section>
     );
+}
+
+function setStatus(status: number) {
+    switch (status) {
+        case 0:
+            return <article
+                title="Amarrado hasta nuevo aviso xd"
+                className="
+                    bg-red-600/80
+                    text-white
+                    px-4
+                    py-2
+                    rounded-2xl
+                    flex
+                    flex-row
+                    items-center
+                    justify-center
+                    gap-2
+                "
+            >
+                <div className="
+                        font-bold
+                        before:content-['Actualmente_empleado']
+                        hover:before:content-['Ya_tengo_chamba_pa_xd']
+                    "
+                />
+                <SVGCircleMinus width={24} height={24} stroke="currentColor" />
+            </article>;
+        case 1:
+            return <article
+                title="Auxilio, necesito chamba xd"
+                className="
+                    bg-lime-600
+                    text-white
+                    px-4
+                    py-2
+                    rounded-2xl
+                    flex
+                    flex-row
+                    items-center
+                    justify-center
+                    gap-2
+                "
+            >
+                <div className="
+                        font-bold
+                        before:content-['Abierto_a_oferta_laboral']
+                        hover:before:content-['Ocupo_chamba_pa']
+                    "
+                />
+                <SVGCircleDashedCheck width={24} height={24} stroke="currentColor" />
+            </article>;
+        default:
+            return "Desconocido";
+    }
 }
 
 export default Presentation;
