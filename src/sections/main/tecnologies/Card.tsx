@@ -31,7 +31,7 @@ export default function Card(
                     {icon}
                 </header>
 
-                <footer className={"font-bold text-md word-break text-zinc-50/60 flex items-center justify-start"}>
+                <footer className={"font-bold text-md word-break text-zinc-900/80 dark:text-zinc-50/60 flex items-center justify-start"}>
                     {title}
                 </footer>
 
@@ -42,10 +42,10 @@ export default function Card(
                 onClose={() => setIsOpen(false)
                 }
             >
-                <h2 className="text-xl font-bold text-white">
+                <h2 className="text-xl font-bold text-zinc-900 dark:text-white">
                     {title}
                 </h2>
-                <p className="text-gray-300 mt-2">
+                <p className="text-zinc-900/80 dark:text-gray-300 mt-2">
                     <span
                         className="italic"
                     >

@@ -36,11 +36,11 @@ const AboutMe = () => {
                         src={imgElements.IMG_URL}
                         alt={imgElements.ALT_NAME}
                         loading="lazy"
-                        className="absolute z-20 w-full h-full rounded-4xl bg-white border-0 -rotate-3 md:-rotate-6 md:grayscale hover:grayscale-0 hover:transition-all duration-300"
+                        className="absolute z-20 w-full h-full rounded-4xl bg-zinc-600 dark:bg-white border-0 -rotate-3 md:-rotate-6 md:grayscale hover:grayscale-0 hover:transition-all duration-300"
                     />
                 </main>
 
-                <main className="row-start-2 flex flex-col items-start justify-start text-gray-300 text-base">
+                <main className="row-start-2 flex flex-col items-start justify-start text-gray-900/80 dark:text-gray-300 text-base">
                     <span>
                         Fascinado por las computadoras desde pequeño
                         e impulsado por la curiosidad de crear, dediqué

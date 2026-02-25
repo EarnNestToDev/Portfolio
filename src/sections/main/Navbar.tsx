@@ -5,8 +5,8 @@ import SVGLinkedIn from "@/components/icons/linkedin";
 import SVGGithub from "@/components/icons/github";
 
 const SVG = {
-    linkedin: <SVGLinkedIn width={36} height={36} fill="white" />,
-    github: <SVGGithub width={36} height={36} fill="white" />
+    linkedin: <SVGLinkedIn width={36} height={36} fill="currentColor" />,
+    github: <SVGGithub width={36} height={36} fill="currentColor" />
 };
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
         <header className="bg-opacity-50 backdrop-blur-sm fixed w-full z-100 top-0 start-0 border-b border-orange-200/20 py-2">
             <nav className="w-full flex flex-wrap items-center gap-4 justify-between mx-auto pl-2 md:pl-8">
                 <div className="hidden md:block">
-                    <SVGBriefcase width={36} height={36} fill="white" />
+                    <SVGBriefcase width={36} height={36} fill="currentColor" />
                 </div>
 
                 <div className="flex items-center justify-center gap-4">

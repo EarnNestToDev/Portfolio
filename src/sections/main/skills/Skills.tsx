@@ -18,7 +18,7 @@ export default function Skills() {
                     </span>
                 </div>
 
-                <div className="text-base text-gray-200/50 font-bold rounded-lg pl-2 pr-2">
+                <div className="text-base text-gray-900/50 dark:text-gray-200/50 font-bold rounded-lg pl-2 pr-2">
                     <span>
                         Habilidades destacables a consideración propia
                     </span>

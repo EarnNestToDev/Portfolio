@@ -167,7 +167,7 @@ export default function Carousel(
                             rounded-full
                             transition-all
                             duration-300
-                            ${activeIndicator === i ? "bg-zinc-50 opacity-100 scale-150" : "md:border-2 border border-zinc-50 opacity-20"}
+                            ${activeIndicator === i ? "bg-zinc-900 dark:bg-zinc-50 opacity-100 scale-150" : "md:border-2 border border-zinc-900 dark:border-zinc-50 opacity-20"}
                         `}
                     />
                 ))}

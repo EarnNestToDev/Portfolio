@@ -30,17 +30,17 @@ const SVG = {
     vscode: <SVGVSCode width={size.big} height={size.big} />,
     php: <SVGPHP width={size.mid} height={size.mid} />,
     mysql: <SVGMySQL width={size.mid} height={size.mid} />,
-    json: <SVGJSON width={size.sml} height={size.sml} fill="white" />,
+    json: <SVGJSON width={size.sml} height={size.sml} fill="currentColor" />,
     javascript: <SVGJavaScript width={size.mid} height={size.mid} />,
     xampp: <SVGXampp width={size.mid} height={size.mid} />,
     firebase: <SVGFirebase width={size.sml} height={size.sml} />,
     python: <SVGPython width={size.sml} height={size.sml} />,
     chatgpt: <SVGChatGPT width={size.mid} height={size.mid} />,
     nodejs: <SVGNodeJS width={size.mid} height={size.mid} />,
-    nextjs: <SVGNextJS width={size.mid} height={size.mid} fill="white" />,
+    nextjs: <SVGNextJS width={size.mid} height={size.mid} fill="currentColor" />,
     tailwind: <SVGTailwind width={size.mid} height={size.mid} />,
     typescript: <SVGTypeScript width={size.mid} height={size.mid} />,
-    github: <SVGGithub width={size.mid} height={size.mid} fill="white" />,
+    github: <SVGGithub width={size.mid} height={size.mid} fill="currentColor" />,
     react: <SVGReact width={size.mid} height={size.mid} />
 };
 
@@ -49,7 +49,7 @@ const customDecorate = {
     destacado: "bg-orange-500",
     regular: "bg-sky-800",
     irrelevante: "bg-sky-200",
-    scale: " transition-all bg-zinc-950/15 md:bg-transparent hover:bg-zinc-50/10 px-4 py-2"
+    scale: " transition-all bg-zinc-100/40 dark:bg-zinc-950/15 md:bg-transparent hover:bg-zinc-50/10 px-4 py-2"
 }
 
 const tecnologies =
@@ -101,7 +101,7 @@ const tecnologies =
         },
         {
             customDecorate: customDecorate.scale,
-            title: "Git Hub",
+            title: "GitHub",
             icon: SVG.github,
             description: "'git -push -force' 🗿"
         }

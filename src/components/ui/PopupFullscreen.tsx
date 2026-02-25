@@ -59,8 +59,9 @@ export default function Popup({ isOpen, onClose, children }: PopupProps) {
             <main
                 className="
                     relative
-                    bg-zinc-800
-                    md:bg-zinc-900
+                    bg-zinc-100
+                    dark:bg-zinc-800
+                    dark:md:bg-zinc-900
                     rounded-2xl
                     p-6
                     w-[90vw]
@@ -93,7 +94,7 @@ export default function Popup({ isOpen, onClose, children }: PopupProps) {
                     <SVGClose
                         width={24}
                         height={24}
-                        stroke="currentColor"
+                        stroke="white"
                         strokeWidth={3}
                     />
                 </button>

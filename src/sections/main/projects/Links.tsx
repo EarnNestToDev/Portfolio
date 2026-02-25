@@ -8,7 +8,7 @@ const DEFAULT_SIZE = 24;
 
 export default class Links {
 
-    private DEFAULT_DECORATE = "flex flex-row items-center justify-center gap-2 bg-zinc-50 hover:invert-100 rounded-full py-2 px-4 hover:scale-110 transition-all cursor-pointer ";
+    private DEFAULT_DECORATE = "flex flex-row items-center justify-center gap-2 bg-zinc-900 dark:bg-zinc-50 hover:invert-100 rounded-full py-2 px-4 hover:scale-110 transition-all cursor-pointer ";
 
     public github(url: string) {
 
@@ -23,7 +23,8 @@ export default class Links {
                 <GitHub
                     width={DEFAULT_SIZE}
                     height={DEFAULT_SIZE}
-                    fill="black"
+                    fill="currentColor"
+                    className="invert"
                 />
 
                 {titleIcon("Ver GitHub", "Repo")}
@@ -45,7 +46,8 @@ export default class Links {
                 <Link
                     width={DEFAULT_SIZE}
                     height={DEFAULT_SIZE}
-                    stroke="black"
+                    stroke="currentColor"
+                    className="invert"
                 />
 
                 {titleIcon("Ver sitio web", "Link")}
@@ -69,7 +71,8 @@ export default class Links {
                     <Watch
                         width={DEFAULT_SIZE}
                         height={DEFAULT_SIZE}
-                        fill="black"
+                        fill="currentColor"
+                        className="invert"
                     />
                 }
                 name_button={titleIcon("Ver imágenes", "Img")}
@@ -84,7 +87,7 @@ function titleIcon(title: string, shortTitle: string) {
         data-shortTitle={shortTitle}
         className="
             font-normal
-            text-sm text-wrap text-black 
+            text-sm text-wrap text-zinc-50 dark:text-zinc-900
             md:after:content-[attr(data-title)]
             after:content-[attr(data-shortTitle)]
         "

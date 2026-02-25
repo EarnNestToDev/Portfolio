@@ -12,9 +12,9 @@ const CONTACTO = {
 }
 
 const SVG = {
-    email: <SVGEmail width={DEFAULT_SIZE} height={DEFAULT_SIZE} fill="white" />,
+    email: <SVGEmail width={DEFAULT_SIZE} height={DEFAULT_SIZE} fill="currentColor" />,
     linkedin: <SVGLinkedin width={DEFAULT_SIZE} height={DEFAULT_SIZE} fill="white" />,
-    github: <SVGGithub width={DEFAULT_SIZE} height={DEFAULT_SIZE} fill="white" />
+    github: <SVGGithub width={DEFAULT_SIZE} height={DEFAULT_SIZE} fill="currentColor" />
 }
 
 const ContactMe = () => {
@@ -35,6 +35,7 @@ const ContactMe = () => {
                     md:bg-zinc-800/40 
                     hover:bg-red-500
                     font-bold
+                    text-white
                     cursor-pointer
                     px-4 py-2 
                     md:after:content-['•'] 
@@ -82,7 +83,8 @@ const ContactMe = () => {
                     className="
                         invert
                         md:invert-0
-                        bg-zinc-800
+                        bg-zinc-100
+                        dark:bg-zinc-900
                         md:bg-zinc-800/40
                         hover:bg-zinc-800
                         cursor-pointer

@@ -82,7 +82,7 @@ const rank = {
     actual: "bg-lime-500/10 border-b border-t-4 border-x border-lime-500/50",
     destacado: "bg-orange-500/10 border-b border-t-4 border-x border-orange-500/50",
     regular: "bg-sky-500/10 border-b border-t-4 border-x border-sky-500/50",
-    irrelevante: "bg-zinc-900/50 border-b border-t-4 border-x border-zinc-500/50"
+    irrelevante: "bg-zinc-100 dark:bg-zinc-900/50 border-b border-t-4 border-x border-zinc-500/50"
 }
 
 const descInfo = (description: string) => {
@@ -320,7 +320,7 @@ const Projects = [
     {
         id: 2,
         customDecorate: rank.regular,
-        title: "Videgame Center",
+        title: "Videogame Center",
         year: "2023",
         url: JSON.project2[0].url,
         description:

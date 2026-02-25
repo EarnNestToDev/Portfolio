@@ -26,7 +26,7 @@ export default function Tecnologies() {
                         Tecnologías
                     </span>
                 </div>
-                <div className="text-base text-gray-200/50 font-bold rounded-lg px-2">
+                <div className="text-base text-gray-900/50 dark:text-gray-200/50 font-bold rounded-lg px-2">
                     <span>
                         Tecnologías y herramientas abarcadas
                     </span>
@@ -97,7 +97,7 @@ function contentTecnology(
         <>
             <div className="grid grid-cols-1 grid-rows-[auto_auto]">
                 <div className="flex flex-col items-start justify-start py-4 px-2">
-                    <div className="p-4 bg-zinc-950/30 rounded-2xl">
+                    <div className="p-4 bg-zinc-100/60 dark:bg-zinc-950/30 rounded-2xl">
                         {Icon}
                     </div>
                     <span className={"flex flex-row items-center justify-center text-lg font-bold py-2 uppercase " + Color}>

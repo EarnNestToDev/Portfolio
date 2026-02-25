@@ -14,8 +14,8 @@ const imgElements = {
     IMG_PROFILE_URL: "./image/img_profile.webp",
     ALT_NAME: "Ernesto_De_La_Cruz_Campos",
     CLIP_PATH: "[clip-path:polygon(0_50%,_23%_100%,_100%_86%,_95%_3%,_19%_0)]",
-    BOX_SHADOW: "shadow-[inset_0px_30px_50px_-12px_rgba(50,50,93,0.25),inset_0px_18px_26px_-18px_rgba(0,0,0,0.3)]",
-    MASK_IMAGE: "[mask-image:linear-gradient(to_bottom,_white_30%,_transparent_95%_95%)]"
+    BOX_SHADOW: "dark:shadow-[inset_0px_30px_50px_-12px_rgba(50,50,93,0.25),inset_0px_18px_26px_-18px_rgba(0,0,0,0.3)]",
+    MASK_IMAGE: "dark:[mask-image:linear-gradient(to_bottom,_white_30%,_transparent_95%_95%)]"
 }
 
 const Presentation = () => {
@@ -53,24 +53,24 @@ const Presentation = () => {
 
                     <div className="md:col-span-2 md:row-span-2 flex flex-col justify-evenly gap-6">
                         <div className="w-full flex flex-col items-start justify-start gap-2">
-                            <p className="text-lg font-bold text-gray-200">
+                            <p className="text-lg font-bold text-gray-700 dark:text-gray-200">
                                 Saludos, soy
                             </p>
-                            <p className="text-2xl font-bold text-orange-300">
+                            <p className="text-2xl font-bold text-orange-400 dark:text-orange-300">
                                 Ernesto De La Cruz Campos
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-[16px_auto_auto] grid-rows-1 bg-zinc-900 text-base rounded-2xl">
+                        <div className="grid grid-cols-[16px_auto_auto] grid-rows-1 bg-zinc-100 dark:bg-zinc-900 text-base rounded-2xl">
                             <div className="bg-green-500 rounded-l-2xl"></div>
                             <div className="flex items-center justify-center p-3 md:p-0">
                                 <SVGFilecertificate width={24} height={24} stroke="#6ffd59" />
                             </div>
                             <div className="flex flex-col items-start justify-center py-4">
-                                <span className="text-zinc-50/90 text-base font-bold">
+                                <span className="text-zinc-900 dark:text-zinc-50/90 text-base font-bold">
                                     Ingeniero en Sistemas Computacionales
                                 </span>
-                                <span className="text-zinc-50/50 text-sm">
+                                <span className="text-zinc-900/80 dark:text-zinc-50/50 text-sm">
                                     Instituto Tecnológico Superior de Villa la Venta
                                 </span>
                             </div>
@@ -79,7 +79,7 @@ const Presentation = () => {
 
                     <div className="col-span-3 row-start-3 h-content gap-4 flex flex-col mt-4">
                         <div>
-                            <p className="text-lg text-zinc-50/80 line-height-1.3">
+                            <p className="text-lg text-zinc-900/80 dark:text-zinc-50/80 line-height-1.3">
 
                                 Poseo más de
                                 <span className="font-bold text-green-500 pl-2 pr-2">
