@@ -15,7 +15,8 @@ const imgElements = {
     ALT_NAME: "Ernesto_De_La_Cruz_Campos",
     CLIP_PATH: "[clip-path:polygon(0_50%,_23%_100%,_100%_86%,_95%_3%,_19%_0)]",
     BOX_SHADOW: "dark:shadow-[inset_0px_30px_50px_-12px_rgba(50,50,93,0.25),inset_0px_18px_26px_-18px_rgba(0,0,0,0.3)]",
-    MASK_IMAGE: "dark:[mask-image:linear-gradient(to_bottom,_white_30%,_transparent_95%_95%)]"
+    // MASK_IMAGE: "dark:[mask-image:linear-gradient(to_bottom,_white_30%,_transparent_95%_95%)]"
+    MASK_IMAGE: "dark:mask-b-from-20% dark:mask-b-to-95%"
 }
 
 const Presentation = () => {

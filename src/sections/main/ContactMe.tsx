@@ -1,7 +1,7 @@
 import Toast from "@/components/ToastDefault";
 import ButtonLink from "@/components/ui/ButtonLink";
 
-import SVGEmail from "@/components/icons/email";
+import SVGEmail from "@/components/icons/gmail";
 import SVGLinkedin from "@/components/icons/linkedin";
 import SVGGithub from "@/components/icons/github";
 
@@ -12,7 +12,7 @@ const CONTACTO = {
 }
 
 const SVG = {
-    email: <SVGEmail width={DEFAULT_SIZE} height={DEFAULT_SIZE} fill="currentColor" />,
+    email: <SVGEmail width={DEFAULT_SIZE} height={DEFAULT_SIZE} />,
     linkedin: <SVGLinkedin width={DEFAULT_SIZE} height={DEFAULT_SIZE} fill="white" />,
     github: <SVGGithub width={DEFAULT_SIZE} height={DEFAULT_SIZE} fill="currentColor" />
 }
@@ -22,27 +22,29 @@ const ContactMe = () => {
         <article className="w-full flex flex-col md:grid md:grid-cols-2 md:grid-rows-1 items-center justify-center gap-4">
             <div>
                 <button
-                    data-text="Copiar email"
-                    title="Copiar email"
+                    data-text="Copiar Email"
+                    title="Copiar Email"
                     className="
-                    w-full
-                    md:w-auto
-                    flex 
-                    flex-row 
-                    items-center justify-center 
-                    gap-2 rounded-full 
-                    bg-red-600
-                    md:bg-zinc-800/40 
-                    hover:bg-red-500
-                    font-bold
-                    text-white
-                    cursor-pointer
-                    px-4 py-2 
-                    md:after:content-['•'] 
-                    after:content-[attr(data-text)] 
-                    md:hover:after:content-[attr(data-text)] 
-                    transition-all duration-600
-                "
+                        w-full
+                        md:w-auto
+                        flex 
+                        flex-row 
+                        items-center justify-center 
+                        gap-2 rounded-full 
+                        bg-zinc-50
+                        md:bg-zinc-800/40 
+                        hover:bg-zinc-50
+                        font-bold
+                        text-black
+                        md:text-white
+                        md:hover:text-black
+                        cursor-pointer
+                        px-4 py-2 
+                        md:after:content-['•'] 
+                        after:content-[attr(data-text)] 
+                        md:hover:after:content-[attr(data-text)] 
+                        transition-all duration-600
+                    "
                     onClick={() => {
                         copiarAlPortapapeles(CONTACTO.EMAIL);
                     }}
