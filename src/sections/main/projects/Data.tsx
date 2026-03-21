@@ -25,13 +25,13 @@ import JSON_IMG_3 from "../../../../public/image/projects/3/img_url.json";
 import JSON_IMG_2 from "../../../../public/image/projects/2/img_url.json";
 import JSON_IMG_1 from "../../../../public/image/projects/1/img_url.json";
 import JSON_IMG_0 from "../../../../public/image/projects/0/img_url.json";
-import tecnologies from "../tecnologies/Data";
+// import tecnologies from "../tecnologies/Data";
 
 
-const size = {
-    DEF: 32,
-    BIG: 32
-};
+// const size = {
+//     DEF: 32,
+//     BIG: 32
+// };
 
 // const SVG = {
 //     java: <SVGJava width={size.DEF} height={size.DEF} />,
@@ -107,55 +107,6 @@ const JSON = {
 }
 
 const Projects = [
-    {
-        id: 7,
-        customDecorate: rank.actual,
-        title: "Portfolio Web",
-        year: "2026",
-        // url: url_default_img(7),
-        description:
-        {
-            short:
-                <>
-                    <p>
-                        Primer acercamiento a la creación
-                        de páginas web con tecnologías modernas.
-                    </p>
-                </>,
-            long:
-                <>
-                    <p>
-                        Si bien es cierto que es innecesario y poco prudente
-                        colocar el portafolio en esta sección,
-                        el objetivo principal es destacar el uso de tecnologías
-                        modernas y con poco o nulo uso de mi parte.
-                    </p>
-                    <p>
-                        Por otro lado, el desarrollo y el tiempo para adaptarse
-                        a las nuevas herramientas fue más rápido de lo estimado
-                        resultando en un proyecto tal vez no de acuerdo referente
-                        a las buenas prácticas, pero funcional.
-                    </p>
-                    <p>
-                        Por último, me encantaría destacar lo cómodo y satisfactorio
-                        que fue el empleo de estas herramientas para el desarrollo
-                        de este proyecto.
-                    </p>
-                </>
-        }
-        ,
-        tecnologies: [
-            SVG.nodejs,
-            SVG.nextjs,
-            SVG.react,
-            SVG.typescript,
-            SVG.tailwind
-        ],
-        link: [
-            link.github("https://github.com/EarnNestToDev/Portfolio"),
-            link.viewImages(JSON.noImages, "QdBHLji29yY")
-        ]
-    },
     {
         id: 6,
         customDecorate: rank.destacado,
@@ -421,6 +372,55 @@ const Projects = [
             SVG.ssh
         ],
         link: []
+    },
+    {
+        id: 7,
+        customDecorate: rank.actual,
+        title: "Portfolio Web",
+        year: "2026",
+        // url: url_default_img(7),
+        description:
+        {
+            short:
+                <>
+                    <p>
+                        Primer acercamiento a la creación
+                        de páginas web con tecnologías modernas.
+                    </p>
+                </>,
+            long:
+                <>
+                    <p>
+                        Si bien es cierto que es innecesario y poco prudente
+                        colocar el portafolio en esta sección,
+                        el objetivo principal es destacar el uso de tecnologías
+                        modernas y con poco o nulo uso de mi parte.
+                    </p>
+                    <p>
+                        Por otro lado, el desarrollo y el tiempo para adaptarse
+                        a las nuevas herramientas fue más rápido de lo estimado
+                        resultando en un proyecto tal vez no de acuerdo referente
+                        a las buenas prácticas, pero funcional.
+                    </p>
+                    <p>
+                        Por último, me encantaría destacar lo cómodo y satisfactorio
+                        que fue el empleo de estas herramientas para el desarrollo
+                        de este proyecto.
+                    </p>
+                </>
+        }
+        ,
+        tecnologies: [
+            SVG.nodejs,
+            SVG.nextjs,
+            SVG.react,
+            SVG.typescript,
+            SVG.tailwind
+        ],
+        link: [
+            link.github("https://github.com/EarnNestToDev/Portfolio"),
+            link.viewImages(JSON.noImages, "QdBHLji29yY")
+        ]
     }
 ];
 
