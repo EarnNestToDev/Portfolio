@@ -75,7 +75,8 @@ const SVG = {
     ssh: "SSH",
     dns: "DNS",
     dhcp: "DHCP",
-    email: "EMAIL"
+    email: "EMAIL",
+    jquery: "jQuery"
 }
 
 const rank = {
@@ -150,6 +151,7 @@ const Projects = [
             SVG.java,
             SVG.php,
             SVG.mysql,
+            SVG.jquery,
             SVG.xampp
         ],
         link: [
@@ -159,7 +161,7 @@ const Projects = [
     {
         id: 5,
         customDecorate: rank.regular,
-        title: "GPSPrototipe",
+        title: "GPS Prototipe",
         year: "2024",
         url: JSON.project5[0].url,
         description:

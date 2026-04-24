@@ -16,6 +16,7 @@ import SVGTailwind from "@/components/icons/tecnologies/tailwind";
 import SVGTypeScript from "@/components/icons/tecnologies/typescript";
 import SVGReact from "@/components/icons/tecnologies/react";
 import SVGGithub from "@/components/icons/github";
+import SVGLaravel from "@/components/icons/tecnologies/laravel";
 
 const size = {
     big: 32,
@@ -41,7 +42,8 @@ const SVG = {
     tailwind: <SVGTailwind width={size.mid} height={size.mid} />,
     typescript: <SVGTypeScript width={size.mid} height={size.mid} />,
     github: <SVGGithub width={size.mid} height={size.mid} fill="currentColor" />,
-    react: <SVGReact width={size.mid} height={size.mid} />
+    react: <SVGReact width={size.mid} height={size.mid} />,
+    laravel: <SVGLaravel width={size.mid} height={size.mid} />
 };
 
 const customDecorate = {
@@ -63,50 +65,24 @@ const tecnologies =
         },
         {
             customDecorate: customDecorate.scale,
-            title: "TypeScript",
-            icon: SVG.typescript,
-            description: "No sé por qué, pero por alguna razón me gusta más que JS..."
+            title: "PHP",
+            icon: SVG.php,
+            description: "Como el vino, entre más viejo mejor sabe 🍷🧐"
         },
         {
             customDecorate: customDecorate.scale,
-            title: "NetBeans",
-            icon: SVG.netbeans,
-            description: "El primer IDE de mi vida"
+            title: "TypeScript",
+            icon: SVG.typescript,
+            description: "Mucho mejor que JS"
+        },
+        {
+            customDecorate: customDecorate.scale,
+            title: "TailwindCSS",
+            icon: SVG.tailwind,
+            description: "El CSS que CSS debió ser 🗣️"
         }
     ],
     regular: [
-        {
-            customDecorate: customDecorate.scale,
-            title: "PHP",
-            icon: SVG.php,
-            description: "Me encanta usarlo como End-point"
-        },
-        {
-            customDecorate: customDecorate.scale,
-            title: "JavaScript",
-            icon: SVG.javascript,
-            description: "Extrañaba escribir lógica en Web"
-        },
-        {
-            customDecorate: customDecorate.scale,
-            title: "MySQL",
-            icon: SVG.mysql,
-            description: "'8000 rows affected' 💀"
-        },
-        {
-            customDecorate: customDecorate.scale,
-            title: "Android Studio",
-            icon: SVG.androidStudio,
-            description: "Me quitaba toda la Ram :("
-        },
-        {
-            customDecorate: customDecorate.scale,
-            title: "GitHub",
-            icon: SVG.github,
-            description: "'git -push -force' 🗿"
-        }
-    ],
-    learning: [
         {
             customDecorate: customDecorate.scale,
             title: "Node.js",
@@ -123,19 +99,27 @@ const tecnologies =
             customDecorate: customDecorate.scale,
             title: "React",
             icon: SVG.react,
-            description: "Explorando..."
+            description: "Bastante amigable..."
         },
         {
             customDecorate: customDecorate.scale,
-            title: "TypeScript",
-            icon: SVG.typescript,
-            description: "No sé por qué, pero por alguna razón me gusta más que JS..."
+            title: "JavaScript",
+            icon: SVG.javascript,
+            description: "Ya recordé por qué odiaba esta sintaxis"
         },
         {
             customDecorate: customDecorate.scale,
-            title: "TailwindCSS",
-            icon: SVG.tailwind,
-            description: "El CSS que CSS debió ser 🗣️"
+            title: "MySQL",
+            icon: SVG.mysql,
+            description: "'8000 rows affected' 💀"
+        }
+    ],
+    learning: [
+        {
+            customDecorate: customDecorate.scale,
+            title: "Laravel",
+            icon: SVG.laravel,
+            description: "Explorando... por ahora, solo sé decir: 'php artisan serve' goes brrrrr 🗿🗿🗿"
         }
     ]
 };

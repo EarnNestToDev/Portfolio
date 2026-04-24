@@ -16,7 +16,36 @@ const SVG = {
 
 const Footer = () => {
     return (
-        <footer className="min-h-[10vh] bg-opacity-50 w-full flex flex-col md:flex-row items-center justify-center border-t border-orange-200/20 pt-4 pb-4 mt-24 gap-4">
+        <footer
+            className={`
+                min-h-[10vh] 
+                bg-opacity-50 
+                w-full 
+                flex 
+                flex-col 
+                md:flex-row 
+                items-center 
+                justify-center 
+                border-t 
+                border-orange-200/20 
+                pt-4 
+                pb-4 
+                mt-24 
+                gap-4
+                text-sm
+                relative
+            `}
+        >
+
+            <div
+                className="absolute top-0 md:left-2 md:translate-x-full"
+            >
+                <span
+                    className="font-mono text-xs text-zinc-50/50"
+                >
+                    v 1.0.1
+                </span>
+            </div>
 
             <div>
                 <span>© {new Date().getFullYear()} Casi todos los derechos reservados</span>

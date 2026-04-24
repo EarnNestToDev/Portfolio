@@ -13,3 +13,10 @@ node_modules/*
 .next/dev/prerender-manifest.json
 .next/dev/routes-manifest.json
 .next/dev/trace
+.vscode/settings.json
+/.next/dev
+/.next
+/.next
+/.next
+/.next
+/.next/dev/server/chunks/ssr

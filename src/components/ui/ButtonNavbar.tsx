@@ -1,4 +1,28 @@
-import Link from "next/link";
+"use client";
+
+const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    const href = e.currentTarget.getAttribute("href");
+
+    if (!href || !href.startsWith("#")) return;
+
+    e.preventDefault();
+
+    const targetId = href.slice(1);
+    const elem = document.getElementById(targetId);
+
+    if (!elem) {
+        console.warn("No existe:", targetId);
+        return;
+    }
+
+    const yOffset = -40; // altura de tu navbar
+    const y = elem.getBoundingClientRect().top + window.scrollY + yOffset;
+
+    window.scrollTo({
+        top: y,
+        behavior: "smooth"
+    });
+};
 
 const ButtonNavbar = (
     {
@@ -10,7 +34,19 @@ const ButtonNavbar = (
     }
 ) => {
 
-    const DEFAULT_DECORATION = "bg-zinc-100/80 dark:bg-stone-900/20 hover:bg-stone-800 transition-colors p-2 rounded-md cursor-pointer text-xs font-bold text-zinc-900/80 dark:text-zinc-50/80";
+    const DEFAULT_DECORATION = `
+                                bg-zinc-100/80 
+                                dark:bg-stone-900/20 
+                                hover:bg-stone-800 
+                                transition-colors 
+                                p-2 
+                                rounded-md 
+                                cursor-pointer 
+                                text-xs 
+                                font-bold 
+                                text-zinc-900/80 
+                                dark:text-zinc-50/80
+                                `;
 
     if (href === null || href === undefined || href.trim() === "") {
         // # sin href
@@ -25,12 +61,13 @@ const ButtonNavbar = (
     } else {
         return (
             // # con href
-            <Link
+            <a
                 className={DEFAULT_DECORATION}
                 href={href}
+                onClick={handleScroll}
             >
                 <span>{name}</span>
-            </Link>
+            </a>
         );
     }
 }

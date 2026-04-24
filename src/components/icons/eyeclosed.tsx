@@ -7,13 +7,14 @@ function SvgComponent(props: any) {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth="2"
+            strokeWidth={2}
             strokeLinecap="round"
             strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-eye-closed"
             {...props}
         >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -9" /><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" /><path d="M12 12l0 .01" /><path d="M3 13a20 20 0 0 0 18 0" />
+            <path d="M0 0h24v24H0z" stroke="none" />
+            <path d="M21 9c-2.4 2.667-5.4 4-9 4-3.6 0-6.6-1.333-9-4M3 15l2.5-3.8M21 14.976L18.508 11.2M9 17l.5-4M15 17l-.5-4" />
         </svg>
     )
 }

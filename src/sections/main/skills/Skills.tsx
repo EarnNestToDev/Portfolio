@@ -7,7 +7,7 @@ import SVSkill from "@/components/icons/target_arrow";
 export default function Skills() {
 
     return (
-        <section className="w-full flex flex-col items-center justify-center gap-2 p-2">
+        <section className="w-full flex flex-col items-center justify-center gap-2 p-2" id="skills">
 
             <article className="w-full flex flex-col items-start justify-center gap-2 rounded-lg p-2">
 

@@ -25,13 +25,26 @@ export default function Card(
         <>
             <article
                 onClick={() => setIsOpen(true)}
-                className={"flex flex-row items-center justify-start rounded-lg p-2 gap-2 relative cursor-pointer " + customDecorate}>
+                className={`flex flex-row 
+                            items-center justify-start 
+                            rounded-lg p-2 gap-2 
+                            relative 
+                            cursor-pointer` + customDecorate
+                }>
                 <span className={textColor}>•</span>
-                <header className={"flex flex-row items-center justify-center gap-2 rounded-2xl"}>
+                <header className={`flex flex-row 
+                                    items-center justify-center 
+                                    gap-2 rounded-2xl`
+                }>
                     {icon}
                 </header>
 
-                <footer className={"font-bold text-md word-break text-zinc-900/80 dark:text-zinc-50/60 flex items-center justify-start"}>
+                <footer className={`font-bold 
+                                    word-break 
+                                    text-md text-zinc-900/80 
+                                    dark:text-zinc-50/60 
+                                    flex items-center justify-start`
+                }>
                     {title}
                 </footer>
 
@@ -42,12 +55,18 @@ export default function Card(
                 onClose={() => setIsOpen(false)
                 }
             >
-                <h2 className="text-xl font-bold text-zinc-900 dark:text-white">
+                <h2 className={`font-bold 
+                                text-xl text-zinc-900 
+                                dark:text-white`
+                }>
                     {title}
                 </h2>
-                <p className="text-zinc-900/80 dark:text-gray-300 mt-2">
+                <p className={`text-zinc-900/80 
+                                dark:text-gray-300 
+                                mt-2`
+                }>
                     <span
-                        className="italic"
+                        className={`italic`}
                     >
                         "{description}"
                     </span>

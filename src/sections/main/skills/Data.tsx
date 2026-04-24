@@ -30,7 +30,7 @@ const skills = [
     },
     {
         customDecorate: "",
-        title: "Frameworks",
+        title: "Full-Stack",
         color: rank.tecnica,
         border: rank.tecnicaBorder
     },

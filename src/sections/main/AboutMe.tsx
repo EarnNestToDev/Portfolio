@@ -1,6 +1,10 @@
-import ContactMe from "@/sections/main/ContactMe";
+import { useState } from "react";
+
+import Test1 from "@/sections/aboutMe/Extras";
 
 import SVGUser from "@/components/icons/user_outline";
+import SVGEye from "@/components/icons/eye";
+import SVGEyeClosed from "@/components/icons/eyeclosed";
 
 // https://drive.google.com/thumbnail?id=1l91mrhItezrFfsVT4jp6hpkPgQsvhUNa&sz=1000
 // https://drive.google.com/thumbnail?id=1WxFjAErWLAdudlFtsdZKRd7jOLD-2jSq&sz=1000
@@ -17,30 +21,107 @@ const imgElements = {
 
 const AboutMe = () => {
 
+    const [isShowExtras, setShowExtras] = useState(false);
+
     return (
-        <section className="w-full md:w-[600px] flex flex-col items-center justify-center gap-2 rounded-lg p-2" id="aboutMe">
+        <section
+            id="aboutMe"
+            className={`
+                w-full 
+                md:w-[600px] 
+                flex 
+                flex-col 
+                items-center 
+                justify-center 
+                gap-8 
+                rounded-lg 
+                p-2
+            `}
+        >
 
-            <article className="md:grid md:grid-cols-[2fr_1fr] md:grid-rows-[1fr_10fr_1fr] w-full flex flex-col items-center justify-center gap-4 p-2">
+            <article
+                className={`
+                    md:grid 
+                    md:grid-cols-[2fr_1fr] 
+                    md:grid-rows-[auto_auto] 
+                    w-full 
+                    flex 
+                    flex-col 
+                    items-center 
+                    justify-center 
+                    gap-4 
+                    p-2
+                `}
+            >
 
-                <header className="text-2xl font-bold w-content rounded-lg p-2 flex flex-row items-center gap-2">
+                <header
+                    className={`
+                        text-2xl 
+                        font-bold 
+                        w-content 
+                        rounded-lg 
+                        p-2 
+                        flex 
+                        flex-row 
+                        items-center 
+                        gap-2
+                    `}
+                >
                     <SVGUser width={36} height={36} stroke="#e37600" />
                     <span>
                         Sobre mí...
                     </span>
                 </header>
 
-                <main className="relative row-span-2 min-w-[200px] min-h-[200px]">
-                    <div className="absolute z-10 w-full h-full rounded-4xl border-2 border-orange-500 rotate-3 md:rotate-6" />
+                <main
+                    className={`relative row-span-2 min-w-[200px] min-h-[200px]`}>
+                    <div
+                        className={`
+                            absolute 
+                            z-10 
+                            w-full 
+                            h-full 
+                            rounded-4xl 
+                            bg-orange-500 
+                            rotate-3 
+                            md:rotate-6
+                        `}
+                    />
                     <img
                         title={imgElements.TITLE}
                         src={imgElements.IMG_URL}
                         alt={imgElements.ALT_NAME}
                         loading="lazy"
-                        className="absolute z-20 w-full h-full rounded-4xl bg-zinc-600 dark:bg-white border-0 -rotate-3 md:-rotate-6 md:grayscale hover:grayscale-0 hover:transition-all duration-300"
+                        className={`
+                            absolute 
+                            z-20 
+                            w-full 
+                            h-full 
+                            rounded-4xl 
+                            bg-white
+                            dark:bg-white 
+                            border-0 
+                            -rotate-3 
+                            md:-rotate-6 
+                            md:grayscale 
+                            hover:grayscale-0 
+                            hover:transition-all duration-300
+                        `}
                     />
                 </main>
 
-                <main className="row-start-2 flex flex-col items-start justify-start text-gray-900/80 dark:text-gray-300 text-base">
+                <main
+                    className={`
+                        row-start-2 
+                        flex 
+                        flex-col 
+                        items-start 
+                        justify-start 
+                        text-gray-900/80 
+                        dark:text-gray-300 
+                        text-base
+                    `}
+                >
                     <span>
                         Fascinado por las computadoras desde pequeño
                         e impulsado por la curiosidad de crear, dediqué
@@ -60,25 +141,109 @@ const AboutMe = () => {
                         he explorado frecuentemente diversas
                         tecnologías y herramientas en busca identificar
                         sus límites técnicos junto con el crecimiento
-                        profesional en el rubro.
-                    </span>
-                    <span>
-                        Cabe recalcar que busco activamente
-                        la oportunidad de ejercer profesionalmente en el área
-                        para mi sustento económico.
+                        profesional en el rubro hasta el día de hoy.
                     </span>
                 </main>
 
-                <footer className="col-span-2 row-start-3">
-                    <ContactMe />
-                </footer>
-
             </article>
 
+            {!isShowExtras
+                ? buttonShow(true)
+                : buttonShow(false)
+            }
 
+            {isShowExtras && (
+                <>
+                    <article
+                        className={`
+                            flex 
+                            flex-col 
+                            items-center 
+                            justify-center 
+                            gap-8 
+                            w-full 
+                        `}
+                    >
+                        <Test1 />
+                    </article>
+
+                    {buttonShow(false)}
+                </>
+            )}
 
         </section>
     );
+
+    function buttonShow(show: boolean) {
+        if (show) {
+            return (
+                <button
+                    data-text="Ver más..."
+                    onClick={() => setShowExtras(true)}
+                    className={`
+                        flex
+                        flex-row
+                        items-center
+                        justify-center
+                        cursor-pointer 
+                        text-white 
+                        font-bold
+                        bg-orange-500
+                        md:bg-zinc-800
+                        hover:bg-orange-500 
+                        p-2
+                        rounded-full
+                        gap-2
+                        hover:px-4
+                        after:content-none 
+                        after:content-[attr(data-text)] 
+                        md:hover:after:content-[attr(data-text)] 
+                        transition-all duration-600
+                        animate-[bounce_3s_ease-in_infinite]
+                    `}
+                >
+                    <SVGEye
+                        width={32}
+                        height={32}
+                        stroke={"white"}
+                    />
+                </button>
+            )
+        } else {
+            return (
+                <button
+                    data-text="Cerrar"
+                    onClick={() => setShowExtras(false)}
+                    className={`
+                        flex
+                        flex-row
+                        items-center
+                        justify-center
+                        cursor-pointer 
+                        text-white 
+                        font-bold
+                        bg-red-500
+                        md:bg-zinc-800
+                        hover:bg-red-500
+                        p-2
+                        rounded-full
+                        gap-2
+                        hover:px-4
+                        after:content-none 
+                        after:content-[attr(data-text)] 
+                        md:hover:after:content-[attr(data-text)] 
+                        transition-all duration-600
+                    `}
+                >
+                    <SVGEyeClosed
+                        width={32}
+                        height={32}
+                        stroke={"white"}
+                    />
+                </button>
+            )
+        }
+    }
 }
 
 export default AboutMe;

@@ -5,6 +5,8 @@ import Tecnologies from "@/sections/main/tecnologies/Tecnologies";
 import Skills from "@/sections/main/skills/Skills";
 import AboutMe from "@/sections/main/AboutMe";
 
+// import Test1 from "@/sections/aboutMe/Extras";
+
 import Footer from "@/components/ui/Footer";
 
 export default function MainLayout() {
@@ -23,6 +25,8 @@ export default function MainLayout() {
                 <Tecnologies />
 
                 <AboutMe />
+
+                {/* <Test1 /> */}
             </main>
 
             <Footer />
