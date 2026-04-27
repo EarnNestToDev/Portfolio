@@ -76,6 +76,7 @@ const Presentation = () => {
                     rounded-full
                     bg-zinc-700/60
                     md:bg-zinc-900
+                    hover:invert-0
                     hover:bg-orange-400
                     animate-[bounce_3s_ease-in_infinite]
                     transition-all duration-700
@@ -182,7 +183,7 @@ const Presentation = () => {
                                     font-bold 
                                     text-zinc-50
                                     after:content-[attr(data-name)] 
-                                    md:hover:after:content-[attr(data-dev)] 
+                                    md:group-hover:after:content-[attr(data-dev)] 
                                     transition-all duration-600
                                 `}
                             >
@@ -194,7 +195,7 @@ const Presentation = () => {
                                 grid 
                                 grid-cols-[auto_auto] 
                                 grid-rows-1 
-                                bg-zinc-100 
+                                bg-zinc-200 
                                 dark:bg-zinc-900 
                                 text-base 
                                 rounded-md
@@ -232,14 +233,15 @@ const Presentation = () => {
                                     flex-row 
                                     items-center justify-center 
                                     gap-2 rounded-full 
+                                    text-transparent
                                     bg-zinc-900
                                     dark:bg-zinc-50
                                     md:bg-zinc-800/40 
-                                    hover:bg-zinc-50
+                                    hover:dark:bg-zinc-50
+                                    hover:bg-zinc-950
                                     font-bold
-                                    text-black
                                     md:text-white
-                                    md:hover:text-black
+                                    md:hover:dark:text-black
                                     cursor-pointer
                                     p-2 
                                     hover:px-4
@@ -410,7 +412,7 @@ const Presentation = () => {
                         justify-center
                         cursor-pointer 
                         font-bold
-                        bg-zinc-100 
+                        bg-zinc-200 
                         dark:bg-zinc-900 
                         dark:hover:bg-black
                         hover:invert

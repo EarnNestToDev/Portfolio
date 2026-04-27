@@ -11,20 +11,74 @@ const SVG = {
 
 const Header = () => {
     return (
-        <header className="bg-opacity-50 backdrop-blur-sm fixed w-full z-100 top-0 start-0 border-b border-orange-200/20 py-2">
-            <nav className="w-full flex flex-wrap items-center gap-4 justify-between mx-auto pl-2 md:pl-8">
-                <div className="hidden md:block">
-                    <SVGBriefcase width={36} height={36} fill="currentColor" />
+        <header
+            className={`
+                bg-opacity-50 
+                backdrop-blur-sm 
+                fixed 
+                w-full 
+                z-100 
+                top-0 
+                start-0 
+                border-b 
+                border-orange-200/20 
+                py-2
+            `}
+        >
+            <nav
+                className={`
+                    w-full 
+                    flex 
+                    flex-wrap 
+                    items-center 
+                    gap-4 
+                    justify-between 
+                    mx-auto 
+                    pl-2 
+                    md:pl-8
+                `}
+            >
+                <div
+                    className={`
+                        hidden 
+                        md:block
+                    `}
+                >
+                    <SVGBriefcase
+                        width={36}
+                        height={36}
+                        fill="currentColor"
+                    />
                 </div>
 
-                <div className="flex items-center justify-center gap-4">
+                <div
+                    className={`
+                        flex 
+                        items-center 
+                        justify-center 
+                        gap-4
+                    `}
+                >
                     <ButtonNavbar name="Home" href="#presentation" />
                     <ButtonNavbar name="Experiencia" href="#projects" />
                     <ButtonNavbar name="Sobre mí" href="#aboutMe" />
                 </div>
 
-                <div className="pr-2 md:pr-8">
-                    <div className="flex flex-row flex-wrap items-center gap-4">
+                <div
+                    className={`
+                        pr-2 
+                        md:pr-8
+                    `}
+                >
+                    <div
+                        className={`
+                            flex 
+                            flex-row 
+                            flex-wrap 
+                            items-center 
+                            gap-4
+                        `}
+                    >
                         <a
                             title="Ir a LinkedIn"
                             href="https://www.linkedin.com/in/ernesto-dlc-campos-304hellsinger/"

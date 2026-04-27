@@ -41,7 +41,7 @@ const Footer = () => {
                 className="absolute top-0 md:left-2 md:translate-x-full"
             >
                 <span
-                    className="font-mono text-xs text-zinc-50/50"
+                    className="font-mono text-xs text-zinc-50/50 dark:invert-0 invert"
                 >
                     v 1.0.1
                 </span>

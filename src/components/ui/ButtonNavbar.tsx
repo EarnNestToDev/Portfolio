@@ -35,9 +35,10 @@ const ButtonNavbar = (
 ) => {
 
     const DEFAULT_DECORATION = `
-                                bg-zinc-100/80 
+                                bg-zinc-200/80 
                                 dark:bg-stone-900/20 
-                                hover:bg-stone-800 
+                                hover:dark:bg-stone-800 
+                                hover:invert
                                 transition-colors 
                                 p-2 
                                 rounded-md 
@@ -46,6 +47,8 @@ const ButtonNavbar = (
                                 font-bold 
                                 text-zinc-900/80 
                                 dark:text-zinc-50/80
+                                hover:scale-115
+                                transition-all duration-600
                                 `;
 
     if (href === null || href === undefined || href.trim() === "") {
