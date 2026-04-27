@@ -124,6 +124,7 @@ const Presentation = () => {
                             flex 
                             items-center justify-center
                             relative
+                            group
                         `}
                     >
                         {setStatus(DEFAULT_STATUS)}
@@ -133,16 +134,17 @@ const Presentation = () => {
                             alt={imgElements.ALT_NAME}
                             className={`
                                 z-1
-                                border-2
+                                outline-2
                                 ${DEFAULT_STATUS
-                                    ? "border-lime-500"
-                                    : "border-red-500"
+                                    ? "outline-lime-500 hover:outline-3"
+                                    : "outline-red-500 hover:outline-3"
                                 }
                                 
                                 rounded-lg 
                                 max-w-[150px] 
                                 max-h-[200px] 
-                                aspect-2/3 `
+                                aspect-2/3 
+                                transition-all`
                                 + imgElements.CLIP_PATH
                                 + " "
                                 + imgElements.BOX_SHADOW
@@ -443,12 +445,12 @@ function setStatus(status: number) {
                     translate-x-1/2
                     -translate-y-1/2
                     z-2
-                    bg-red-600/80
+                    bg-red-600
                     text-white
                     md:text-transparent
-                    md:hover:text-white
+                    md:group-hover:text-white
                     p-2
-                    hover:px-4
+                    group-hover:px-4
                     rounded-2xl
                     flex
                     flex-row
@@ -459,7 +461,7 @@ function setStatus(status: number) {
                     font-bold
                     md:after:content-none
                     after:content-[attr(data-text)]
-                    hover:after:content-[attr(data-text)]
+                    group-hover:after:content-[attr(data-text)]
                     transition-all duration-600
                 `}
             >
@@ -479,9 +481,9 @@ function setStatus(status: number) {
                     bg-lime-600
                     text-white
                     md:text-transparent
-                    md:hover:text-white
+                    md:group-hover:text-white
                     p-2
-                    hover:px-4
+                    group-hover:px-4
                     rounded-2xl
                     flex
                     flex-row
@@ -492,10 +494,10 @@ function setStatus(status: number) {
                     font-bold
                     md:after:content-none
                     after:content-[attr(data-text)]
-                    hover:after:content-[attr(data-text)]
+                    group-hover:after:content-[attr(data-text)]
                     transition-all duration-600
                     md:animate-pulse
-                    md:hover:animate-none
+                    md:group-hover:animate-none
                 `}
             >
                 <SVGCircleDashedCheck width={16} height={16} stroke="white" />
@@ -508,7 +510,7 @@ function setStatus(status: number) {
 async function copiarAlPortapapeles(text: string) {
     try {
         await navigator.clipboard.writeText(text);
-        Toast("Copiado al portapapeles");
+        Toast("Email copiado al portapapeles");
     } catch (err) {
         Toast("Error al copiar");
     }
