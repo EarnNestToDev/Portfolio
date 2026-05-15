@@ -371,25 +371,24 @@ const Presentation = () => {
                                         text-zinc-900/80 
                                         dark:text-zinc-50/80 
                                         line-height-1.3
+                                        leading-relaxed
                                     `}
                                 >
-                                    Poseo más de
-                                    <span className={`font-bold text-green-500 pl-2 pr-2`}>
-                                        2 años
-                                    </span>
-                                    de experiencia en el desarrollo web,
-                                    software de escritorio, móvil,
-                                    además de gestión en base de datos
-                                    relacionales con un fuerte enfoque en Back-end
-                                    especialmente con
-                                    <span className={`font-bold text-orange-400 px-2`}>
-                                        Java
-                                    </span>
-                                    y
-                                    <span className={`font-bold text-blue-400 pl-2`}>
-                                        PHP
-                                    </span>
-                                    .
+                                    Soy un desarrollador <span className="font-semibold">Full-Stack</span> de México,
+                                    con un fuerte enfoque en <span className="font-semibold">Back-End</span>,
+                                    especialmente con{" "}
+                                    <span className="font-semibold text-orange-400">Java</span>,{" "}
+                                    <span className="font-semibold text-violet-400">PHP</span> y{" "}
+                                    <span className="font-semibold text-blue-400">SQL</span>.
+                                    <br />
+                                    Cuento con experiencia en el desarrollo de aplicaciones web, de escritorio y móviles,
+                                    así como en la gestión de bases de datos relacionales.
+                                    <br />
+                                    Además, me complemento con el uso de tecnologías como{" "}
+                                    <span className="font-semibold text-teal-400">React</span>,{" "}
+                                    <span className="font-semibold text-red-400">Laravel</span>,{" "}
+                                    <span className="font-semibold text-sky-500">TypeScript</span> y{" "}
+                                    <span className="font-semibold text-cyan-400">TailwindCSS</span>.
                                 </p>
                             </>
                         )
