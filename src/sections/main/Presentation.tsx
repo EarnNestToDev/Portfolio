@@ -66,7 +66,7 @@ const Presentation = () => {
                     dark:invert-0
                     absolute 
                     ${isShowDescription
-                        ? 'translate-y-full md:translate-y-0'
+                        ? 'translate-y-full'
                         : ''
                     }
                     bottom-4
@@ -377,12 +377,12 @@ const Presentation = () => {
                                     Soy un desarrollador <span className="font-semibold">Full-Stack</span> de México,
                                     con un fuerte enfoque en <span className="font-semibold">Back-End</span>,
                                     especialmente con{" "}
-                                    <span className="font-semibold text-orange-400">Java</span>,{" "}
-                                    <span className="font-semibold text-violet-400">PHP</span> y{" "}
-                                    <span className="font-semibold text-blue-400">SQL</span>.
+                                    <span className="font-semibold text-orange-400">Java</span> y{" "}
+                                    <span className="font-semibold text-violet-400">PHP</span>.
                                     <br />
-                                    Cuento con experiencia en el desarrollo de aplicaciones web, de escritorio y móviles,
-                                    así como en la gestión de bases de datos relacionales.
+                                    Cuento con experiencia en el desarrollo de aplicaciones web, móvil y de escritorio
+                                    así como en la gestión de bases de datos relacionales{" "}
+                                    <span className="font-semibold text-blue-400">SQL</span>.
                                     <br />
                                     Además, me complemento con el uso de tecnologías como{" "}
                                     <span className="font-semibold text-teal-400">React</span>,{" "}

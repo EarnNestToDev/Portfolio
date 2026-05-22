@@ -42,6 +42,18 @@ const skills = [
     },
     {
         customDecorate: "",
+        title: "Excel",
+        color: rank.tecnica,
+        border: rank.tecnicaBorder
+    },
+    {
+        customDecorate: "",
+        title: "Gestión y Administración",
+        color: rank.tecnica,
+        border: rank.tecnicaBorder
+    },
+    {
+        customDecorate: "",
         title: "Aspirante a mejorar",
         color: rank.blanda,
         border: rank.blandaBorder
